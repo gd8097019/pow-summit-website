@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"key": "speakers",
+			"target": "#speakers"
+		},
+		{
+			"key": "agenda",
+			"target": "#agenda"
+		},
+		{
+			"key": "tickets",
+			"target": "#tickets"
+		},
+		{
+			"key": "partnerships",
+			"target": "#partnerships"
+		},
+		{
+			"key": "locations",
+			"target": "#locations"
+		},
+		{
+			"key": "contacts",
+			"target": "#contacts"
+		}
+	]
+}
