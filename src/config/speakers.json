@@ -1,0 +1,78 @@
+{
+	"data": [
+		{
+			"image": "/img/speakers/speaker1.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial",
+				"discord": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker2.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker3.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker4.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial",
+				"discord": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker5.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"telegram": "https://twitter.com/ETCDAOofficial",
+				"discord": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker6.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial",
+				"discord": "https://twitter.com/ETCDAOofficial"
+			}
+		},
+		{
+			"image": "/img/speakers/speaker7.png",
+			"name": "Name Lastname",
+			"title": "Title Here",
+			"company": "COMPANY NAME",
+			"social": {
+				"twitter": "https://twitter.com/ETCDAOofficial",
+				"telegram": "https://twitter.com/ETCDAOofficial",
+				"discord": "https://twitter.com/ETCDAOofficial"
+			}
+		}
+	]
+}

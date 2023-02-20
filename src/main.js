@@ -3,6 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import markdown from "markdown-it";
 import markdownAttrs from "markdown-it-attrs";
+import "./assets/css/styles.css";
+import "./assets/css/mdfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 

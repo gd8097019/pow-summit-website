@@ -1,0 +1,21 @@
+{
+	"data": [
+		{
+			"type": "General Ticket",
+			"price": "$XXX",
+			"features": ["Lorem Ipsum ipsum lorem", "Lorem Ipsum ipsum"],
+			"buy_ticket_link": "https://www.google.com"
+		},
+		{
+			"type": "VIP",
+			"price": "$XXX",
+			"features": [
+				"Lorem Ipsum ipsum lorem",
+				"Lorem Ipsum ipsum",
+				"Lorem Ipsum ipsum",
+				"Lorem Ipsum ipsum"
+			],
+			"buy_ticket_link": "https://www.google.com"
+		}
+	]
+}
