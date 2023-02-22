@@ -11,7 +11,7 @@ const data = [
 	},
 	{
 		key: "become_speakers",
-		title: "Become a Speakers",
+		title: "Become a Speaker",
 		url: "https://www.google.com",
 	},
 ];
