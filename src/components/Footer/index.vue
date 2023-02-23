@@ -7,7 +7,9 @@
 				<div class="cryptoIcons">
 					<img src="@/assets/icons/etc-logo.svg" alt="etc" />
 					<span>+</span>
-					<img src="@/assets/icons/litecoin-logo.svg" alt="litecoin" />
+					<div class="litecoin-container">
+						<img src="@/assets/icons/litecoin-logo-blue.svg" alt="litecoin" />
+					</div>
 				</div>
 			</div>
 			<div class="footerLinks">

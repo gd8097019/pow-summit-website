@@ -7,11 +7,6 @@
 					<h1>POW SUMMIT</h1>
 					<p>La Fabrika, Prague | Czech Republic</p>
 				</div>
-				<div class="cryptoIcons">
-					<img src="@/assets/icons/etc-logo.svg" alt="etc" />
-					<span>+</span>
-					<img src="@/assets/icons/litecoin-logo.svg" alt="litecoin" />
-				</div>
 				<a href="/#tickets" target="_parent" class="text-decoration-none">
 					<button class="buyTktBtn">
 						Buy Tickets <img src="@/assets/icons/arrow-right.svg" alt=">" />

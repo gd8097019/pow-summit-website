@@ -857,6 +857,11 @@ footer {
 	color: #ffffff !important;
 }
 
+.footerContainer .litecoin-container {
+	background: white;
+	border-radius: 100%;
+}
+
 /* footer ends here */
 
 /* media queries */
