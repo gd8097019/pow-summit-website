@@ -24,7 +24,7 @@
 						<a href="/#tickets">Tickets</a>
 					</li>
 					<li>
-						<a href="/#partnerships">Partnerships</a>
+						<a href="/#sponsors">Sponsors</a>
 					</li>
 					<li>
 						<a href="/#location">Location</a>

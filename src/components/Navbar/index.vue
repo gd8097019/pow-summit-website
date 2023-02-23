@@ -39,8 +39,8 @@
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/#partnerships" v-on:click="closeNav()"
-							>Partnerships</a
+						<a class="nav-link" href="/#sponsors" v-on:click="closeNav()"
+							>Sponsors</a
 						>
 					</li>
 					<li class="nav-item">

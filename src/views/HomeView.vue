@@ -27,7 +27,7 @@
 	<!-- tickets secyion ends here -->
 
 	<!-- sponsors section starts here -->
-	<Sponsors id="partnerships" />
+	<Sponsors id="sponsors" />
 	<!-- sponsors section ends here -->
 
 	<!-- location section starts here -->
