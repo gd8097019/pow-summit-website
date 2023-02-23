@@ -1,14 +1,13 @@
 {
 	"data": [
 		{
-			"image": "/img/speakers/speaker1.png",
-			"name": "Name Lastname",
-			"title": "Title Here",
-			"company": "COMPANY NAME",
+			"image": "/img/speakers/BobSummerwillEDCON.jpg",
+			"name": "Bob Summerwill",
+			"title": "Executive Director",
+			"company": "ETC Cooperative",
 			"social": {
-				"twitter": "https://twitter.com/ETCDAOofficial",
-				"telegram": "https://twitter.com/ETCDAOofficial",
-				"discord": "https://twitter.com/ETCDAOofficial"
+				"twitter": "https://twitter.com/bobsummerwill",
+				"telegram": "https://t.me/bobsummerwill"
 			}
 		},
 		{
