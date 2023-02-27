@@ -141,7 +141,7 @@
 .heroContainer .buyTktBtn {
 	width: 190px;
 	height: 56px;
-	background: #109810;
+	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
 	border: none;
 	border-radius: 5px;
 	font-family: "Noto Sans", sans-serif;
@@ -190,7 +190,7 @@
 
 /* speakers section starts here */
 .speakersSection {
-	background: #eaeaea;
+	background: linear-gradient(270deg, #bbffc3 0%, #a8dfdb 100%);
 	padding: 88px 0px 60px;
 }
 
@@ -318,7 +318,7 @@
 	width: 223px;
 	height: 56px;
 	margin: 0 auto;
-	background: #109810;
+	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
 	border: none;
 	border-radius: 5px;
 	font-family: "Noto Sans", sans-serif;
@@ -397,7 +397,7 @@
 
 .agendaContainer .nav-tabs .nav-item .nav-link.active {
 	border: none !important;
-	background: #109810;
+	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
 	box-shadow: unset !important;
 	border-radius: 5px;
 	color: #ffffff;
@@ -493,7 +493,7 @@
 
 /* tickets section starts here */
 .eventTicketsSection {
-	background: #eaeaea;
+	background: linear-gradient(270deg, #bbffc3 0%, #a8dfdb 100%);
 	padding: 88px 0px;
 }
 
@@ -626,7 +626,8 @@
 }
 
 .eventTicketsContainer .card.vipTicket button {
-	background: #109810;
+	background: linear-gradient(270deg, #109810 0%, #3883f6 100%),
+		linear-gradient(270deg, #109810 0%, #3883f6 100%);
 }
 
 /* tickets section ends here */
@@ -709,7 +710,7 @@
 }
 
 .sponsorships button.sponBtn {
-	background: #109810;
+	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
 }
 /* sponsors section ends here */
 
@@ -787,7 +788,6 @@ footer {
 .footerContainer .cryptoIcons {
 	width: 163px;
 	height: 64px;
-	padding: 0px 26px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -860,7 +860,13 @@ footer {
 
 .footerContainer .litecoin-container {
 	background: white;
-	border-radius: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.footerContainer .etccoin-container {
+	margin-right: 10px;
 }
 
 /* footer ends here */
