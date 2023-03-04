@@ -28,19 +28,19 @@
 							>Speakers</a
 						>
 					</li>
-					<li class="nav-item">
+					<!-- li class="nav-item">
 						<a class="nav-link" href="/#agenda" v-on:click="closeNav()"
 							>Agenda</a
 						>
-					</li>
+					</li -->
 					<li class="nav-item">
 						<a class="nav-link" href="/#tickets" v-on:click="closeNav()"
 							>Tickets</a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/#sponsors" v-on:click="closeNav()"
-							>Sponsors</a
+						<a class="nav-link" href="/#partnerships" v-on:click="closeNav()"
+							>Partnerships</a
 						>
 					</li>
 					<li class="nav-item">

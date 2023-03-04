@@ -4,15 +4,6 @@
 		<div class="mainContainer footerContainer">
 			<div class="footerHeading">
 				<h2>POW SUMMIT</h2>
-				<div class="cryptoIcons">
-					<div class="etccoin-container">
-						<img src="@/assets/icons/etc-logo.svg" alt="etc" />
-					</div>
-					<span>+</span>
-					<div class="litecoin-container">
-						<img src="@/assets/icons/litecoin-logo-blue.svg" alt="litecoin" />
-					</div>
-				</div>
 			</div>
 			<div class="footerLinks">
 				<ul>

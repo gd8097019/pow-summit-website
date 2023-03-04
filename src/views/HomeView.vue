@@ -19,7 +19,7 @@
 	<!-- become a speaker section ends here -->
 
 	<!-- agenda section starts here -->
-	<Agenda id="agenda" />
+	<!-- Agenda id="agenda" -->
 	<!-- agenda section ends here -->
 
 	<!-- tickets secyion starts here -->
@@ -27,7 +27,7 @@
 	<!-- tickets secyion ends here -->
 
 	<!-- sponsors section starts here -->
-	<Sponsors id="sponsors" />
+	<Sponsors id="partnerships" />
 	<!-- sponsors section ends here -->
 
 	<!-- location section starts here -->
@@ -45,7 +45,7 @@ import About from "@/components/About";
 import Speakers from "@/components/Speakers";
 import BecomeSpeaker from "@/components/BecomeSpeaker";
 import Tickets from "@/components/Tickets";
-import Agenda from "@/components/Agenda";
+/* import Agenda from "@/components/Agenda"; */
 import Sponsors from "@/components/Sponsors";
 import Location from "@/components/Location";
 
@@ -58,7 +58,7 @@ export default {
 		Speakers,
 		BecomeSpeaker,
 		Tickets,
-		Agenda,
+		//Agenda,
 		Sponsors,
 		Location,
 		Footer,

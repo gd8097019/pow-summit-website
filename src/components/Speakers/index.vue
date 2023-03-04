@@ -20,6 +20,12 @@
 									<img src="@/assets/icons/twitter-icon.svg" alt="twitter" />
 								</a>
 								<a
+									v-if="speaker.social.linkedin"
+									:href="speaker.social.linkedin"
+								>
+									<img src="@/assets/icons/linkedin-icon.svg" alt="linkedin" />
+								</a>
+								<a
 									v-if="speaker.social.telegram"
 									:href="speaker.social.telegram"
 								>

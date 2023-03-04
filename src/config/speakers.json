@@ -1,44 +1,43 @@
 {
 	"data": [
 		{
+			"image": "/img/speakers/caitlin_long.png",
+			"name": "Caitlin Long",
+			"title": "Founder & CEO",
+			"company": "CUSTODIA BANK",
+			"social": {
+				"twitter": "https://twitter.com/CaitlinLong_",
+				"linkedin": "https://www.linkedin.com/in/caitlin-long-/"
+			}
+		},
+		{
 			"image": "/img/speakers/BobSummerwillEDCON.jpg",
 			"name": "Bob Summerwill",
 			"title": "Executive Director",
 			"company": "ETC Cooperative",
 			"social": {
 				"twitter": "https://twitter.com/bobsummerwill",
-				"telegram": "https://t.me/bobsummerwill"
+				"linkedin": "https://www.linkedin.com/in/bobsummerwill/"
 			}
 		},
 		{
-			"image": "/img/speakers/speaker2.png",
-			"name": "Name Lastname",
-			"title": "Title Here",
-			"company": "COMPANY NAME",
+			"image": "/img/speakers/carol_van_cleef.png",
+			"name": "Carol van Cleef",
+			"title": "",
+			"company": "Digital Assets Before and After Bitcoin",
 			"social": {
-				"twitter": "https://twitter.com/ETCDAOofficial",
-				"telegram": "https://twitter.com/ETCDAOofficial"
+				"twitter": "https://twitter.com/Carol_VanCleef",
+				"linkedin": "https://www.linkedin.com/in/carol-van-cleef-a9b98521/"
 			}
 		},
 		{
-			"image": "/img/speakers/speaker3.png",
-			"name": "Name Lastname",
-			"title": "Title Here",
-			"company": "COMPANY NAME",
+			"image": "/img/speakers/alan_austin.png",
+			"name": "Alan Austin",
+			"title": "Managing Director",
+			"company": "Litecoin Foundation",
 			"social": {
-				"twitter": "https://twitter.com/ETCDAOofficial",
-				"telegram": "https://twitter.com/ETCDAOofficial"
-			}
-		},
-		{
-			"image": "/img/speakers/speaker4.png",
-			"name": "Name Lastname",
-			"title": "Title Here",
-			"company": "COMPANY NAME",
-			"social": {
-				"twitter": "https://twitter.com/ETCDAOofficial",
-				"telegram": "https://twitter.com/ETCDAOofficial",
-				"discord": "https://twitter.com/ETCDAOofficial"
+				"twitter": "https://twitter.com/alangaustin",
+				"linkedin": "https://www.linkedin.com/in/alangaustin/"
 			}
 		}
 	]

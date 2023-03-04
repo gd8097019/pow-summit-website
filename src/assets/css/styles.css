@@ -160,6 +160,10 @@
 	height: 17px;
 }
 
+.heroContainer .buyTktBtnContainer {
+	padding-top: 144px;
+}
+
 .heroContainer .heroImg {
 	width: 100%;
 }
@@ -290,6 +294,7 @@
 }
 
 .speakerCards .speakerInfo .speakersCompany {
+	max-width: 160px;
 	font-family: "Noto Sans", sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -560,7 +565,7 @@
 }
 
 .eventTicketsContainer .card.generalTicket .ticketData {
-	margin-bottom: 142px;
+	margin-bottom: 36px;
 }
 
 .eventTicketsContainer .card.vipTicket .ticketData {
@@ -665,7 +670,7 @@
 
 .sponsorsContainer .sponsorsLogos {
 	display: flex;
-	justify-content: space-between;
+	justify-content: end;
 	max-width: 569px;
 	width: 100%;
 	margin-left: auto;
@@ -680,7 +685,6 @@
 }
 
 .sponsorsContainer .sponsorsLogo img {
-	width: 90px;
 	height: auto;
 }
 
@@ -758,7 +762,7 @@
 	margin: 0px;
 }
 
-.locationContainer .heading p:nth-child(2) {
+.locationContainer .heading p {
 	margin-bottom: 30px;
 }
 
@@ -787,6 +791,7 @@ footer {
 }
 
 .footerContainer .footerHeading {
+	padding-bottom: 156px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -902,6 +907,10 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+	.heroContainer .buyTktBtnContainer {
+		padding-top: 20px;
+	}
+
 	.navbar-nav .nav-link {
 		padding: 8px 0px !important;
 		margin: 0px !important;
@@ -943,7 +952,7 @@ footer {
 		margin-bottom: 24px;
 	}
 
-	.locationContainer .heading p:nth-child(2) {
+	.locationContainer .heading p {
 		margin-bottom: 24px !important;
 	}
 
@@ -953,6 +962,10 @@ footer {
 }
 
 @media screen and (max-width: 910px) {
+	.heroContainer .buyTktBtnContainer {
+		padding-top: 40px;
+	}
+
 	.agendaContainer {
 		max-width: 100% !important;
 		width: 100%;
@@ -1011,6 +1024,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+	.heroContainer .buyTktBtnContainer {
+		padding-top: 40px;
+	}
+
 	.navbar {
 		padding: 30px !important;
 	}
@@ -1067,7 +1084,6 @@ footer {
 	}
 
 	.sponsorsContainer .sponsorsLogo img {
-		width: 60px;
 		height: auto;
 	}
 
@@ -1180,7 +1196,6 @@ footer {
 	}
 
 	.sponsorsContainer .sponsorsLogo img {
-		width: 60px;
 		height: auto;
 	}
 
@@ -1198,6 +1213,10 @@ footer {
 @media screen and (max-width: 480px) {
 	.heroContainer .heroHeading h1 {
 		font-size: 32px;
+	}
+
+	.heroContainer .buyTktBtnContainer {
+		padding-top: 20px;
 	}
 
 	.heroContainer p {

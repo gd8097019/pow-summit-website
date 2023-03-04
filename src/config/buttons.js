@@ -2,12 +2,12 @@ const data = [
 	{
 		key: "become_volunteer",
 		title: "Become a Volunteer",
-		url: "https://www.google.com",
+		url: "https://docs.google.com/presentation/d/1xnAp2miWbFJpeGCrmXu6ZvuFlYfEpIGd/edit?rtpof=true",
 	},
 	{
 		key: "become_sponsor",
 		title: "Become a Sponsor",
-		url: "https://www.google.com",
+		url: "https://docs.google.com/presentation/d/1xnAp2miWbFJpeGCrmXu6ZvuFlYfEpIGd/edit?rtpof=true",
 	},
 	{
 		key: "become_speakers",

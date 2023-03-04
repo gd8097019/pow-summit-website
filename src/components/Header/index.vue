@@ -7,11 +7,13 @@
 					<h1>POW SUMMIT</h1>
 					<p>La Fabrika, Prague | Czech Republic</p>
 				</div>
-				<a href="/#tickets" target="_parent" class="text-decoration-none">
-					<button class="buyTktBtn">
-						Buy Tickets <img src="@/assets/icons/arrow-right.svg" alt=">" />
-					</button>
-				</a>
+				<div class="buyTktBtnContainer">
+					<a href="/#tickets" target="_parent" class="text-decoration-none">
+						<button class="buyTktBtn">
+							Buy Tickets <img src="@/assets/icons/arrow-right.svg" alt=">" />
+						</button>
+					</a>
+				</div>
 			</div>
 			<div class="col-lg-6">
 				<img
