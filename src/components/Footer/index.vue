@@ -11,13 +11,10 @@
 						<a href="/#speakers">Speakers</a>
 					</li>
 					<li>
-						<a href="/#agenda">Agenda</a>
-					</li>
-					<li>
 						<a href="/#tickets">Tickets</a>
 					</li>
 					<li>
-						<a href="/#sponsors">Sponsors</a>
+						<a href="/#partnerships">Sponsors</a>
 					</li>
 					<li>
 						<a href="/#location">Location</a>
