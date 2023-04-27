@@ -1,9 +1,8 @@
 <template>
-	<nav class="navbar navbar-expand-lg">
-		<div class="container-fluid navContainer">
-			<a class="navbar-brand" href="/#" v-on:click="closeNav()">POW SUMMIT</a>
+	<nav class="navbar navbar-expand-lg proofNav">
+		<div class="container-fluid">
 			<button
-				class="navbar-toggler"
+				class="navbar-toggler order-lg-1 order-1"
 				type="button"
 				data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent"
@@ -14,50 +13,30 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div
-				ref="navbar"
-				class="collapse navbar-collapse"
+				class="collapse navbar-collapse order-lg-2 order-3"
 				id="navbarSupportedContent"
 			>
-				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a
-							class="nav-link active"
-							aria-current="page"
-							href="/#speakers"
-							v-on:click="closeNav()"
-							>Speakers</a
-						>
-					</li>
-					<!-- li class="nav-item">
-						<a class="nav-link" href="/#agenda" v-on:click="closeNav()"
-							>Agenda</a
-						>
-					</li -->
-					<li class="nav-item">
-						<a class="nav-link" href="/#tickets" v-on:click="closeNav()"
-							>Tickets</a
-						>
+						<a class="nav-link active" aria-current="page" href="/">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/#partnerships" v-on:click="closeNav()"
-							>Partnerships</a
-						>
+						<a class="nav-link" href="#ourSpeakersSection">Speakers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/#location" v-on:click="closeNav()"
-							>Location</a
-						>
+						<a class="nav-link" href="#getTicketSection">Tickets</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/#location" v-on:click="closeNav()"
-							>Contact</a
-						>
+						<a class="nav-link" href="#ourSponsorsSections">Sponsors</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#summitVenueSection">Venue</a>
 					</li>
 				</ul>
-				<a href="/#tickets" target="_parent">
-					<button class="buyTicketsBtn" type="button">Buy Tickets</button>
-				</a>
 			</div>
+			<a href="#getTicketSection" class="getTicketsBtn order-lg-3 order-2"
+				>GET TICKETS</a
+			>
 		</div>
 	</nav>
 </template>

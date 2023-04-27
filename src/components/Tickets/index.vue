@@ -1,70 +1,35 @@
 <template>
-	<section class="eventTicketsSection">
-		<div class="mainContainer eventTicketsContainer">
-			<div class="heading">
-				<h1>Event Tickets</h1>
-				<p>Tincidunt ut tortor bibendum fermentum hac sit facilisis.</p>
-			</div>
-			<div class="ticketCards">
-				<div class="row">
-					<template v-for="(ticket, tkey) in tickets" :key="tkey">
-						<template v-if="tkey % 2 === 0">
-							<div class="col-md-6 col-sm-12 mb-4">
-								<div class="card generalTicket">
-									<div class="ticketData">
-										<div class="ticketPrice">
-											<p>{{ ticket.type }}</p>
-											<h1>{{ ticket.price }}</h1>
-										</div>
-										<div class="ticketDetails">
-											<ul>
-												<li
-													v-for="(feature, fkey) in ticket.features"
-													:key="fkey"
-												>
-													<img src="@/assets/icons/checkMark.svg" alt="check" />
-													{{ feature }}
-												</li>
-											</ul>
-										</div>
-									</div>
-									<a :href="ticket.buy_ticket_link" target="_parent">
-										<button>Buy Tickets</button>
-									</a>
-								</div>
-							</div>
-						</template>
-						<template v-else>
-							<div class="col-md-6 col-sm-12 mb-4">
-								<div class="card vipTicket">
-									<div class="ticketData">
-										<div class="ticketPrice">
-											<p>{{ ticket.type }}</p>
-											<h1>{{ ticket.price }}</h1>
-										</div>
-										<div class="ticketDetails">
-											<ul>
-												<li
-													v-for="(feature, fkey) in ticket.features"
-													:key="fkey"
-												>
-													<img
-														src="@/assets/icons/checkMark-dark.svg"
-														alt="check"
-													/>
-													{{ feature }}
-												</li>
-											</ul>
-										</div>
-									</div>
-									<a :href="ticket.buy_ticket_link" target="_parent">
-										<button>Buy Tickets</button>
-									</a>
-								</div>
-							</div>
-						</template>
-					</template>
-					<template> </template>
+	<section class="getTicketSection" id="getTicketSection">
+		<div class="proofMainContainer getTicketContainer">
+			<h1>SECURE YOUR TICKET:</h1>
+			<div class="row justify-content-between getTicketcards">
+				<div class="col-md-6 col-sm-12 mb-4 px-lg-4">
+					<div class="ticketCard generalPass text-center">
+						<div>
+							<span>{{ tickets[0].type }}</span>
+							<h2>{{ tickets[0].price }}</h2>
+							<p>
+								{{ tickets[0].features }}
+							</p>
+						</div>
+						<a :href="tickets[0].buy_ticket_link" target="_parent">
+							<button>GET TICKETS</button>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 mb-4 px-lg-4">
+					<div class="ticketCard vipPass text-center">
+						<div>
+							<span>{{ tickets[1].type }}</span>
+							<h2>{{ tickets[1].price }}</h2>
+							<p>
+								{{ tickets[1].features }}
+							</p>
+						</div>
+						<a :href="tickets[1].buy_ticket_link" target="_parent">
+							<button>GET TICKETS</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

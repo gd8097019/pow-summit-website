@@ -1,34 +1,32 @@
 <template>
-	<!-- footer starts here -->
-	<footer>
-		<div class="mainContainer footerContainer">
-			<div class="footerHeading">
-				<h2>POW SUMMIT</h2>
-			</div>
-			<div class="footerLinks">
-				<ul>
-					<li>
-						<a href="/#speakers">Speakers</a>
-					</li>
-					<li>
-						<a href="/#tickets">Tickets</a>
-					</li>
-					<li>
-						<a href="/#partnerships">Sponsors</a>
-					</li>
-					<li>
-						<a href="/#location">Location</a>
-					</li>
-					<li>
-						<a href="/#location">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<div class="copyright">
-				<p>©2023 All rights reserved by</p>
-				<a href="#">POW Summit</a>
+	<footer class="proofFooter">
+		<div class="footerContainer">
+			<ul class="footerLinks">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="#ourSpeakersSection">Speakers</a>
+				</li>
+				<li>
+					<a href="#getTicketSection">Tickets</a>
+				</li>
+				<li>
+					<a href="#ourSponsorsSections">Sponsors</a>
+				</li>
+				<li>
+					<a href="#summitVenueSection">Venue</a>
+				</li>
+			</ul>
+			<h1>BROUGHT TO YOU BY</h1>
+			<div class="footerLogo">
+				<a href="">
+					<img src="@/assets/images/footer-logo1.png" alt="" />
+				</a>
+				<a href="">
+					<img src="@/assets/images/footer-logo2.png" alt="" />
+				</a>
 			</div>
 		</div>
 	</footer>
-	<!-- footer ends here -->
 </template>

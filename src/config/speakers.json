@@ -1,44 +1,59 @@
 {
 	"data": [
 		{
-			"image": "/img/speakers/caitlin_long.png",
-			"name": "Caitlin Long",
-			"title": "Founder & CEO",
-			"company": "CUSTODIA BANK",
-			"social": {
-				"twitter": "https://twitter.com/CaitlinLong_",
-				"linkedin": "https://www.linkedin.com/in/caitlin-long-/"
-			}
+			"image": "/img/speakers/speaker-1.jpg",
+			"name": "JAMESON LOPP",
+			"title": "Cypherpunk at www.lopp.net"
 		},
 		{
-			"image": "/img/speakers/BobSummerwillEDCON.jpg",
-			"name": "Bob Summerwill",
-			"title": "Executive Director",
-			"company": "ETC Cooperative",
-			"social": {
-				"twitter": "https://twitter.com/bobsummerwill",
-				"linkedin": "https://www.linkedin.com/in/bobsummerwill/"
-			}
+			"image": "/img/speakers/speaker-2.jpg",
+			"name": "CHARLIE SHREM",
+			"title": "Bitcoin Pioneer CharlieShrem.com"
 		},
 		{
-			"image": "/img/speakers/carol_van_cleef.png",
-			"name": "Carol van Cleef",
-			"title": "",
-			"company": "Digital Assets Before and After Bitcoin",
-			"social": {
-				"twitter": "https://twitter.com/Carol_VanCleef",
-				"linkedin": "https://www.linkedin.com/in/carol-van-cleef-a9b98521/"
-			}
+			"image": "/img/speakers/speaker-10.png",
+			"name": "CHARLIE LEE",
+			"title": "Founder Litecoin"
 		},
 		{
-			"image": "/img/speakers/alan_austin.png",
-			"name": "Alan Austin",
-			"title": "Managing Director",
-			"company": "Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/alangaustin",
-				"linkedin": "https://www.linkedin.com/in/alangaustin/"
-			}
+			"image": "/img/speakers/speaker-3.jpg",
+			"name": "CAITLIN LONG",
+			"title": "Founder & CEO Custodia Bank"
+		},
+		{
+			"image": "/img/speakers/speaker-6.jpg",
+			"name": "VLAD COSTEA",
+			"title": "Founder Bitcoin Takeover Podcast"
+		},
+		{
+			"image": "/img/speakers/speaker-5.jpg",
+			"name": "CAROL VON CLEEF",
+			"title": "Chair of Bradley's Blockchain & Digital Assets"
+		},
+		{
+			"image": "/img/speakers/speaker-7.jpg",
+			"name": "ALAN AUSTIN",
+			"title": "Managing Director at Litecoin Foundation"
+		},
+		{
+			"image": "/img/speakers/speaker-9.jpg",
+			"name": "BOB SUMMERWILL",
+			"title": "Executive Director ETC Cooperative"
+		},
+		{
+			"image": "/img/speakers/speaker-4.jpg",
+			"name": "MICHAEL PARENTI",
+			"title": "Cryptorealist & Ecosystem Integrator Parallelní Polis"
+		},
+		{
+			"image": "/img/speakers/speaker-8.jpg",
+			"name": "ADELLA TOULON-FORESTER",
+			"title": "Digital Nomad"
+		},
+		{
+			"image": "/img/speakers/speaker-11.png",
+			"name": "DONALD MCINTYRE",
+			"title": "Senior Editor ETC Cooperative"
 		}
 	]
 }

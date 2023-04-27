@@ -1,1287 +1,1069 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-.mainHeroWrapper {
-	background: url(@/assets/images/hero-bg.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
+* {
+	font-family: "Raleway", sans-serif;
 }
 
-.navbar {
-	padding: 40px !important;
+.proofHeroSecion {
+	background: #000000;
 }
 
-.navbar .navContainer {
-	max-width: 1100px !important;
-	padding: 0 !important;
-}
+/* navbar starts here */
 
-.navbar .navbar-brand {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 28px;
-	color: #ffffff;
-}
-
-.navbar .navbar-toggler {
-	background: #ffffff;
-}
-
-.navbar-nav .nav-link {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 28px;
-	color: #cccccc;
-	padding: 0px 10px !important;
-	margin: 0px 10px;
-}
-
-.navbar-nav .nav-link.active {
-	color: #cccccc !important;
-}
-
-.navbar-nav .nav-link:hover {
-	color: #ffffff !important;
-}
-
-.navbar .buyTicketsBtn {
-	border: 1px solid #ffffff;
-	border-radius: 5px;
-	background: transparent;
-	padding: 8px 24px;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 24px;
-	color: #ffffff;
-}
-
-/* styles for similar components */
-.mainContainer {
-	max-width: 1180px !important;
+.proofHeroSecion .navbar {
+	max-width: 1272px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 0px 40px !important;
+	background: transparent;
+	padding: 35px 10px !important;
 }
 
-.heading h1 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	color: #111111;
-	margin: 0;
-}
-
-/* hero container starts here */
-
-.heroContainer {
-	padding: 125px 40px 162px !important;
-}
-
-.heroContainer p {
-	font-family: "Roboto", sans-serif;
+.proofNav .nav-link {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	color: #ffffff;
-	margin: 0;
+	font-size: 16px;
+	color: #ffffff !important;
+	padding: 0px 0px 4px !important;
+	margin-right: 48px;
 }
 
-.heroContainer .heroHeading {
-	border-left: 1px solid #ffffff;
-	padding-left: 24px;
-	margin: 25px 0px 32px;
+.proofNav .nav-link.active {
+	color: #ffffff !important;
+	border-bottom: 4px solid #0085fe;
 }
 
-.heroContainer .heroHeading h1 {
-	font-family: "Noto Sans", sans-serif;
+.proofNav .nav-link:hover {
+	color: #ffffff !important;
+	border-bottom: 4px solid #0085fe;
+}
+
+.proofNav .getTicketsBtn {
+	width: 142px;
+	height: 48px;
+	background: #0085fe;
+	border: 1px solid transparent;
 	font-style: normal;
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 50px;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
+	font-weight: 800;
+	font-size: 14px;
+	letter-spacing: 0.05em;
 	color: #ffffff;
-	margin: 0px 0px 12px;
-}
-
-.heroContainer .heroHeading p {
-	line-height: 30px;
-}
-
-.heroContainer .cryptoIcons {
-	background: rgba(0, 0, 0, 0.25);
-	border: 1px solid #215e14;
-	border-radius: 5px;
-	width: 163px;
-	height: 64px;
-	padding: 0px 26px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 48px;
-}
-
-.heroContainer .cryptoIcons span {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 42px;
-	color: #ffffff;
-}
-
-.heroContainer .buyTktBtn {
-	width: 190px;
-	height: 56px;
-	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
-	border: none;
-	border-radius: 5px;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
-	color: #ffffff;
+	cursor: pointer;
+	transition: 0.3s;
+	text-decoration: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.heroContainer .buyTktBtn img {
-	margin-left: 15px;
-	width: 10px;
-	height: 17px;
+.proofNav .getTicketsBtn:hover {
+	border: 1px solid #0085fe;
+	background: transparent;
+	color: #0085fe;
 }
 
-.heroContainer .buyTktBtnContainer {
-	padding-top: 144px;
+.proofNav .navbar-toggler {
+	height: 48px;
+	background: #ffffff;
+	margin-right: 20px;
+	border-radius: unset !important;
 }
 
-.heroContainer .heroImg {
+/* navbar ends here */
+
+.proofMainContainer {
+	max-width: 1272px;
 	width: 100%;
+	margin: 0 auto;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+/* hero section starts here */
+
+.proofOfWorkMainContainer {
+	padding: 17px 0px 30px;
+}
+
+.proofOfWorkContainer img {
+	width: 100%;
+	height: auto;
+}
+
+.proofHeroCards {
+	padding-bottom: 65px;
+}
+.proofHeroCards .proofHeroHead {
+	text-align: center;
+	margin-bottom: 40px !important;
+	max-width: 914px;
+	margin: 0 auto;
+}
+.proofHeroCards .proofHeroHead h2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 13px;
+}
+.proofHeroCards .proofHeroHead p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 36px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin: 0;
+}
+.proofHeroCards .getTicketsBtn {
+	display: block;
+	max-width: 376px;
+	width: 100%;
+	height: 113px;
+	margin: 108px auto 0px;
+	background: #00d55a;
+	border: 1px solid transparent;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	line-height: 30px;
+	color: #ffffff;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.proofHeroCards .getTicketsBtn:hover {
+	border: 1px solid #00d55a;
+	background: transparent;
+	color: #00d55a;
+}
+
+.heroCard .heroCardImg img {
+	width: 100%;
+}
+
+.proofHeroCards .heroCard .heroCardContent {
+	padding: 40px 0 0;
+}
+
+.heroCard .heroCardContent h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+.heroCard .heroCardContent h3 span {
+	display: block;
+}
+.heroCard .heroCardContent p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #e6e6e6;
+	margin: 0;
 }
 
 /* hero section ends here */
 
-/* about section starts here */
-
-.aboutContainer {
+/* our speakers section starts here */
+.ourSpeakersSection {
+	background: #0085fe;
 }
 
-.aboutContainer h1 {
-	margin: 0 0 32px;
-}
-
-.aboutSection .aboutImgContainer {
-	position: relative;
-	float: right;
-}
-.aboutSection .aboutImgOverlay {
-	position: absolute;
-	top: 0;
-	left: 0;
+.ourSpeakersContainer {
+	max-width: 1380px !important;
 	width: 100%;
-	height: 100%;
-	background: linear-gradient(
-		89.65deg,
-		#ffffff 7.35%,
-		rgba(255, 255, 255, 0) 73.77%
-	);
+	padding: 84px 0px 128px;
 }
-
-.aboutContainer p {
-	max-width: 532px;
-	width: 100%;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	color: #111111;
-	margin: 0px 0px 26px;
-}
-/* about section ends here */
-
-/* speakers section starts here */
-.speakersSection {
-	background: linear-gradient(270deg, #bbffc3 0%, #a8dfdb 100%);
-	padding: 88px 0px 60px;
-}
-
-.speakersContainer h1 {
-	text-align: end;
-}
-
-.speakersContainer .speakerCards {
-	margin-top: 64px;
-}
-
-.speakerCards .card {
-	border: none;
-	background: transparent;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.speakerCards .imgBox {
-	width: 208px;
-	height: 208px;
-	margin: 0 auto;
-}
-
-.speakerCards .imgBox img {
-	width: 100%;
-	border-radius: 50%;
-}
-
-.speakerCards .speakersDetails {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	top: -40px;
-}
-
-.speakerCards .socialLinks {
-	background: #111111;
-	width: 164px;
-	height: 48px;
-	border-radius: 8px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0px 26px;
-}
-
-.speakerCards .socialLinks a {
-	text-decoration: none;
-	margin: 0px 6.5px;
-}
-
-.speakerCards .socialLinks a img {
-	width: 26px;
-	height: 26px;
-}
-
-.speakerCards .speakerInfo {
+.ourSpeakersContainer .ourSpeakersHead {
 	text-align: center;
+	max-width: 916px;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
-
-.speakerCards .speakerInfo h5 {
-	font-family: "Noto Sans", sans-serif;
+.ourSpeakersContainer h1 {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
-	color: #000000;
-	margin: 14px 0px 8px;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 13px;
 }
-
-.speakerCards .speakerInfo .speakersTitle {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	color: #000000;
-	margin: 0px 0px 4px;
-}
-
-.speakerCards .speakerInfo .speakersCompany {
-	max-width: 160px;
-	font-family: "Noto Sans", sans-serif;
+.ourSpeakersContainer .ourSpeakersHead p {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 14px;
-	color: #000000;
-	margin: 0;
-}
-
-/* speakers section ends here */
-
-/* become a speaker section starts here */
-.becomeSpeakerSection {
-	background: #111111;
-	padding: 88px 0px;
-}
-
-.becomeSpeakerContainer .heading h1 {
-	color: #ffffff !important;
-	text-align: center;
-	margin-bottom: 24px;
-}
-
-.becomeSpeakerContainer .becomeSpeakerContent {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.becomeSpeakerContainer .becomeSpeakerContent p {
-	max-width: 532px;
-	width: 100%;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	text-align: center;
-	color: #cccccc;
-	margin: 0 auto 32px;
-}
-
-.becomeSpeakerContainer .becomeSpeakerContent button {
-	width: 223px;
-	height: 56px;
-	margin: 0 auto;
-	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
-	border: none;
-	border-radius: 5px;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
+	font-size: 25px;
+	line-height: 36px;
+	letter-spacing: 0.05em;
 	color: #ffffff;
 }
-
-/* become a speaker section ends here */
-
-/* agenda section starts here */
-
-.agendaSection {
-	padding: 88px 0px;
-}
-
-.agendaContainer {
-	max-width: 830px !important;
-	width: 100%;
+.spearkerCards {
+	max-width: 991px;
 	margin: 0 auto;
 }
+.speakerCard {
+	margin-bottom: 40px !important;
+	width: 100% !important;
+}
+.speakerCard .speakerCardImg img {
+	width: 248px;
+	height: 245px;
+	display: block;
+	margin: 0 auto;
+	object-fit: cover;
+	border: 0.2px solid white;
+}
 
-.agendaContainer .heading {
+.speakerCard .speakerCardContent {
+	padding: 20px 0px 0;
+}
+
+.speakerCardContent h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
 	text-align: center;
-	margin-bottom: 40px;
-}
-
-.agendaContainer h1 {
-	margin: 0px 0px 32px;
-}
-
-.agendaContainer .heading p {
-	max-width: 532px;
-	width: 100%;
-	margin: 0 auto;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	color: #111111;
-}
-
-.agendaContainer .nav-tabs {
-	border: none !important;
-	justify-content: center;
-}
-
-.agendaContainer .nav-tabs .nav-item .nav-link {
-	border: none !important;
-	width: 168px;
-	height: 80px;
-	background: #ffffff;
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
-	border-radius: 5px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
-	color: #111111;
-	margin: 0px 8px;
-}
-
-.agendaContainer .nav-tabs .nav-item .nav-link span {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	color: #111111;
-}
-
-.agendaContainer .nav-tabs .nav-item .nav-link.active {
-	border: none !important;
-	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
-	box-shadow: unset !important;
-	border-radius: 5px;
-	color: #ffffff;
-}
-
-.agendaContainer .nav-tabs .nav-item .nav-link.active span {
-	color: #ffffff;
-}
-
-.agendaContainer .tab-content {
-	margin-top: 32px;
-}
-
-.agendaCards .card {
-	background: #ffffff;
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
-	border: none;
-	border-left: 8px solid #109810;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	align-items: center;
-	padding: 15px 0px;
-	margin-bottom: 24px;
-}
-
-.agendaCards .card.breakCard {
-	border-left: none !important;
-	padding: 24px 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.agendaCards .card.breakCard h4 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 48px;
 	letter-spacing: 0.03em;
-	color: #111111;
-	margin: 0;
+	color: #ffffff;
+	margin: 0px 0px 6px;
 }
 
-.agendaCards .card .agendaTimings {
-	padding: 0px 40px 0px 24px;
-	border-right: 1px solid #767676;
-}
-
-.agendaCards .card .agendaTimings h4 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 28px;
-	line-height: 48px;
-	color: #111111;
-	margin: 0;
-}
-
-.agendaCards .card .agendaDetails {
-	padding: 0px 40px;
-	display: flex;
-	align-items: center;
-}
-
-.agendaCards .card .agendaDetails img {
-	width: 82px;
-	height: 82px;
-	margin-right: 13px;
-}
-
-.agendaCards .card .agendaDetails h6 {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	color: #111111;
-	margin: 0px 0px 8px;
-}
-
-.agendaCards .card .agendaDetails p {
-	font-family: "Roboto", sans-serif;
+.speakerCardContent p {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	color: #111111;
-	margin: 0;
-}
-
-/* agenda section ends here */
-
-/* tickets section starts here */
-.eventTicketsSection {
-	background: linear-gradient(270deg, #bbffc3 0%, #a8dfdb 100%);
-	padding: 88px 0px;
-}
-
-.eventTicketsContainer {
-	max-width: 830px !important;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.eventTicketsContainer .heading {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
+	font-size: 25px;
 	text-align: center;
-}
-
-.eventTicketsContainer .heading h1 {
-	margin: 0px 0px 32px;
-}
-
-.eventTicketsContainer .heading p {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	color: #111111;
-	margin: 0;
-}
-
-.eventTicketsContainer .ticketCards {
-	margin-top: 40px;
-}
-
-.eventTicketsContainer .card {
-	max-width: 354px;
-	width: 100%;
-	margin: 0 auto;
-	background: #ffffff;
-	border-radius: 5px;
-	border: none;
-	padding: 48px 32px;
-}
-
-.eventTicketsContainer .card.vipTicket {
-	background: #111111;
-}
-
-.eventTicketsContainer .card.generalTicket .ticketData {
-	margin-bottom: 36px;
-}
-
-.eventTicketsContainer .card.vipTicket .ticketData {
-	margin-bottom: 36px;
-}
-
-.eventTicketsContainer .card .ticketPrice {
-	text-align: center;
-}
-
-.eventTicketsContainer .card .ticketPrice p {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	color: #111111;
-	margin: 0px 0px 24px;
-}
-
-.eventTicketsContainer .card .ticketPrice h1 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 0.03em;
-	color: #111111;
-	margin: 0px 0px 40px;
-}
-
-.ticketDetails ul {
-	list-style: none;
-	padding: 0;
-	max-width: 200px;
-	width: 100%;
-}
-
-.ticketDetails ul li {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 27px;
-	color: #111111;
-	margin-bottom: 24px;
-	display: flex;
-}
-
-.ticketDetails ul li img {
-	width: 24px;
-	height: 24px;
-	margin: 5px 14px 0px 0px;
-}
-
-.eventTicketsContainer .card button {
-	width: 100%;
-	border: none;
-	border-radius: 5px;
-	padding: 12px;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
 	color: #ffffff;
-}
-
-.eventTicketsContainer .card.generalTicket button {
-	background: #111111;
-}
-
-.eventTicketsContainer .card.vipTicket .ticketPrice p {
-	color: #ffffff;
-}
-
-.eventTicketsContainer .card.vipTicket .ticketPrice h1 {
-	color: #ffffff;
-}
-
-.eventTicketsContainer .card.vipTicket .ticketDetails ul li {
-	color: #ffffff;
-}
-
-.eventTicketsContainer .card.vipTicket button {
-	background: linear-gradient(270deg, #109810 0%, #3883f6 100%),
-		linear-gradient(270deg, #109810 0%, #3883f6 100%);
-}
-
-/* tickets section ends here */
-
-/* sponsors section starts here */
-.sponsorsSection {
-	padding: 88px 0px;
-}
-
-.sponsorsContainer .heading {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.sponsorsContainer .heading h1 {
-	margin-bottom: 48px;
-}
-
-.sponsorsContainer .sponsorsLogos {
-	display: flex;
-	justify-content: end;
-	max-width: 569px;
-	width: 100%;
-	margin-left: auto;
-}
-
-.sponsorsContainer .sponsorsLogo {
-	max-width: 90px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0px 20px;
-}
-
-.sponsorsContainer .sponsorsLogo img {
-	height: auto;
-}
-
-.sponsorsContainer hr {
-	max-width: 540px;
-	width: 90%;
-	margin: 64px auto;
-}
-
-.sponsorsContainer .sponsorships h2 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	color: #111111;
-	margin: 0px 0px 32px;
-}
-
-.sponsorsContainer .sponsorships p {
-	max-width: 532px;
-	width: 100%;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	color: #111111;
-	margin: 0px 0px 40px;
-}
-
-.sponsorsContainer .sponsorships button {
-	border: none;
-	border-radius: 5px;
-	padding: 16px 24px;
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
-	color: #ffffff;
-}
-
-.sponsorships button.volBtn {
-	background: #111111;
-	margin-right: 24px;
-}
-
-.sponsorships button.sponBtn {
-	background: linear-gradient(270deg, #109810 0%, #3883f6 100%);
-}
-/* sponsors section ends here */
-
-/* location section starts here */
-.locationSection {
-	padding: 80px 0px;
-	background: #111111;
-}
-
-.locationContainer .heading {
-	margin-bottom: 52px;
-}
-
-.locationContainer .heading h1 {
-	color: #ffffff;
-	margin: 0px 0px 36px;
-}
-
-.locationContainer .heading p {
-	max-width: 532px;
-	width: 100%;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	color: #cccccc;
 	margin: 0px;
+	line-height: 32px;
 }
 
-.locationContainer .heading p {
+/* our speakers section ends here */
+
+/* register speaker section starts here */
+.registerSpeakerSection {
+	background: url(@/assets/images/register-speaker-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.registerSpeakerContainer {
+	padding: 42px 0 79px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.registerSpeakerContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.registerSpeakerContainer p {
+	max-width: 900px;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 32px;
+	text-align: center;
+	color: #e6e6e6;
+	margin-bottom: 62px;
+}
+
+.registerSpeakerContainer button {
+	display: block;
+	margin: 0 auto;
+	max-width: 462px;
+	width: 100%;
+	height: 115px;
+	background: #00d55a;
+	border: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.registerSpeakerContainer button:hover {
+	border: 1px solid #00d55a;
+	background: transparent;
+	color: #00d55a;
+}
+
+/* register speaker section ends here */
+
+/* get tickets section starts here */
+.getTicketSection {
+	background: #00d55a;
+}
+
+.getTicketContainer {
+	max-width: 1330px !important;
+	padding: 160px 0px 200px;
+}
+.getTicketcards {
+	max-width: 1036px !important;
+	margin: 0 auto !important;
+}
+.getTicketContainer h1 {
+	margin-bottom: 64px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #0d0d0d;
+}
+
+.getTicketContainer img {
+	width: 100%;
+	height: 100%;
+}
+
+.ticketCard.generalPass {
+	background: #000000;
+}
+
+.ticketCard.vipPass {
+	background: #ff7a10;
+}
+
+.getTicketContainer .ticketCard {
+	padding: 34px 40px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ticketCard span {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.ticketCard h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 96px;
+	color: #ffffff;
 	margin-bottom: 30px;
 }
 
-.locationContainer img {
-	width: 100%;
-}
-
-.locationContainer .location {
-	max-width: 339px;
-	width: 100%;
-}
-
-.locationContainer .map {
-	max-width: 507px;
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
-
-/* location section ends here */
-
-/* footer starts here */
-footer {
-	background: #111111;
-	padding: 78px 0px 64px;
-}
-
-.footerContainer .footerHeading {
-	padding-bottom: 156px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.footerContainer .footerHeading h2 {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 28px;
-	color: #ffffff;
-	margin: 0 0 32px;
-}
-
-.footerContainer .cryptoIcons {
-	width: 163px;
-	height: 64px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 80px;
-}
-
-.footerContainer .cryptoIcons span {
-	font-family: "Noto Sans", sans-serif;
+.ticketCard p {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
-	line-height: 42px;
+	line-height: 32px;
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+
+.ticketCard button {
+	width: 100%;
+	height: 56px;
+	border: 1px solid #ffffff;
+	background: transparent;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+.ticketCard.vipPass button {
+	border: 1px solid #000000;
+	color: #000000;
+}
+/* get tickets section starts ends */
+
+/* our sponsors section starts here */
+.ourSponsorsSections {
+	background: url(@/assets/images/sponsors-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background: #000000;
+}
+
+.ourSponsorsContainer {
+	padding: 126px 0px 134px;
+}
+
+.ourSponsorsContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	text-align: center;
 	color: #ffffff;
 }
 
-.footerContainer .footerLinks {
-	max-width: 635px;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.footerContainer .footerLinks ul {
+.ourSponsorsContainer .ourSponsors {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	list-style: none;
-	padding: 0px;
-	margin: 0px 0px 40px;
+	margin: 70px 0px;
 }
 
-.footerContainer .footerLinks ul li a {
-	font-family: "Roboto", sans-serif;
+.ourSponsors a {
+	display: block;
+	width: 25%;
+	margin-right: 88px;
+}
+
+.ourSponsors a:nth-child(3n) {
+	margin-right: 0px !important;
+}
+
+.ourSponsors a img {
+	width: 100%;
+}
+
+.ourSponsorsContainer p {
+	max-width: 815px;
+	width: 100%;
+	margin: 0 auto;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	color: #cccccc;
-	text-decoration: none;
-	padding: 0px 10px !important;
-	margin: 0px 10px;
-	transition: 0.5s;
-}
-
-.footerContainer .footerLinks ul li a:hover {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 32px;
+	text-align: center;
 	color: #ffffff;
 }
 
-.footerContainer .copyright {
+.ourSponsorsContainer button {
+	display: block;
+	margin: 0 auto;
+	max-width: 462px;
+	width: 100%;
+	height: 72px;
+	background: #00d55a;
+	border: none;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-top: 70px;
+	transition: 0.3s;
+}
+
+.ourSponsorsContainer button:hover {
+	border: 1px solid #00d55a;
+	background: transparent;
+	color: #00d55a;
+}
+/* our sponsors section ends here */
+
+/* summit venue section starts here */
+.summitVenueSection {
+	background: #ff7a10;
+}
+
+.summitVenueContainer {
+	padding: 85px 0px;
+}
+
+.summitVenueContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.summitVenueContainer p {
+	max-width: 568px;
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 32px;
+	color: #ffffff;
+	margin: 0 auto 30px;
+}
+
+.summitVenueContainer p a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.summitVenueContainer img {
+	width: 100%;
+	height: 480px;
+	object-fit: cover;
+}
+/* summit venue section ends here */
+
+/* where to stay section starts here */
+.whereToStaySection {
+	background-image: url(@/assets/images/stay-bg.png) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #000000 !important;
+}
+
+.whereToStayContainer {
+	max-width: 1350px !important;
+	width: 100%;
+	padding: 142px 0px 103px;
+}
+
+.whereToStayContainer img {
+	width: 100%;
+	height: 418px;
+	object-fit: cover;
+}
+
+.whereToStayContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.whereToStayContainer p {
+	max-width: 567px;
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: #ffffff;
+	margin: 0 auto 30px;
+}
+.whereToStayContainer p span {
+	font-weight: 700;
+}
+.whereToStayContainer a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+/* where to stay section ends here */
+
+/* shedule section starts here */
+.sheduleSection {
+	background: #0085fe;
+}
+.sheduleContainer {
+	max-width: 1330px !important;
+	padding: 34px 0px 63px;
+}
+
+.sheduleContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 70px;
+}
+
+.sheduleContainer .sheduleCard {
+	padding: 70px;
+	height: 447px;
+}
+
+.sheduleCard.sheduleDay1 {
+	background: #ff7a10;
+}
+.sheduleCard.sheduleDay2 {
+	background: #000000;
+}
+.sheduleCard.sheduleDay3 {
+	background: #00d55a;
+}
+
+.sheduleContainer .sheduleCard h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.sheduleContainer .sheduleCard span {
+	display: block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+/* shedule section ends here */
+
+/* footer starts here */
+.proofFooter {
+	background: #000000;
+}
+
+.footerContainer {
+	padding: 44px 0 53px;
+}
+
+.footerContainer .footerLinks {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
-.footerContainer .copyright p {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	color: rgba(255, 255, 255, 0.64);
-	margin: 0px 0px 15px;
-}
-
-.footerContainer .copyright a {
-	font-family: "Noto Sans", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
+.footerLinks a {
+	display: inline-block;
+	margin: 0px 24px;
 	text-decoration: none;
-	color: #ffffff !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
 }
 
-.footerContainer .litecoin-container {
-	background: white;
-	padding: 5px;
-	border-radius: 10px;
-	margin-left: 10px;
+.footerContainer h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin: 62px 0 56px;
+}
+.footerContainer .footerLogo {
+	max-width: 688px;
+	padding: 0px 20px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.footerContainer .footerLogo {
+	text-decoration: none;
+}
+.footerContainer .footerLogo img {
+	height: auto;
+	width: 100%;
 }
 
-.footerContainer .etccoin-container {
-	margin-right: 10px;
+.footerContainer .footerLogo a:nth-child(1) img {
+	max-width: 220px;
 }
-
+.footerContainer .footerLogo a:nth-child(2) img {
+	max-width: 270px;
+}
 /* footer ends here */
 
-/* media queries */
-
-@media screen and (max-width: 1199px) {
-	.mainHeroWrapper {
-		background-size: cover !important;
+@media screen and (max-width: 1260px) {
+	.whereToStayContainer h1 {
+		font-size: 52px !important;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.proofOfWorkContainer {
+		background-position: left;
+	}
+	.heroCard .heroCardContent h3 {
+		font-size: 26px;
+		line-height: 32px;
 	}
 
-	.navbar-nav .nav-link {
-		padding: 0px 5px !important;
-		margin: 0px 8px !important;
+	.heroCard .heroCardContent p {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.registerSpeakerSection {
+		background-position: left;
+	}
+
+	.ourSponsorsSections {
+		background-position: left;
+	}
+	.summitVenueContainer h1 {
+		font-size: 52px !important;
+	}
+	.whereToStayContainer h1 {
+		font-size: 46px !important;
 	}
 }
 
 @media screen and (max-width: 991px) {
-	.heroContainer .buyTktBtnContainer {
-		padding-top: 20px;
-	}
-
-	.navbar-nav .nav-link {
-		padding: 8px 0px !important;
-		margin: 0px !important;
-	}
-
-	.heroContainer {
-		padding: 40px 40px 60px !important;
-	}
-
-	.becomeSpeakerSection {
-		padding: 40px 0px;
-	}
-
-	.speakersSection {
-		padding: 40px 0px;
-	}
-
-	.agendaSection {
-		padding: 40px 0px;
-	}
-
-	.eventTicketsSection {
-		padding: 40px 0px;
-	}
-
-	.sponsorsSection {
-		padding: 40px 0px;
-	}
-
-	.locationSection {
-		padding: 40px 0px;
-	}
-
-	.locationContainer .heading {
-		margin-bottom: 30px;
-	}
-
-	.locationContainer .heading h1 {
-		margin-bottom: 24px;
-	}
-
-	.locationContainer .heading p {
-		margin-bottom: 24px !important;
-	}
-
-	.locationContainer .map {
-		max-width: 450px;
-	}
-}
-
-@media screen and (max-width: 910px) {
-	.heroContainer .buyTktBtnContainer {
-		padding-top: 40px;
-	}
-
-	.agendaContainer {
+	.proofHeroCards .proofHeroHead {
 		max-width: 100% !important;
-		width: 100%;
-		padding: 0px 40px;
+	}
+	.proofHeroCards .proofHeroHead p {
+		font-size: 22px !important;
+	}
+	.proofNav .navbar-collapse {
+		padding: 20px 0px;
 	}
 
-	.eventTicketsContainer {
-		max-width: 100% !important;
-		width: 100%;
-		padding: 0px 40px;
-	}
-
-	.agendaCards .card .agendaTimings {
-		padding: 0px 24px 0px 24px;
-	}
-
-	.agendaCards .card .agendaTimings h4 {
-		font-size: 24px;
-		line-height: 48px;
-	}
-
-	.agendaCards .card .agendaDetails {
-		padding: 0px 24px;
-	}
-
-	.agendaCards .card .agendaDetails img {
-		width: 62px;
-		height: 62px;
-		margin-right: 10px;
-	}
-
-	.agendaCards .card .agendaDetails h6 {
+	.proofNav .nav-link {
+		font-style: normal;
+		font-weight: 400;
 		font-size: 16px;
+		color: #ffffff;
+		padding: 0px 0px 4px !important;
+		margin-right: 0px;
+		margin-bottom: 20px;
 	}
 
-	.agendaCards .card .agendaDetails p {
-		font-size: 14px;
+	.heroCard .heroCardContent h3 {
+		font-size: 22px;
+		line-height: 32px;
 	}
 
-	.sponsorsContainer hr {
-		margin: 44px auto;
-	}
-
-	.sponsorsContainer .sponsorships h2 {
-		margin: 0px 0px 24px;
-	}
-
-	.sponsorsContainer .sponsorships p {
-		margin: 0px 0px 30px;
-	}
-
-	.sponsorsContainer .sponsorships button {
-		padding: 14px 20px;
+	.heroCard .heroCardContent p {
 		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.ourSpeakersContainer h1 {
+		font-size: 48px;
+	}
+
+	.ourSpeakersContainer .speakerCard {
+		margin-bottom: 20px;
+	}
+
+	.speakerCardContent h3 {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.speakerCardContent p {
+		font-size: 18px;
+	}
+
+	.registerSpeakerContainer h1 {
+		font-size: 48px;
+		margin-bottom: 20px;
+	}
+	.registerSpeakerContainer p {
+		font-size: 18px !important;
+		margin-bottom: 42px !important;
+	}
+
+	.getTicketContainer {
+		padding: 100px 0px 120px;
+	}
+
+	.getTicketContainer h1 {
+		font-size: 42px;
+		margin-bottom: 40px;
+	}
+
+	.ourSponsorsContainer h1 {
+		font-size: 48px;
+	}
+
+	.ourSponsorsContainer p {
+		font-size: 20px;
+	}
+
+	.summitVenueContainer h1 {
+		font-size: 48px;
+	}
+	.summitVenueContainer p {
+		max-width: 100%;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.whereToStayContainer {
+		padding: 110px 20px !important;
+	}
+
+	.whereToStayContainer h1 {
+		font-size: 48px;
+	}
+
+	.whereToStayContainer p {
+		max-width: 100%;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.sheduleContainer h1 {
+		font-size: 48px;
+	}
+
+	.ourSpeakersContainer .ourSpeakersHead {
+		max-width: 100% !important;
+	}
+	.spearkerCards {
+		max-width: 100% !important;
+	}
+	.speakerCard .speakerCardImg img {
+		width: 100% !important;
+		height: 273px !important;
+	}
+	.getTicketcards {
+		max-width: 100% !important;
+	}
+	.ticketCard p {
+		font-size: 18px !important;
+		line-height: 26px !important;
+	}
+	.sheduleContainer .sheduleCard {
+		height: 360px !important;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.heroContainer .buyTktBtnContainer {
-		padding-top: 40px;
+	.heroCard {
+		margin-bottom: 30px;
+	}
+	.proofHeroCards .proofHeroHead p {
+		font-size: 18px !important;
+		line-height: 26px !important;
+	}
+	.proofHeroCards .proofHeroHead h2 {
+		font-size: 28px !important;
+	}
+	.speakerCard .speakerCardImg img {
+		height: 338px !important;
 	}
 
-	.navbar {
-		padding: 30px !important;
+	.ourSpeakersContainer {
+		padding: 60px 0px 80px;
 	}
 
-	.mainContainer {
-		padding: 0px 30px !important;
+	.getTicketContainer {
+		padding: 60px 0px 80px;
 	}
 
-	.heroContainer {
-		padding: 30px 30px 40px !important;
+	.registerSpeakerContainer {
+		padding: 60px 0px 80px;
 	}
 
-	.heroContainer .heroHeading h1 {
-		font-size: 40px;
+	.ourSponsorsContainer {
+		padding: 60px 0px 80px;
 	}
 
-	.heading h1 {
-		font-size: 30px;
-	}
-
-	.agendaContainer {
-		padding: 0px 30px;
-	}
-
-	.eventTicketsContainer {
-		padding: 0px 30px;
-	}
-
-	.agendaCards .card .agendaTimings {
-		padding: 0px 20px;
-	}
-
-	.agendaCards .card .agendaTimings h4 {
-		font-size: 20px;
-		line-height: 25px;
-	}
-
-	.agendaCards .card .agendaDetails {
-		padding: 0px 20px;
-	}
-
-	.agendaCards .card .agendaDetails img {
-		width: 52px;
-		height: 52px;
-		margin-right: 10px;
-	}
-
-	.agendaCards .card .agendaDetails h6 {
-		font-size: 15px !important;
-	}
-
-	.agendaCards .card .agendaDetails p {
-		font-size: 13px !important;
-	}
-
-	.sponsorsContainer .sponsorsLogo img {
-		height: auto;
-	}
-
-	.sponsorsContainer hr {
-		margin: 34px auto;
-	}
-
-	.sponsorsContainer .sponsorships h2 {
-		font-size: 30px;
-		margin: 0px 0px 20px;
-	}
-
-	.sponsorsContainer .sponsorships p {
-		margin: 0px 0px 24px;
-	}
-
-	/* ..... */
-	footer {
-		padding: 40px 0px;
-	}
-
-	.footerContainer .footerHeading h2 {
-		font-size: 20px;
-		margin: 0 0 24px;
-	}
-
-	.footerContainer .cryptoIcons {
-		margin-bottom: 40px;
-	}
-
-	.footerContainer .cryptoIcons span {
-		font-size: 20px;
-	}
-
-	.footerContainer .footerLinks ul {
-		display: flex;
+	.ourSponsorsContainer .ourSponsors {
+		margin: 40px 0px 20px;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
-		padding: 0px;
-		margin: 0px 0px 30px;
 	}
 
-	.footerContainer .footerLinks ul li {
-		margin: 10px 0px;
+	.ourSponsors a {
+		width: 50%;
+		margin-right: 0 !important;
+		margin-bottom: 50px;
 	}
 
-	.footerContainer .footerLinks ul li a {
-		padding: 10px 0px !important;
-		margin: 0px !important;
+	.summitVenueContainer img {
+		height: 350px;
 	}
 
-	.footerContainer .copyright p {
-		margin: 0px 0px 12px;
+	.whereToStayContainer {
+		padding: 60px 0px;
+	}
+
+	.whereToStayContainer img {
+		height: 300px;
+	}
+
+	.sheduleContainer {
+		padding: 30px 0px 60px;
+	}
+	.proofHeroCards .getTicketsBtn {
+		margin-top: 50px !important;
+	}
+	.ourSpeakersContainer .ourSpeakersHead p {
+		font-size: 18px !important;
+		line-height: 26px !important;
+	}
+	.registerSpeakerContainer {
+		max-width: 100% !important;
+	}
+	.ourSponsorsContainer button {
+		margin-top: 50px !important;
+	}
+	.sheduleContainer .sheduleCard {
+		padding: 60px !important;
+		height: 300px !important;
+	}
+	.whereToStayContainer {
+		padding: 60px 20px !important;
 	}
 }
 
-@media screen and (max-width: 625px) {
-	.agendaCards .card {
-		display: block;
-		padding: 30px 0px;
+@media screen and (max-width: 576px) {
+	.proofHeroCards .proofHeroHead h2 {
+		font-size: 22px !important;
+	}
+	.proofHeroCards .getTicketsBtn {
+		font-size: 20px !important;
+		line-height: 22px !important;
+		height: 70px !important;
+		margin-top: 30px !important;
 	}
 
-	.agendaCards .agendaTimings {
-		border-right: none !important;
+	.heroCard .heroCardImg img {
+		height: unset;
+		object-fit: cover;
 	}
 
-	.agendaCards .agendaTimings h4 {
-		border-bottom: 1px solid #767676 !important;
-		padding-bottom: 20px !important;
+	.ourSpeakersContainer h1 {
+		font-size: 36px;
 	}
 
-	.agendaCards .agendaDetails {
-		padding-top: 20px !important;
-		align-items: flex-start !important;
+	.registerSpeakerContainer h1 {
+		font-size: 36px;
+		margin-bottom: 15px;
 	}
-}
-
-@media screen and (max-width: 575px) {
-	.speakersContainer h1 {
-		text-align: center;
+	.registerSpeakerContainer p {
+		margin-bottom: 22px !important;
 	}
-
-	.speakersContainer .speakerCards {
-		margin-top: 44px;
+	.registerSpeakerContainer button {
+		font-size: 20px;
+		line-height: 22px !important;
+		height: 70px !important;
 	}
 
-	.agendaContainer .nav-tabs .nav-item .nav-link {
-		width: 120px;
-		height: 60px;
-		font-size: 15px;
-		margin: 0px 8px;
+	.getTicketContainer h1 {
+		font-size: 32px;
+		margin-bottom: 30px;
 	}
 
-	.agendaContainer .nav-tabs .nav-item .nav-link span {
-		font-family: "Roboto", sans-serif;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 13px;
-		color: #111111;
+	.ourSponsorsContainer h1 {
+		font-size: 36px;
 	}
 
-	.sponsorsContainer .heading {
-		justify-content: center;
+	.ourSponsors a {
+		margin-bottom: 30px;
 	}
 
-	.sponsorsContainer .sponsorsLogos {
-		justify-content: center;
-		margin: 0 auto !important;
+	.ourSponsorsContainer button {
+		font-size: 20px;
+		padding: 10px;
 	}
 
-	.sponsorsContainer .sponsorsLogo img {
-		height: auto;
-	}
-
-	.sponsorsContainer .sponsorships h2 {
-		font-size: 28px;
-		margin: 0px 0px 20px;
-	}
-
-	.sponsorsContainer .sponsorships button {
+	.summitVenueContainer h1 {
+		font-size: 36px;
+		line-height: 50px;
 		margin-bottom: 20px;
-		width: 100%;
+	}
+
+	.summitVenueContainer p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.whereToStayContainer h1 {
+		font-size: 30px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.whereToStayContainer p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.sheduleContainer h1 {
+		font-size: 36px;
+	}
+
+	.sheduleContainer .sheduleCard h2 {
+		font-size: 30px;
+	}
+
+	.footerContainer {
+		padding: 50px 20px 80px;
+	}
+
+	.footerContainer .footerLinks {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.footerLinks li a {
+		margin-bottom: 20px;
+	}
+
+	.footerContainer h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.speakerCard .speakerCardImg img {
+		height: 100% !important;
+		border: unset !important;
+	}
+
+	.ticketCard span {
+		font-size: 32px !important;
+	}
+
+	.ticketCard h2 {
+		font-size: 70px;
+		margin-bottom: 20px !important;
+	}
+	.ourSponsorsContainer button {
+		margin-top: 40px !important;
+	}
+
+	.footerContainer .footerLogo {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footerContainer .footerLogo a:nth-child(1) img {
+		max-width: 200px;
+		margin-bottom: 20px;
+	}
+	.footerContainer .footerLogo a:nth-child(2) img {
+		max-width: 200px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.heroContainer .heroHeading h1 {
-		font-size: 32px;
+	.ourSponsors a {
+		width: 80%;
+		margin-bottom: 30px;
 	}
-
-	.heroContainer .buyTktBtnContainer {
-		padding-top: 20px;
+	.sheduleContainer .sheduleCard {
+		padding: 24px;
 	}
-
-	.heroContainer p {
-		font-size: 18px;
+	.getTicketContainer h1 {
+		font-size: 28px !important;
 	}
+}
 
-	.heading h1 {
-		font-size: 26px;
-	}
-
-	.aboutContainer h1 {
-		margin-bottom: 20px;
-	}
-
-	.aboutContainer p {
-		font-size: 18px;
-		margin-bottom: 15px;
-	}
-
-	.becomeSpeakerContainer .heading h1 {
-		margin-bottom: 20px;
-	}
-
-	.becomeSpeakerContainer p {
-		font-size: 18px !important;
-	}
-
-	.agendaContainer h1 {
-		margin-bottom: 20px;
-	}
-
-	.agendaContainer p {
-		font-size: 18px !important;
-	}
-
-	.agendaContainer .nav-tabs .nav-item .nav-link {
-		margin: 8px 8px;
-	}
-
-	.eventTicketsContainer h1 {
-		margin-bottom: 20px !important;
-	}
-
-	.eventTicketsContainer .heading p {
-		font-size: 18px;
-	}
-
-	.sponsorsContainer hr {
-		margin: 24px auto;
-	}
-
-	.sponsorsContainer .sponsorships h2 {
-		font-size: 24px;
-	}
-
-	.sponsorsContainer .sponsorships p {
-		font-size: 16px;
-	}
-
-	.sponsorsContainer .sponsorships button {
-		padding: 12px 20px;
-		font-size: 16px;
-	}
-
-	.locationContainer .heading p {
-		font-size: 18px;
+@media screen and (max-width: 400px) {
+	.whereToStayContainer h1 {
+		font-size: 24px !important;
 	}
 }

@@ -1,53 +1,43 @@
 <template>
-	<section class="speakersSection">
-		<div class="mainContainer speakersContainer">
-			<div class="heading">
-				<h1>Our Speakers</h1>
+	<section class="ourSpeakersSection" id="ourSpeakersSection">
+		<div class="proofMainContainer ourSpeakersContainer">
+			<div class="ourSpeakersHead">
+				<h1>OUR SPEAKERS</h1>
+				<p>
+					Join the "old-heads" and "OG's" of cryptocurrency as we discuss the
+					birth, growth, and future of Proof-of-Work.
+				</p>
 			</div>
-			<div class="row justify-content-end speakerCards">
-				<div
-					v-for="(speaker, skey) in speakers"
-					:key="skey"
-					class="col-lg-3 col-md-6 col-sm-6 col-12 mb-2"
-				>
-					<div class="card">
-						<div class="imgBox">
-							<img v-if="speaker.image" :src="speaker.image" alt="speaker1" />
-						</div>
-						<div class="speakersDetails">
-							<div v-if="speaker.social" class="socialLinks">
-								<a v-if="speaker.social.twitter" :href="speaker.social.twitter">
-									<img src="@/assets/icons/twitter-icon.svg" alt="twitter" />
-								</a>
-								<a
-									v-if="speaker.social.linkedin"
-									:href="speaker.social.linkedin"
-								>
-									<img src="@/assets/icons/linkedin-icon.svg" alt="linkedin" />
-								</a>
-								<a
-									v-if="speaker.social.telegram"
-									:href="speaker.social.telegram"
-								>
-									<img src="@/assets/icons/telegram-icon.svg" alt="telegram" />
-								</a>
-								<a v-if="speaker.social.discord" :href="speaker.social.discord">
-									<img src="@/assets/icons/discord-icon.svg" alt="discord" />
-								</a>
+			<div class="spearkerCards">
+				<div class="row justify-content-center">
+					<div
+						v-for="(speaker, skey) in speakers"
+						:key="skey"
+						class="col-lg-4 col-md-4 col-sm-6 d-flex flex-column align-items-center"
+					>
+						<div class="speakerCard">
+							<div class="speakerCardImg">
+								<img v-if="speaker.image" :src="speaker.image" alt="" />
 							</div>
-							<div class="speakerInfo">
-								<h5 v-if="speaker.name">{{ speaker.name }}</h5>
-								<p v-if="speaker.title" class="speakersTitle">
-									{{ speaker.title }}
-								</p>
-								<p v-if="speaker.company" class="speakersCompany">
-									{{ speaker.company }}
-								</p>
+							<div class="speakerCardContent">
+								<h3 v-if="speaker.name">{{ speaker.name }}</h3>
+								<p v-if="speaker.title">{{ speaker.title }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="registerSpeakerSection">
+		<div class="proofMainContainer registerSpeakerContainer">
+			<h1>MORE SPEAKERS ARE ABOUT TO LAND</h1>
+			<p>
+				The speakers have diverse voices, with distinct perspectives on
+				proof-of-work. They'll be covering topics from ‘advancements in mining’
+				to ‘changes in policy’
+			</p>
+			<button>REGISTER YOUR<br />SPEAKER INTEREST</button>
 		</div>
 	</section>
 </template>
