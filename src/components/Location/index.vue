@@ -44,7 +44,7 @@
 						universum.
 					</p>
 					<p>Českomoravská 19a, 190 00 Praha 9, Czechia</p>
-					<a href=""> https://www.stageshotel.com/en/</a>
+					<a href="https://www.stageshotel.com/en/"> https://www.stageshotel.com/en/</a>
 				</div>
 			</div>
 		</div>
