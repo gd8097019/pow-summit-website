@@ -1,28 +1,19 @@
 <template>
-	<section class="sponsorsSection">
-		<div class="mainContainer sponsorsContainer">
-			<div class="heading">
-				<h1>Our Sponsors</h1>
-			</div>
-			<div class="row sponsorsLogos">
-				<template v-for="(sponsor, skey) in sponsors" :key="skey">
-					<div class="col-sm-3 col-6 mb-sm-0 mb-4 sponsorsLogo">
-						<img :src="sponsor.image" alt="sponsorsLogo" />
-					</div>
-				</template>
-			</div>
-			<hr />
-			<div class="sponsorships">
-				<div v-html="md(sponsorsMd)"></div>
-				<div class="sponsorOptions">
-					<a :href="becomeVolunteerButton.url">
-						<button class="volBtn">{{ becomeVolunteerButton.title }}</button>
-					</a>
-					<a :href="becomeSponsorButton.url">
-						<button class="sponBtn">{{ becomeSponsorButton.title }}</button>
-					</a>
-				</div>
-			</div>
+	<section class="ourSponsorsSections" id="ourSponsorsSections">
+		<div class="proofMainContainer ourSponsorsContainer">
+			<h1>BECOME A SPONSOR</h1>
+			<p>
+				The Summit offers a range of sponsorship packages, ​suited your
+				company’s marketing needs and budget.
+			</p>
+			<p class="mt-4">To ​learn more, please submit an enquiry.</p>
+			<a
+				href="mailto:hello@mmhgroup.io"
+				class="text-decoration-none"
+				target="_blank"
+			>
+				<button>BECOME A SPONSOR</button>
+			</a>
 		</div>
 	</section>
 </template>

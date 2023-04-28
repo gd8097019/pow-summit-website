@@ -10,7 +10,7 @@
 	</div>
 	<div class="proofMainContainer proofHeroCards">
 		<div class="proofHeroHead">
-			<h2>SECURING BLOCKCHAIN”S FUTURE</h2>
+			<h2>SECURING BLOCKCHAIN'S FUTURE</h2>
 			<p>
 				The inaugural ‘Proof-of-Work Summit’ is a celebration of the world's
 				most effective and secure consensus mechanism.
@@ -61,6 +61,12 @@
 				</div>
 			</div>
 		</div>
-		<button class="getTicketsBtn">GET EARLY<br />BIRD DISCOUNT</button>
+		<a
+			class="text-decoration-none"
+			href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+			target="_blank"
+		>
+			<button class="getTicketsBtn">GET EARLY<br />BIRD DISCOUNT</button>
+		</a>
 	</div>
 </template>

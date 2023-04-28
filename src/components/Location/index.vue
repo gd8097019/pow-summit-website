@@ -32,6 +32,9 @@
 			<div class="row">
 				<div class="col-lg-6 pe-lg-4 pe-3 order-lg-1 order-2">
 					<img src="@/assets/images/hotel-img.png" alt="" />
+					<a href="#" class="coinImg">
+						<img src="@/assets/images/coin-white.svg" alt="" />
+					</a>
 				</div>
 				<div class="col-lg-6 mb-lg-0 mb-5 order-lg-2 order-1 text-center">
 					<h1>ACCOMMODATIONS</h1>
@@ -41,9 +44,7 @@
 						universum.
 					</p>
 					<p>Českomoravská 19a, 190 00 Praha 9, Czechia</p>
-					<a href="https://www.stageshotel.com/en/" target="_blank"
-						>https://www.stageshotel.com/en/</a
-					>
+					<a href=""> https://www.stageshotel.com/en/</a>
 				</div>
 			</div>
 		</div>

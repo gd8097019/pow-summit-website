@@ -3,7 +3,7 @@
 		{
 			"image": "/img/speakers/speaker-1.jpg",
 			"name": "JAMESON LOPP",
-			"title": "Cypherpunk at www.lopp.net"
+			"title": "Professional Cypherpunk at www.lopp.net"
 		},
 		{
 			"image": "/img/speakers/speaker-2.jpg",
@@ -49,6 +49,11 @@
 			"image": "/img/speakers/speaker-8.jpg",
 			"name": "ADELLA TOULON-FORESTER",
 			"title": "Digital Nomad"
+		},
+		{
+			"image": "/img/speakers/speaker-12.png",
+			"name": "BRYAN BISHOP",
+			"title": "Bitcoin OG"
 		},
 		{
 			"image": "/img/speakers/speaker-11.png",

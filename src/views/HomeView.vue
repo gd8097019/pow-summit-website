@@ -14,6 +14,10 @@
 	<Tickets />
 	<!-- tickets secyion ends here -->
 
+	<!-- sponsors section starts here -->
+	<Sponsors />
+	<!-- sponsors section ends here -->
+
 	<!-- location section starts here -->
 	<Location />
 	<!-- location section ends here -->
@@ -33,10 +37,6 @@
 	<!-- agenda section starts here -->
 	<!-- Agenda id="agenda" -->
 	<!-- agenda section ends here -->
-
-	<!-- sponsors section starts here -->
-	<!-- Sponsors id="partnerships" /-->
-	<!-- sponsors section ends here -->
 </template>
 
 <script>
@@ -45,6 +45,7 @@ import Header from "@/components/Header";
 import Speakers from "@/components/Speakers";
 import Tickets from "@/components/Tickets";
 import Location from "@/components/Location";
+import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
 
 /*
@@ -53,7 +54,7 @@ import About from "@/components/About";
 import BecomeSpeaker from "@/components/BecomeSpeaker";
 
 // import Agenda from "@/components/Agenda"; 
-import Sponsors from "@/components/Sponsors";
+
 
 */
 
@@ -64,6 +65,7 @@ export default {
 		Header,
 		Speakers,
 		Tickets,
+		Sponsors,
 		Location,
 		Footer,
 
@@ -71,7 +73,7 @@ export default {
 		About,
 		BecomeSpeaker,
 		//Agenda,
-		Sponsors,
+		
 		*/
 	},
 };
