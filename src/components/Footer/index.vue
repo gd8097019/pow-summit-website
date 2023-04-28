@@ -20,10 +20,10 @@
 			</ul>
 			<h1>BROUGHT TO YOU BY</h1>
 			<div class="footerLogo">
-				<a href="">
+				<a href="https://litecoin.net">
 					<img src="@/assets/images/footer-logo1.png" alt="" />
 				</a>
-				<a href="">
+				<a href="https://etccooperative.org">
 					<img src="@/assets/images/footer-logo2.png" alt="" />
 				</a>
 			</div>
