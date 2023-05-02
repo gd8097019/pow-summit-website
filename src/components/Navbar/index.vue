@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</div>
-			<a href="#getTicketSection" class="getTicketsBtn order-lg-3 order-2"
+			<a href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317" class="getTicketsBtn order-lg-3 order-2"
 				>GET TICKETS</a
 			>
 		</div>
