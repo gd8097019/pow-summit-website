@@ -1,82 +1,82 @@
 {
 	"data": [
 		{
-			"image": "/img/speakers/speaker-1.jpg",
+			"image": "/img/speakers/jameson-lopp.jpg",
 			"name": "JAMESON LOPP",
 			"title": "Professional Cypherpunk, www.lopp.net"
 		},
 		{
-			"image": "/img/speakers/speaker-18.jpg",
+			"image": "/img/speakers/phil-zimmermann.jpg",
 			"name": "PHIL ZIMMERMANN",
 			"title": "Creator, Pretty Good Privacy (PGP)"
 		},
 		{
-			"image": "/img/speakers/speaker-2.jpg",
+			"image": "/img/speakers/charlie-shrem.jpg",
 			"name": "CHARLIE SHREM",
 			"title": "Bitcoin Pioneer, CharlieShrem.com"
 		},
 		{
-			"image": "/img/speakers/speaker-10.png",
+			"image": "/img/speakers/charlie-lee.png",
 			"name": "CHARLIE LEE",
 			"title": "Founder, Litecoin"
 		},
 		{
-			"image": "/img/speakers/speaker-3.jpg",
+			"image": "/img/speakers/caitlyn-long.jpg",
 			"name": "CAITLIN LONG",
 			"title": "Founder & CEO, Custodia Bank"
 		},
 		{
-			"image": "/img/speakers/speaker-12.png",
+			"image": "/img/speakers/bryan-bishop.png",
 			"name": "BRYAN BISHOP",
 			"title": "Founder, Webcash"
 		},
 		{
-			"image": "/img/speakers/speaker-6.jpg",
+			"image": "/img/speakers/vlad-costea.jpg",
 			"name": "VLAD COSTEA",
 			"title": "Founder, Bitcoin Takeover Podcast"
 		},
 		{
-			"image": "/img/speakers/speaker-5.jpg",
+			"image": "/img/speakers/carol-von-cleef.jpg",
 			"name": "CAROL VON CLEEF",
 			"title": "Chair, Bradley's Blockchain & Digital Assets"
 		},
 		{
-			"image": "/img/speakers/speaker-8.jpg",
+			"image": "/img/speakers/adella-toulon-forester.jpg",
 			"name": "ADELLA TOULON-FORESTER",
 			"title": "Digital Nomad"
 		},
 		{
-			"image": "/img/speakers/speaker-7.jpg",
+			"image": "/img/speakers/alan-austin.jpg",
 			"name": "ALAN AUSTIN",
 			"title": "Managing Director, Litecoin Foundation"
 		},
 		{
-			"image": "/img/speakers/speaker-9.jpg",
+			"image": "/img/speakers/bob-summerwill.jpg",
 			"name": "BOB SUMMERWILL",
 			"title": "Executive Director, ETC Cooperative"
 		},
 		{
-			"image": "/img/speakers/speaker-4.jpg",
+			"image": "/img/speakers/michael-parenti.jpg",
 			"name": "MICHAEL PARENTI",
 			"title": "Cryptorealist & Ecosystem Integrator, Parallelní Polis"
 		},
 		{
-			"image": "/img/speakers/speaker-17.jpg",
+			"image": "/img/speakers/mario-havel.jpg",
 			"name": "MARIO HAVEL",
 			"title": "Ethereum Foundation"
 		},
 		{
-			"image": "/img/speakers/speaker-16.jpg",
+			"image": "/img/speakers/david-schwartz.jpg",
 			"name": "DAVID SCHWARTZ",
 			"title": "Director of Strategic Partnerships, Litecoin Foundation"
 		},		
 		{
-			"image": "/img/speakers/speaker-14.jpg",
+			"image": "/img/speakers/teana-baker-taylor.jpg",
 			"name": "TEANA BAKER-TAYLOR",
 			"title": "Vice President, Circle"
 		},
 		{
-			"image": "/img/speakers/speaker-11.png",
+			"image": "/img/speakers/donald-mcintyre.png",
 			"name": "DONALD MCINTYRE",
 			"title": "Senior Editor, ETC Cooperative"
 		}
