@@ -31,6 +31,11 @@
 			"title": "Founder, Webcash"
 		},
 		{
+			"image": "/img/speakers/jonatha-wilkins.jpeg",
+			"name": "JONATHAN WILKINS	",
+			"title": "Founding CSO, Blockstream"
+		},
+		{
 			"image": "/img/speakers/vlad-costea.jpg",
 			"name": "VLAD COSTEA",
 			"title": "Founder, Bitcoin Takeover Podcast"
@@ -79,6 +84,12 @@
 			"image": "/img/speakers/donald-mcintyre.png",
 			"name": "DONALD MCINTYRE",
 			"title": "Senior Editor, ETC Cooperative"
+		},
+		{
+			"image": "/img/speakers/jared-gdanski.png",
+			"name": "JARED GDANSKI",
+			"title": "CEO & Founder, Evertas"
 		}
+		
 	]
 }
