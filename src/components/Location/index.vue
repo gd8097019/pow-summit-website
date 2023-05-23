@@ -35,13 +35,12 @@
 				</div>
 				<div class="col-lg-6 mb-lg-0 mb-5 order-lg-2 order-1 text-center">
 					<h1>ACCOMMODATIONS</h1>
-					<p>
-						The <span>STAGES Hotel Prague</span> is located in the newly
-						developed residential and business district next to O2 arena and O2
-						universum.
-					</p>
-					<p>Českomoravská 19a, 190 00 Praha 9, Czechia</p>
-					<a href="https://www.stageshotel.com/en/"> https://www.stageshotel.com/en/</a>
+					<a
+						href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1683544360518&key=GRP&app=resvlink"
+						class="text-decoration-none"
+						target="_blank"
+						><button class="bookNowBtn">BOOK NOW</button></a
+					>
 				</div>
 			</div>
 		</div>
