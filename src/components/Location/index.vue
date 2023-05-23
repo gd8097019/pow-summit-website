@@ -41,7 +41,12 @@
 						universum.
 					</p>
 					<p>Českomoravská 19a, 190 00 Praha 9, Czechia</p>
-					<a href="https://www.stageshotel.com/en/"> https://www.stageshotel.com/en/</a>
+					<a
+						href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1683544360518&key=GRP&app=resvlink"
+						class="text-decoration-none"
+						target="_blank"
+						><button class="bookNowBtn">BOOK NOW</button></a
+					>
 				</div>
 			</div>
 		</div>
