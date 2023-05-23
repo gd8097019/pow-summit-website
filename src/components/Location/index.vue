@@ -5,7 +5,7 @@
 				<div class="col-lg-6 mb-lg-0 mb-5 text-center">
 					<h1>SUMMIT VENUE</h1>
 					<p>
-						The main venue for the conference is O2 Universum, where the full
+						The main venue for the conference is O2 universum, where the full
 						conference days will take place on September 26th to 27th, 2023.
 					</p>
 					<p>

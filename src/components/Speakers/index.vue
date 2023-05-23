@@ -38,7 +38,7 @@
 				to ‘changes in policy.’
 			</p>
 			<a
-				href="mailto:hello@mmhgroup.io"
+				href="https://docs.google.com/forms/d/e/1FAIpQLSeSzqNQrnJ7bo3fLdx-XKDlOopzncXis1unOPhmWT-1AvYG4Q/viewform"
 				class="text-decoration-none"
 				target="_blank"
 			>

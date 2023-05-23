@@ -12,7 +12,7 @@ const data = [
 	{
 		key: "become_speakers",
 		title: "Become a Speaker",
-		url: "https://docs.google.com/forms/d/1ZVeVLc1LCeqrr1tKl6-MdFtL5p-FHIeiDY5KL3EiiUs/edit",
+		url: "https://docs.google.com/forms/d/e/1FAIpQLSeSzqNQrnJ7bo3fLdx-XKDlOopzncXis1unOPhmWT-1AvYG4Q/viewform",
 	},
 ];
 
