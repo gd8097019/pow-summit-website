@@ -32,6 +32,10 @@
 					</div>
 				</div>
 			</div>
+<div class="text-center">
+<h2>Want to pay using crypto?</h2>
+<p> Please contact us at <a href="mailto:hello@mmhgroup.io">hello@mmhgroup.io</a>
+</p> </div>
 		</div>
 	</section>
 </template>
