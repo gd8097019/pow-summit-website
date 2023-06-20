@@ -26,11 +26,26 @@
 			"title": "Founder & CEO, Custodia Bank"
 		},
 		{
+			"image": "/img/speakers/john-dagostino.jpg",
+			"name": "JOHN D'AGOSTINO",
+			"title": "Senior Director of Institutional Strategy, Coinbase"
+		},
+		{
+			"image": "/img/speakers/jamie-leverton.jpg",
+			"name": "JAIME LEVERTON",
+			"title": "Chief Executive Officer, Hut 8"
+		},
+		{
+			"image": "/img/speakers/marta-piekarska.jpg",
+			"name": "MARTA GEATER PIEKARSKA",
+			"title": "Director of Web3 Engagement and DAO Strategy, Consensys"
+		},
+		{
 			"image": "/img/speakers/preston-byrne.png",
 			"name": "PRESTON BYRNE",
 			"title": "Partner, Brown Rudnick LLP"
 		},
-		{
+{
 			"image": "/img/speakers/teana-baker-taylor.jpg",
 			"name": "TEANA BAKER-TAYLOR",
 			"title": "Vice President of Policy and Regulatory Strategy, UK/EU for Circle"
@@ -41,9 +56,14 @@
 			"title": "Founder, Webcash"
 		},
 		{
+			"image": "/img/speakers/cody-burns.jpg",
+			"name": "CODY BURNS",
+			"title": "MCBG Metaverse Foundations Innovation co-lead, Accenture"
+		},
+		{
 			"image": "/img/speakers/jonathan-wilkins.jpeg",
 			"name": "JONATHAN WILKINS",
-			"title": "Founding CSO, Blockstream"
+			"title": "CEO, Cloaked Services"
 		},
 		{
 			"image": "/img/speakers/vlad-costea.jpg",
@@ -51,9 +71,19 @@
 			"title": "Founder, Bitcoin Takeover Podcast"
 		},
 		{
+			"image": "/img/speakers/ben-gagnon.jpg",
+			"name": "BEN GAGNON",
+			"title": "Chief Mining Officer, Bitfarms"
+		},
+		{
 			"image": "/img/speakers/carol-van-cleef.jpg",
 			"name": "CAROL VAN CLEEF",
 			"title": "Luminous Group"
+		},
+		{
+			"image": "/img/speakers/amber-scott.jpg",
+			"name": "AMBER SCOTT",
+			"title": "Founder & CEO, Outlier Solutions Inc."
 		},
 		{
 			"image": "/img/speakers/adella-toulon-forester.jpg",
@@ -66,7 +96,7 @@
 			"title": "Managing Director, Litecoin Foundation"
 		},
 		{
-			"image": "/img/speakers/bob-summerwill.jpg",
+			"image": "/img/speakers/speakers/bob-summerwill.jpg",
 			"name": "BOB SUMMERWILL",
 			"title": "Executive Director, ETC Cooperative"
 		},
@@ -86,14 +116,24 @@
 			"title": "Protocol Supporter, Ethereum Foundation"
 		},
 		{
-			"image": "/img/speakers/david-schwartz.jpg",
-			"name": "DAVID SCHWARTZ",
-			"title": "Director of Strategic Partnerships, Litecoin Foundation"
-		},		
-		{
 			"image": "/img/speakers/donald-mcintyre.png",
 			"name": "DONALD MCINTYRE",
 			"title": "Senior Editor, ETC Cooperative"
+		},
+		{
+			"image": "/img/speakers/david-schwartz.jpg",
+			"name": "DAVID SCHWARTZ",
+			"title": "Director of Strategic Partnerships, Litecoin Foundation"
+		},
+		{
+			"image": "/img/speakers/taras-kulyk.jpg",
+			"name": "TARAS KULYK",
+			"title": "Founder & CEO, SunnySide Digital"
+		},
+		{
+			"image": "/img/speakers/loshan.jpg",
+			"name": "LOSHAN",
+			"title": "Software, Litecoin Foundation"
 		}
 	]
 }
