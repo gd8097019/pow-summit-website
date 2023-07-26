@@ -134,6 +134,21 @@
 			"image": "/img/speakers/loshan.jpg",
 			"name": "LOSHAN",
 			"title": "Software, Litecoin Foundation"
+		},
+		{
+			"image": "/img/speakers/Frank-Holmes.png",
+			"name": "FRANK HOLMES",
+			"title": "Executive Chairman, HIVE Digital Technologies"
+		},
+		{
+			"image": "/img/speakers/Kerrry-Washington.png",
+			"name": "RYAN CONDRON",
+			"title": "Co-Founder, Lumerin"
+		},
+		{
+			"image": "/img/speakers/Ryan-Condron.png",
+			"name": "KERRY WASHINGTON",
+			"title": "Lead Litewallet Developer, Litecoin Foundation"
 		}
 	]
 }
