@@ -26,6 +26,11 @@
 			"title": "Founder & CEO, Custodia Bank"
 		},
 		{
+			"image": "/img/speakers/Frank-Holmes.png",
+			"name": "FRANK HOLMES",
+			"title": "Executive Chairman, HIVE Digital Technologies"
+		},
+		{
 			"image": "/img/speakers/john-dagostino.jpg",
 			"name": "JOHN D'AGOSTINO",
 			"title": "Senior Director of Institutional Strategy, Coinbase"
@@ -44,6 +49,11 @@
 			"image": "/img/speakers/teana-baker-taylor.jpg",
 			"name": "TEANA BAKER-TAYLOR",
 			"title": "Vice President of Policy and Regulatory Strategy, UK/EU for Circle"
+		},
+{
+			"image": "/img/speakers/Ryan-Condron.png",
+			"name": "RYAN CONDRON",
+			"title": "Co-Founder, Lumerin"
 		},
 		{
 			"image": "/img/speakers/Magdalena-Gronowska.png",
@@ -125,6 +135,11 @@
 			"name": "DAVID SCHWARTZ",
 			"title": "Director of Strategic Partnerships, Litecoin Foundation"
 		},
+{
+			"image": "/img/speakers/Kerrry-Washington.png",
+			"name": "KERRY WASHINGTON",
+			"title": "Lead Litewallet Developer, Litecoin Foundation"
+		},
 		{
 			"image": "/img/speakers/taras-kulyk.jpg",
 			"name": "TARAS KULYK",
@@ -134,21 +149,8 @@
 			"image": "/img/speakers/loshan.jpg",
 			"name": "LOSHAN",
 			"title": "Software, Litecoin Foundation"
-		},
-		{
-			"image": "/img/speakers/Frank-Holmes.png",
-			"name": "FRANK HOLMES",
-			"title": "Executive Chairman, HIVE Digital Technologies"
-		},
-		{
-			"image": "/img/speakers/Ryan-Condron.png",
-			"name": "RYAN CONDRON",
-			"title": "Co-Founder, Lumerin"
-		},
-		{
-			"image": "/img/speakers/Kerrry-Washington.png",
-			"name": "KERRY WASHINGTON",
-			"title": "Lead Litewallet Developer, Litecoin Foundation"
 		}
+		
+		
 	]
 }
