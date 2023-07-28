@@ -19,6 +19,31 @@
 				</li>
 			</ul>
 			<h1>BROUGHT TO YOU BY</h1>
+
+			<div class="socialMediaIcons">
+				<a href="https://twitter.com/PowSummit">
+					<img src="@/assets/images/twitter.svg" alt="" />
+					POW Twitter
+				</a>
+				<a href="https://twitter.com/ETCCooperative">
+					<img src="@/assets/images/twitter.svg" alt="" />
+					ETC COOP Twitter
+				</a>
+				<a href="https://twitter.com/LTCFoundation">
+					<img src="@/assets/images/twitter.svg" alt="" />
+					Litecoin Foundation Twitter
+				</a>
+
+				<a href="https://www.linkedin.com/company/etc-cooperative/">
+					<img src="@/assets/images/linkedin.svg" alt="" />
+					ETC Coop Linkedin
+				</a>
+				<a href="https://www.linkedin.com/company/litecoin-foundation/">
+					<img src="@/assets/images/linkedin.svg" alt="" />
+					Litecoin Foundation
+				</a>
+			</div>
+
 			<div class="footerLogo">
 				<a href="https://litecoin.net">
 					<img src="@/assets/images/footer-logo1.png" alt="" />

@@ -659,6 +659,33 @@
 .footerContainer .footerLogo a:nth-child(2) img {
 	max-width: 270px;
 }
+
+.footerContainer .socialMediaIcons {
+	list-style: none;
+	padding: 0px 0px 62px 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerContainer .socialMediaIcons a {
+	display: flex;
+	align-items: center;
+	margin: 0px 24px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.footerContainer .socialMediaIcons img {
+	width: 30px;
+	height: 30px;
+	margin-right: 12px;
+}
+
 /* footer ends here */
 
 @media screen and (max-width: 1260px) {
@@ -892,6 +919,18 @@
 		font-size: 20px !important;
 		margin-top: 40px !important;
 	}
+
+	.footerContainer .socialMediaIcons {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: center;
+	}
+
+	.footerContainer .socialMediaIcons a {
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -1000,6 +1039,17 @@
 		font-size: 30px;
 		line-height: 40px;
 	}
+
+	.footerContainer .socialMediaIcons {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.socialMediaIcons a {
+		margin-bottom: 20px !important;
+	}
+
 	.speakerCard .speakerCardImg img {
 		height: 100% !important;
 		border: unset !important;
