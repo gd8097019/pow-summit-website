@@ -20,6 +20,15 @@
 			</ul>
 			<h1>BROUGHT TO YOU BY</h1>
 
+			<div class="footerLogo">
+				<a href="https://litecoin.net">
+					<img src="@/assets/images/footer-logo1.png" alt="" />
+				</a>
+				<a href="https://etccooperative.org">
+					<img src="@/assets/images/footer-logo2.png" alt="" />
+				</a>
+			</div>
+
 			<div class="socialMediaIcons">
 				<a href="https://twitter.com/PowSummit">
 					<img src="@/assets/images/twitter.svg" alt="" />
@@ -41,15 +50,6 @@
 				<a href="https://www.linkedin.com/company/litecoin-foundation/">
 					<img src="@/assets/images/linkedin.svg" alt="" />
 					Litecoin Foundation
-				</a>
-			</div>
-
-			<div class="footerLogo">
-				<a href="https://litecoin.net">
-					<img src="@/assets/images/footer-logo1.png" alt="" />
-				</a>
-				<a href="https://etccooperative.org">
-					<img src="@/assets/images/footer-logo2.png" alt="" />
 				</a>
 			</div>
 		</div>

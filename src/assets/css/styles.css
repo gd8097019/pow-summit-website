@@ -389,6 +389,7 @@
 	border: 1px solid #000000;
 	color: #000000;
 }
+
 /* get tickets section starts ends */
 
 /* our sponsors section starts here */
@@ -662,7 +663,7 @@
 
 .footerContainer .socialMediaIcons {
 	list-style: none;
-	padding: 0px 0px 62px 0px;
+	padding: 62px 0px 62px 0px;
 	margin: 0px;
 	display: flex;
 	justify-content: center;
