@@ -3,17 +3,33 @@
 		{
 			"image": "/img/speakers/phil-zimmermann.jpg",
 			"name": "PHIL ZIMMERMANN",
-			"title": "Creator, Pretty Good Privacy (PGP)"
+			"title": "Creator, Pretty Good Privacy (PGP)",
+			"social": {
+				"twitter": "https://www.twitter.com",
+				"linkedin": "https://www.linkedin.com",
+				"youtube": "https://www.youtube.com"
+			}
 		},
 		{
 			"image": "/img/speakers/jameson-lopp.jpg",
 			"name": "JAMESON LOPP",
-			"title": "Professional Cypherpunk, www.lopp.net"
+			"title": "Professional Cypherpunk, www.lopp.net",
+			"social": {
+				"twitter": "https://www.twitter.com",
+				"linkedin": "https://www.linkedin.com",
+				"discord": "https://www.discord.com",
+				"youtube": "https://www.youtube.com"
+			}
 		},
 		{
 			"image": "/img/speakers/charlie-shrem.jpg",
 			"name": "CHARLIE SHREM",
-			"title": "Bitcoin Pioneer, CharlieShrem.com"
+			"title": "Bitcoin Pioneer, CharlieShrem.com",
+			"social": {
+				"twitter": "https://www.twitter.com",
+				"linkedin": "https://www.linkedin.com",
+				"discord": "https://www.discord.com"
+			}
 		},
 		{
 			"image": "/img/speakers/charlie-lee.png",
@@ -50,7 +66,7 @@
 			"name": "TEANA BAKER-TAYLOR",
 			"title": "Vice President of Policy and Regulatory Strategy, UK/EU for Circle"
 		},
-{
+		{
 			"image": "/img/speakers/Ryan-Condron.png",
 			"name": "RYAN CONDRON",
 			"title": "Co-Founder, Lumerin"
@@ -135,7 +151,7 @@
 			"name": "DAVID SCHWARTZ",
 			"title": "Director of Strategic Partnerships, Litecoin Foundation"
 		},
-{
+		{
 			"image": "/img/speakers/Kerrry-Washington.png",
 			"name": "KERRY WASHINGTON",
 			"title": "Lead Litewallet Developer, Litecoin Foundation"
@@ -150,7 +166,5 @@
 			"name": "LOSHAN",
 			"title": "Software, Litecoin Foundation"
 		}
-		
-		
 	]
 }
