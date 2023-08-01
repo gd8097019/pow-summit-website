@@ -11,7 +11,7 @@
 	<!-- speakers section ends here -->
 
 	<!-- agenda section starts here -->
-	<Agenda id="agenda" />
+	<!-- Agenda id="agenda" /-->
 	<!-- agenda section ends here -->
 
 	<!-- tickets secyion starts here -->
@@ -46,7 +46,7 @@ import Speakers from "@/components/Speakers";
 import Tickets from "@/components/Tickets";
 import Location from "@/components/Location";
 import Sponsors from "@/components/Sponsors";
-import Agenda from "@/components/Agenda";
+// import Agenda from "@/components/Agenda";
 import Footer from "@/components/Footer";
 
 /*
@@ -64,8 +64,8 @@ export default {
 		Sponsors,
 		Location,
 		Footer,
-		Agenda,
 		/*
+			Agenda,
 			About,
 			BecomeSpeaker,
 		*/
