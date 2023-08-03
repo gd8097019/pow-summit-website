@@ -24,6 +24,11 @@
 								<p v-if="speaker.title">{{ speaker.title }}</p>
 							</div>
 							<div v-if="speaker.social" class="speakerCardSocial">
+								<template v-if="speaker.social.website">
+									<a target="_blank" :href="speaker.social.website">
+										<img src="@/assets/images/website.svg" alt="" />
+									</a>
+								</template>
 								<template v-if="speaker.social.twitter">
 									<a target="_blank" :href="speaker.social.twitter">
 										<img src="@/assets/images/twitter.svg" alt="" />

@@ -58,8 +58,6 @@ export default {
 		const now = new Date();
 		const powDate = Date.parse("2023-09-24T00:00:00");
 
-		console.log(powDate);
-
 		return {
 			time: powDate - now,
 		};
