@@ -23,6 +23,33 @@
 								<h3 v-if="speaker.name">{{ speaker.name }}</h3>
 								<p v-if="speaker.title">{{ speaker.title }}</p>
 							</div>
+							<div v-if="speaker.social" class="speakerCardSocial">
+								<template v-if="speaker.social.website">
+									<a target="_blank" :href="speaker.social.website">
+										<img src="@/assets/images/website.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.twitter">
+									<a target="_blank" :href="speaker.social.twitter">
+										<img src="@/assets/images/twitter.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.linkedin">
+									<a target="_blank" :href="speaker.social.linkedin">
+										<img src="@/assets/images/linkedin.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.discord">
+									<a target="_blank" :href="speaker.social.discord">
+										<img src="@/assets/images/discord.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.youtube">
+									<a target="_blank" :href="speaker.social.youtube">
+										<img src="@/assets/images/youtube.svg" alt="" />
+									</a>
+								</template>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 <template>
-	<section class="agendaSection">
+	<section v-if="isAgendaActive" class="agendaSection">
 		<div class="agendaContainer">
 			<div class="heading">
 				<div class="becomeSpeakerContent" v-html="md(agendaMd)"></div>
@@ -78,6 +78,7 @@ export default {
 		return {
 			agendaMd,
 			agenda: agendaConfig.data,
+			isAgendaActive: agendaConfig.isAgendaActive,
 		};
 	},
 };

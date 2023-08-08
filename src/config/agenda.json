@@ -1,4 +1,5 @@
 {
+	"isAgendaActive": false,
 	"data": [
 		{
 			"key": "day1",
@@ -8,13 +9,13 @@
 				{
 					"time": "09:00 - 10:00 AM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker1.png",
+					"speaker_image": "/img/speakers/charlie-shrem.jpg",
 					"speaker_name": "Cristofer Botosh"
 				},
 				{
 					"time": "10:30 - 12:00 PM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker2.png",
+					"speaker_image": "/img/speakers/charlie-lee.png",
 					"speaker_name": "Giana Kenter"
 				},
 				{
@@ -23,13 +24,13 @@
 				{
 					"time": "13:00 - 14:00 PM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker3.png",
+					"speaker_image": "/img/speakers/charlie-shrem.jpg",
 					"speaker_name": "Omar Workman"
 				},
 				{
 					"time": "14:00 - 15:00 PM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker4.png",
+					"speaker_image": "/img/speakers/alan-austin.jpg",
 					"speaker_name": "Haylie Culhane"
 				}
 			]
@@ -42,13 +43,13 @@
 				{
 					"time": "09:00 - 10:00 AM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker5.png",
+					"speaker_image": "/img/speakers/jamie-leverton.jpg",
 					"speaker_name": "Cristofer Botosh"
 				},
 				{
 					"time": "10:30 - 12:00 PM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker6.png",
+					"speaker_image": "/img/speakers/charlie-lee.png",
 					"speaker_name": "Giana Kenter"
 				},
 				{
@@ -57,7 +58,7 @@
 				{
 					"time": "13:00 - 14:00 PM",
 					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/speaker7.png",
+					"speaker_image": "/img/speakers/taras-kulyk.jpg",
 					"speaker_name": "Omar Workman"
 				}
 			]
