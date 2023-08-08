@@ -30,6 +30,10 @@
 	<MediaPartners />
 	<!-- media partners section ends here -->
 
+	<!-- active sponsors section starts here -->
+	<ActiveSponsors />
+	<!-- active sponsors section ends here -->
+
 	<!-- location section starts here -->
 	<Footer />
 	<!-- location section ends here -->
@@ -53,6 +57,7 @@ import Sponsors from "@/components/Sponsors";
 import Agenda from "@/components/Agenda";
 import Footer from "@/components/Footer";
 import MediaPartners from "@/components/MediaPartners";
+import ActiveSponsors from "@/components/ActiveSponsors";
 
 /*
 import About from "@/components/About";
@@ -70,6 +75,7 @@ export default {
 		Sponsors,
 		Location,
 		MediaPartners,
+		ActiveSponsors,
 		Footer,
 		/*
 			About,

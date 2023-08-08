@@ -244,6 +244,73 @@
 
 /* media partners section ends here */
 
+/* active sponsors section starts here */
+
+.activeSponsorsSection {
+	background: #ff7a10;
+	padding: 85px;
+}
+
+.activeSponsorsContainer {
+	padding: 50px 0px 20px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.activeSponsorsSection img {
+	width: 300px;
+	height: 150px;
+	object-fit: contain;
+	display: flex;
+}
+
+.activeSponsorsSection h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+@media screen and (max-width: 991px) {
+	.activeSponsorsSection {
+		padding: 50px 20px !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.summitVenueContainer h1 {
+		font-size: 52px !important;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.activeSponsorsSection h1 {
+		font-size: 52px !important;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+
+	.activeSponsorsContainer {
+		padding: 30px 0px 30px 0px;
+	}
+
+	.activeSponsorsSection img {
+		width: 260px;
+		height: 100px;
+		object-fit: contain;
+	}
+}
+
+/* active sponsors section ends here */
+
 /* our speakers section starts here */
 .ourSpeakersSection {
 	background: #0085fe;
