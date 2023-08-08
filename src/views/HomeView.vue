@@ -26,6 +26,10 @@
 	<Location />
 	<!-- location section ends here -->
 
+	<!-- media partners section starts here -->
+	<MediaPartners />
+	<!-- media partners section ends here -->
+
 	<!-- location section starts here -->
 	<Footer />
 	<!-- location section ends here -->
@@ -48,6 +52,7 @@ import Location from "@/components/Location";
 import Sponsors from "@/components/Sponsors";
 import Agenda from "@/components/Agenda";
 import Footer from "@/components/Footer";
+import MediaPartners from "@/components/MediaPartners";
 
 /*
 import About from "@/components/About";
@@ -64,6 +69,7 @@ export default {
 		Tickets,
 		Sponsors,
 		Location,
+		MediaPartners,
 		Footer,
 		/*
 			About,
