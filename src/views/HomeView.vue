@@ -22,7 +22,7 @@
 	<ActiveSponsors />
 	<!-- active sponsors section ends here -->
 
-	<!-- media partners section starts here -->
+	<!-- media partners section starts here  -->
 	<MediaPartners />
 	<!-- media partners section ends here -->
 
