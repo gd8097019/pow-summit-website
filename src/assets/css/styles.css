@@ -180,7 +180,7 @@
 /* media partners section starts here */
 
 .mediaPartnersSection {
-	background: #00d55a;
+	background: #ff7a10;
 	padding: 85px;
 }
 
@@ -206,7 +206,7 @@
 	font-size: 60px;
 	text-align: center;
 	letter-spacing: 0.05em;
-	color: #000000;
+	color: #ffffff;
 	margin-bottom: 25px;
 }
 
@@ -247,7 +247,7 @@
 /* active sponsors section starts here */
 
 .activeSponsorsSection {
-	background: #ff7a10;
+	background: #000000;
 	padding: 85px;
 }
 

@@ -18,14 +18,6 @@
 	<Tickets />
 	<!-- tickets secyion ends here -->
 
-	<!-- sponsors section starts here -->
-	<Sponsors />
-	<!-- sponsors section ends here -->
-
-	<!-- location section starts here -->
-	<Location />
-	<!-- location section ends here -->
-
 	<!-- active sponsors section starts here -->
 	<ActiveSponsors />
 	<!-- active sponsors section ends here -->
@@ -33,6 +25,14 @@
 	<!-- media partners section starts here -->
 	<MediaPartners />
 	<!-- media partners section ends here -->
+
+	<!-- sponsors section starts here -->
+	<Sponsors />
+	<!-- sponsors section ends here -->
+
+	<!-- location section starts here -->
+	<Location />
+	<!-- location section ends here -->
 
 	<!-- location section starts here -->
 	<Footer />
