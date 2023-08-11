@@ -18,6 +18,14 @@
 	<Tickets />
 	<!-- tickets secyion ends here -->
 
+	<!-- active sponsors section starts here -->
+	<ActiveSponsors />
+	<!-- active sponsors section ends here -->
+
+	<!-- media partners section starts here  -->
+	<MediaPartners />
+	<!-- media partners section ends here -->
+
 	<!-- sponsors section starts here -->
 	<Sponsors />
 	<!-- sponsors section ends here -->
@@ -48,6 +56,8 @@ import Location from "@/components/Location";
 import Sponsors from "@/components/Sponsors";
 import Agenda from "@/components/Agenda";
 import Footer from "@/components/Footer";
+import MediaPartners from "@/components/MediaPartners";
+import ActiveSponsors from "@/components/ActiveSponsors";
 
 /*
 import About from "@/components/About";
@@ -64,6 +74,8 @@ export default {
 		Tickets,
 		Sponsors,
 		Location,
+		MediaPartners,
+		ActiveSponsors,
 		Footer,
 		/*
 			About,
