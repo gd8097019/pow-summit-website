@@ -591,7 +591,7 @@
 }
 
 .registerSpeakerContainer {
-	padding: 42px 0 79px;
+	padding: 79px 0 79px;
 	max-width: 700px;
 	margin: 0 auto;
 }
@@ -615,7 +615,6 @@
 	line-height: 32px;
 	text-align: center;
 	color: #e6e6e6;
-	margin-bottom: 62px;
 }
 
 .registerSpeakerContainer button {
@@ -1140,7 +1139,6 @@
 	}
 	.registerSpeakerContainer p {
 		font-size: 18px !important;
-		margin-bottom: 42px !important;
 	}
 
 	.getTicketContainer {
@@ -1321,9 +1319,7 @@
 		font-size: 36px;
 		margin-bottom: 15px;
 	}
-	.registerSpeakerContainer p {
-		margin-bottom: 22px !important;
-	}
+
 	.registerSpeakerContainer button {
 		font-size: 20px;
 		line-height: 22px !important;

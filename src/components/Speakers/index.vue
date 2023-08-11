@@ -64,13 +64,6 @@
 				proof-of-work. They'll be covering topics from ‘advancements in mining’
 				to ‘changes in policy.’
 			</p>
-			<a
-				href="https://docs.google.com/forms/d/e/1FAIpQLSeSzqNQrnJ7bo3fLdx-XKDlOopzncXis1unOPhmWT-1AvYG4Q/viewform"
-				class="text-decoration-none"
-				target="_blank"
-			>
-				<button>REGISTER YOUR<br />SPEAKER INTEREST</button>
-			</a>
 		</div>
 	</section>
 </template>
