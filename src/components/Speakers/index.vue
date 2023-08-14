@@ -10,7 +10,50 @@
 			</div>
 			<div class="spearkerCards">
 				<div class="row justify-content-center">
-					<swiper
+					<div
+						v-for="(speaker, skey) in speakers"
+						:key="skey"
+						class="col-lg-4 col-md-4 col-sm-6 d-flex flex-column align-items-center"
+					>
+						<div class="speakerCard">
+							<div class="speakerCardImg">
+								<img v-if="speaker.image" :src="speaker.image" alt="" />
+							</div>
+							<div class="speakerCardContent">
+								<h3 v-if="speaker.name">{{ speaker.name }}</h3>
+								<p v-if="speaker.title">{{ speaker.title }}</p>
+							</div>
+							<div v-if="speaker.social" class="speakerCardSocial">
+								<template v-if="speaker.social.website">
+									<a target="_blank" :href="speaker.social.website">
+										<img src="@/assets/images/website.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.twitter">
+									<a target="_blank" :href="speaker.social.twitter">
+										<img src="@/assets/images/twitter.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.linkedin">
+									<a target="_blank" :href="speaker.social.linkedin">
+										<img src="@/assets/images/linkedin.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.discord">
+									<a target="_blank" :href="speaker.social.discord">
+										<img src="@/assets/images/discord.svg" alt="" />
+									</a>
+								</template>
+								<template v-if="speaker.social.youtube">
+									<a target="_blank" :href="speaker.social.youtube">
+										<img src="@/assets/images/youtube.svg" alt="" />
+									</a>
+								</template>
+							</div>
+						</div>
+					</div>
+
+					<!-- swiper
 						:slides-per-view="1"
 						:space-between="10"
 						:breakpoints="{
@@ -71,7 +114,7 @@
 								</div>
 							</div>
 						</swiper-slide>
-					</swiper>
+					</swiper -->
 				</div>
 			</div>
 		</div>
@@ -112,6 +155,7 @@ export default {
 </script>
 
 <style>
+/*
 .ourSpeakersSection .swiper-pagination-bullet-active {
 	background-color: #000000 !important;
 }
@@ -124,4 +168,5 @@ export default {
 	background-color: #ffffff;
 	opacity: 1 !important;
 }
+*/
 </style>
