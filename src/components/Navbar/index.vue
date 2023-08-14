@@ -36,7 +36,7 @@
 							<a class="nav-link" href="#getTicketSection">Tickets</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#ourSponsorsSections">Sponsors</a>
+							<a class="nav-link" href="#activeSponsorsSection">Sponsors</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#summitVenueSection">Venue</a>

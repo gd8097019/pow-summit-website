@@ -1,5 +1,5 @@
 <template>
-	<section class="activeSponsorsSection">
+	<section class="activeSponsorsSection" id="activeSponsorsSection">
 		<h1>Sponsors</h1>
 		<div class="activeSponsorsContainer">
 			<a target="_blank" href="https://etccooperative.org/">
