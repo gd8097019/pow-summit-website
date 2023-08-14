@@ -10,48 +10,68 @@
 			</div>
 			<div class="spearkerCards">
 				<div class="row justify-content-center">
-					<div
-						v-for="(speaker, skey) in speakers"
-						:key="skey"
-						class="col-lg-4 col-md-4 col-sm-6 d-flex flex-column align-items-center"
+					<swiper
+						:slides-per-view="1"
+						:space-between="10"
+						:breakpoints="{
+							'640': {
+								slidesPerView: 2,
+								spaceBetween: 20,
+							},
+							'768': {
+								slidesPerView: 3,
+								spaceBetween: 40,
+							},
+							'1024': {
+								slidesPerView: 4,
+								spaceBetween: 50,
+							},
+						}"
+						:modules="modules"
+						:pagination="{
+							dynamicBullets: true,
+							clickable: true,
+						}"
 					>
-						<div class="speakerCard">
-							<div class="speakerCardImg">
-								<img v-if="speaker.image" :src="speaker.image" alt="" />
+						<swiper-slide v-for="(speaker, skey) in speakers" :key="skey">
+							<div class="speakerCard">
+								<div class="speakerCardImg">
+									<img v-if="speaker.image" :src="speaker.image" alt="" />
+								</div>
+								<div class="speakerCardContent">
+									<h3 v-if="speaker.name">{{ speaker.name }}</h3>
+									<p v-if="speaker.title">{{ speaker.title }}</p>
+								</div>
+								<div v-if="speaker.social" class="speakerCardSocial">
+									<template v-if="speaker.social.website">
+										<a target="_blank" :href="speaker.social.website">
+											<img src="@/assets/images/website.svg" alt="" />
+										</a>
+									</template>
+									<template v-if="speaker.social.twitter">
+										<a target="_blank" :href="speaker.social.twitter">
+											<img src="@/assets/images/twitter.svg" alt="" />
+										</a>
+									</template>
+									<template v-if="speaker.social.linkedin">
+										<a target="_blank" :href="speaker.social.linkedin">
+											<img src="@/assets/images/linkedin.svg" alt="" />
+										</a>
+									</template>
+									<template v-if="speaker.social.discord">
+										<a target="_blank" :href="speaker.social.discord">
+											<img src="@/assets/images/discord.svg" alt="" />
+										</a>
+									</template>
+									<template v-if="speaker.social.youtube">
+										<a target="_blank" :href="speaker.social.youtube">
+											<img src="@/assets/images/youtube.svg" alt="" />
+										</a>
+									</template>
+								</div>
 							</div>
-							<div class="speakerCardContent">
-								<h3 v-if="speaker.name">{{ speaker.name }}</h3>
-								<p v-if="speaker.title">{{ speaker.title }}</p>
-							</div>
-							<div v-if="speaker.social" class="speakerCardSocial">
-								<template v-if="speaker.social.website">
-									<a target="_blank" :href="speaker.social.website">
-										<img src="@/assets/images/website.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.twitter">
-									<a target="_blank" :href="speaker.social.twitter">
-										<img src="@/assets/images/twitter.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.linkedin">
-									<a target="_blank" :href="speaker.social.linkedin">
-										<img src="@/assets/images/linkedin.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.discord">
-									<a target="_blank" :href="speaker.social.discord">
-										<img src="@/assets/images/discord.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.youtube">
-									<a target="_blank" :href="speaker.social.youtube">
-										<img src="@/assets/images/youtube.svg" alt="" />
-									</a>
-								</template>
-							</div>
-						</div>
-					</div>
+						</swiper-slide>
+					</swiper>
 				</div>
 			</div>
 		</div>
@@ -68,12 +88,40 @@
 	</section>
 </template>
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Pagination } from "swiper/modules";
 import speakersConfig from "@/config/speakers.json";
+
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
 export default {
+	components: {
+		Swiper,
+		SwiperSlide,
+	},
 	data() {
 		return {
+			modules: [Pagination],
+
 			speakers: speakersConfig.data,
 		};
 	},
 };
 </script>
+
+<style>
+.ourSpeakersSection .swiper-pagination-bullet-active {
+	background-color: #000000 !important;
+}
+
+.ourSpeakersSection .speakerCard .speakerCardImg img {
+	border-radius: 50%;
+}
+
+.ourSpeakersSection .swiper-pagination-bullet {
+	background-color: #ffffff;
+	opacity: 1 !important;
+}
+</style>

@@ -107,6 +107,14 @@
 			}
 		},
 		{
+			"image": "/img/speakers/maxhill.jpg",
+			"name": "MAX HILLEBRAND",
+			"title": "Contributor, Wasabi Wallet; CEO, zkSNACKs",
+			"social": {
+				"twitter": "https://twitter.com/HillebrandMax"
+			}
+		},
+		{
 			"image": "/img/speakers/bryan-bishop.png",
 			"name": "BRYAN BISHOP",
 			"title": "Founder, Webcash",

@@ -319,7 +319,7 @@
 .ourSpeakersContainer {
 	max-width: 1380px !important;
 	width: 100%;
-	padding: 84px 0px 128px;
+	padding: 80px 0px 80px;
 }
 .ourSpeakersContainer .ourSpeakersHead {
 	text-align: center;
@@ -352,12 +352,13 @@
 	width: 100% !important;
 }
 .speakerCard .speakerCardImg img {
-	width: 248px;
-	height: 245px;
+	width: 100%;
+	height: 100%;
 	display: block;
 	margin: 0 auto;
 	object-fit: cover;
 	border: 0.2px solid white;
+	border: unset !important;
 }
 
 .speakerCard .speakerCardContent {
@@ -1194,7 +1195,8 @@
 	}
 	.speakerCard .speakerCardImg img {
 		width: 100% !important;
-		height: 273px !important;
+		height: 100% !important;
+		border: unset !important;
 	}
 	.getTicketcards {
 		max-width: 100% !important;
@@ -1217,7 +1219,8 @@
 		font-size: 28px !important;
 	}
 	.speakerCard .speakerCardImg img {
-		height: 338px !important;
+		height: 100% !important;
+		border: unset !important;
 	}
 
 	.ourSpeakersContainer {
