@@ -9,55 +9,27 @@
 				</p>
 			</div>
 			<div class="spearkerCards">
-				<div class="row justify-content-center">
-					<div
-						v-for="(speaker, skey) in speakers"
-						:key="skey"
-						class="col-lg-4 col-md-4 col-sm-6 d-flex flex-column align-items-center"
-					>
-						<div class="speakerCard">
-							<div class="speakerCardImg">
-								<img v-if="speaker.image" :src="speaker.image" alt="" />
-							</div>
-							<div class="speakerCardContent">
-								<h3 v-if="speaker.name">{{ speaker.name }}</h3>
-								<p v-if="speaker.title">{{ speaker.title }}</p>
-							</div>
-							<div v-if="speaker.social" class="speakerCardSocial">
-								<template v-if="speaker.social.website">
-									<a target="_blank" :href="speaker.social.website">
-										<img src="@/assets/images/website.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.twitter">
-									<a target="_blank" :href="speaker.social.twitter">
-										<img src="@/assets/images/twitter.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.linkedin">
-									<a target="_blank" :href="speaker.social.linkedin">
-										<img src="@/assets/images/linkedin.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.discord">
-									<a target="_blank" :href="speaker.social.discord">
-										<img src="@/assets/images/discord.svg" alt="" />
-									</a>
-								</template>
-								<template v-if="speaker.social.youtube">
-									<a target="_blank" :href="speaker.social.youtube">
-										<img src="@/assets/images/youtube.svg" alt="" />
-									</a>
-								</template>
-							</div>
-						</div>
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="swiper-button-prev-unique">
+						<img src="@/assets/images/arrow-left.svg" alt="" />
 					</div>
-
-					<!-- swiper
+					<swiper
+						:autoplay="{
+							delay: 2000,
+							pauseOnMouseEnter: true,
+							disableOnInteraction: true,
+						}"
+						:navigation="{
+							nextEl: '.swiper-button-next-unique',
+							prevEl: '.swiper-button-prev-unique',
+						}"
 						:slides-per-view="1"
 						:space-between="10"
 						:breakpoints="{
 							'640': {
+								grid: {
+									rows: 4,
+								},
 								slidesPerView: 2,
 								spaceBetween: 20,
 							},
@@ -114,7 +86,10 @@
 								</div>
 							</div>
 						</swiper-slide>
-					</swiper -->
+					</swiper>
+					<div class="swiper-button-next-unique">
+						<img src="@/assets/images/arrow-right.svg" alt="" />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -132,12 +107,13 @@
 </template>
 <script>
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation, Autoplay, Grid } from "swiper/modules";
 import speakersConfig from "@/config/speakers.json";
 
 import "swiper/css";
-import "swiper/css/free-mode";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/grid";
 
 export default {
 	components: {
@@ -146,8 +122,7 @@ export default {
 	},
 	data() {
 		return {
-			modules: [Pagination],
-
+			modules: [Pagination, Navigation, Autoplay, Grid],
 			speakers: speakersConfig.data,
 		};
 	},
@@ -155,7 +130,6 @@ export default {
 </script>
 
 <style>
-/*
 .ourSpeakersSection .swiper-pagination-bullet-active {
 	background-color: #000000 !important;
 }
@@ -168,5 +142,62 @@ export default {
 	background-color: #ffffff;
 	opacity: 1 !important;
 }
-*/
+
+.swiper-button-next-unique img {
+	cursor: pointer;
+	width: 30px;
+	height: auto;
+	margin: 60px;
+}
+
+.swiper-button-prev-unique img {
+	cursor: pointer;
+	width: 30px;
+	height: auto;
+	margin: 60px;
+}
+
+@media screen and (max-width: 1025px) {
+	.speakerCardContent h3 {
+		font-size: 25px !important;
+	}
+
+	.swiper-button-next-unique img {
+		width: 20px !important;
+		margin: 30px !important;
+	}
+
+	.swiper-button-prev-unique img {
+		width: 20px !important;
+		margin: 30px !important;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.speakerCard {
+		padding: 10px;
+	}
+
+	.swiper-button-next-unique img {
+		width: 20px !important;
+		margin: 20px !important;
+	}
+
+	.swiper-button-prev-unique img {
+		width: 20px !important;
+		margin: 20px !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.swiper-button-next-unique img {
+		width: 20px !important;
+		margin: 10px !important;
+	}
+
+	.swiper-button-prev-unique img {
+		width: 20px !important;
+		margin: 10px !important;
+	}
+}
 </style>
