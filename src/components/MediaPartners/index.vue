@@ -8,7 +8,7 @@
 			<a target="_blank" href="https://www.cryptonewsz.com/">
 				<img src="@/assets/images/cryptonewsz.png" alt="CryptoNewsZ" />
 			</a>
-			<a target="_blank" href="https://coinpedia.org/">
+			<a target="_blank" href="https://events.coinpedia.org/">
 				<img src="@/assets/images/coinpedia.png" alt="Coinpedia" />
 			</a>
 		</div>
