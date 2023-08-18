@@ -14,6 +14,11 @@
 						<img src="@/assets/images/arrow-left.svg" alt="" />
 					</div>
 					<swiper
+						:grid="{
+							rows: 4,
+							fill: 'row',
+						}"
+						:slides-per-view="1"
 						:autoplay="{
 							delay: 2000,
 							pauseOnMouseEnter: true,
@@ -23,21 +28,29 @@
 							nextEl: '.swiper-button-next-unique',
 							prevEl: '.swiper-button-prev-unique',
 						}"
-						:slides-per-view="1"
-						:space-between="10"
+						:space-between="5"
 						:breakpoints="{
 							'640': {
 								grid: {
-									rows: 4,
+									fill: 'row',
+									rows: 1,
 								},
-								slidesPerView: 2,
-								spaceBetween: 20,
+								slidesPerView: 3,
+								spaceBetween: 10,
 							},
 							'768': {
+								grid: {
+									fill: 'row',
+									rows: 1,
+								},
 								slidesPerView: 3,
-								spaceBetween: 40,
+								spaceBetween: 30,
 							},
 							'1024': {
+								grid: {
+									fill: 'row',
+									rows: 1,
+								},
 								slidesPerView: 4,
 								spaceBetween: 50,
 							},
@@ -186,6 +199,14 @@ export default {
 	.swiper-button-prev-unique img {
 		width: 20px !important;
 		margin: 20px !important;
+	}
+
+	.ourSpeakersSection .speakerCard {
+		margin-bottom: 0px !important;
+	}
+
+	.ourSpeakersSection .swiper-wrapper {
+		padding-bottom: 40px !important;
 	}
 }
 
