@@ -18,9 +18,11 @@
 							rows: 4,
 							fill: 'row',
 						}"
+						:loop="true"
 						:slides-per-view="1"
+						:slidesPerGroup="1"
 						:autoplay="{
-							delay: 2000,
+							delay: 3000,
 							pauseOnMouseEnter: true,
 							disableOnInteraction: true,
 						}"
@@ -37,6 +39,8 @@
 								},
 								slidesPerView: 3,
 								spaceBetween: 10,
+								slidesPerGroup: 4,
+								loop: true,
 							},
 							'768': {
 								grid: {
@@ -45,6 +49,8 @@
 								},
 								slidesPerView: 3,
 								spaceBetween: 30,
+								slidesPerGroup: 4,
+								loop: true,
 							},
 							'1024': {
 								grid: {
@@ -53,6 +59,8 @@
 								},
 								slidesPerView: 4,
 								spaceBetween: 50,
+								slidesPerGroup: 4,
+								loop: true,
 							},
 						}"
 						:modules="modules"
@@ -60,6 +68,7 @@
 							dynamicBullets: true,
 							clickable: true,
 						}"
+						@slideChange="slideChange"
 					>
 						<swiper-slide v-for="(speaker, skey) in speakers" :key="skey">
 							<div class="speakerCard">
@@ -138,6 +147,13 @@ export default {
 			modules: [Pagination, Navigation, Autoplay, Grid],
 			speakers: speakersConfig.data,
 		};
+	},
+	methods: {
+		slideChange(e) {
+			if (e.isEnd) {
+				e.slideTo(0);
+			}
+		},
 	},
 };
 </script>
