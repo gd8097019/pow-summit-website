@@ -15,7 +15,7 @@
 					</div>
 					<swiper
 						:grid="{
-							rows: 4,
+							rows: 2,
 							fill: 'row',
 						}"
 						:loop="true"
@@ -227,6 +227,22 @@ export default {
 }
 
 @media screen and (max-width: 400px) {
+	.speakerCardContent p {
+		font-size: 13px !important;
+	}
+
+	.speakerCardContent h3 {
+		font-size: 17px !important;
+	}
+
+	.ourSpeakersContainer .ourSpeakersHead {
+		margin-bottom: 20px !important;
+	}
+
+	.speakerCard .speakerCardImg img {
+		width: 70% !important;
+	}
+
 	.swiper-button-next-unique img {
 		width: 20px !important;
 		margin: 10px !important;
