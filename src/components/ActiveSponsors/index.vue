@@ -2,8 +2,8 @@
 	<section class="activeSponsorsSection" id="activeSponsorsSection">
 		<h1>Sponsors</h1>
 		<div class="activeSponsorsContainer">
-			<a target="_blank" href="https://etccooperative.org/">
-				<img src="@/assets/images/etc-coop.png" alt="ETC Cooperative" />
+			<a target="_blank" href="https://etcgrantsdao.io/">
+				<img src="@/assets/images/edg-logo-green-with-text.abb09187-2.png" alt="ETC Grants DAO" />
 			</a>
             <a target="_blank" href="https://m.jasminer.com/">
 				<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
