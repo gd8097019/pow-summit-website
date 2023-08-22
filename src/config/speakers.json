@@ -45,6 +45,14 @@
 				"linkedin": "https://www.linkedin.com/in/caitlin-long-/"
 			}
 		},
+        {
+			"image": "/img/speakers/amir-taaki.png",
+			"name": " AMIR TAAKI",
+			"title": "DarkFi cryptography",
+			"social": {
+				"twitter": "https://twitter.com/Narodism/"				
+			}
+		},
 		{
 			"image": "/img/speakers/Frank-Holmes.png",
 			"name": "FRANK HOLMES",
@@ -76,7 +84,16 @@
 			"name": "MARTA GEATER PIEKARSKA",
 			"title": "Director of Web3 Engagement and DAO Strategy, Consensys",
 			"social": {
-				"linkedin": "hhttps://www.linkedin.com/in/martapiekarska/"
+				"linkedin": "https://www.linkedin.com/in/martapiekarska/"
+			}
+		},
+        {
+			"image": "/img/speakers/EthanVera.png",
+			"name": "ETHAN VERA",
+			"title": "COO, Luxor",
+			"social": {
+				"linkedin": "https://www.linkedin.com/in/ethanvera/",
+                "twitter": "https://twitter.com/ethan_vera"
 			}
 		},
 		
@@ -113,6 +130,15 @@
 			"social": {
 				"twitter": "https://twitter.com/kanzure",
 				"linkedin": "https://www.linkedin.com/in/bryan-bishop-3a63978/"
+			}
+		},
+        {
+			"image": "/img/speakers/jarrad-hope.png",
+			"name": "JARRAD HOPE",
+			"title": "Thought leader & Co-founder, Status.im",
+			"social": {
+				"twitter": "https://twitter.com/jarradhope_/",
+				"linkedin": "https://www.linkedin.com/in/jarradhope/"
 			}
 		},
 		{
