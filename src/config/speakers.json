@@ -158,6 +158,15 @@
 				"linkedin": "https://www.linkedin.com/in/vladkostea/"
 			}
 		},
+        {
+			"image": "/img/speakers/KZhang.png",
+			"name": "KEVIN ZHANG",
+			"title": "Founder, Bitcoin Takeover Podcast",
+			"social": {
+				"twitter": "https://twitter.com/SinoCrypto",
+				"linkedin": "https://www.linkedin.com/in/kevinzhang56/"
+			}
+		},
 		{
 			"image": "/img/speakers/ben-gagnon.jpg",
 			"name": "BEN GAGNON",
