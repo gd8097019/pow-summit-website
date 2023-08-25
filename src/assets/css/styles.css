@@ -397,6 +397,26 @@
 	margin-right: 10px;
 }
 
+@media screen and (max-width: 639px) {
+	.speakerCard {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+	.speakerCard .speakerCardSocial {
+		display: none;
+	}
+	.speakerCard .speakerCardContent {
+		padding: 10px 0px 0;
+	}
+	.speakerCardContent p {
+		line-height: 18px;
+	}
+	.speakerCardContent h3 {
+		margin-bottom: 0!important;
+	}
+}
 /* our speakers section ends here */
 
 /* agenda section starts here */
