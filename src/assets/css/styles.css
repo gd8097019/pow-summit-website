@@ -416,6 +416,18 @@
 	.speakerCardContent h3 {
 		margin-bottom: 0!important;
 	}
+	.swiper-wrapper {
+		height: 520px;
+	}
+	.swiper-slide {
+		height: calc((100% - 30px) / 2) !important;
+	}
+	.ourSpeakersContainer {
+		padding: 60px 0px 60px !important;
+	}
+	.ourSpeakersSection .speakerCard .speakerCardImg img {
+		max-width: 250px;
+	}
 }
 /* our speakers section ends here */
 
