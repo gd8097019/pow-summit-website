@@ -14,6 +14,9 @@
 			<a target="_blank" href="https://cryptoevents.global/">
 				<img src="@/assets/images/cyptoevents-logo.png" alt="CryptoEvents" />
 			</a>
+			<a target="_blank" href="https://cryptorank.io/">
+				<img src="@/assets/images/cryptorant.png" alt="CryptoRank" />
+			</a>
 			<a target="_blank" href="https://events.coinpedia.org/">
 				<img src="@/assets/images/coinpedia.png" alt="Coinpedia" />
 			</a>

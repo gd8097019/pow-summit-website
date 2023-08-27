@@ -227,6 +227,10 @@ export default {
 }
 
 @media screen and (max-width: 400px) {
+	.speakerCard {
+		padding: 0px !important;
+	}
+
 	.speakerCardContent p {
 		font-size: 13px !important;
 	}
@@ -240,7 +244,7 @@ export default {
 	}
 
 	.speakerCard .speakerCardImg img {
-		width: 70% !important;
+		width: 60% !important;
 	}
 
 	.swiper-button-next-unique img {
