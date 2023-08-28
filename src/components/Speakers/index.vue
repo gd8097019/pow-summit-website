@@ -16,9 +16,9 @@
 					<swiper
 						:grid="{
 							rows: 2,
-							fill: 'row',
+							fill: 'column',
 						}"
-						:loop="true"
+						:loop="false"
 						:slides-per-view="1"
 						:slidesPerGroup="1"
 						:autoplay="{
