@@ -343,7 +343,7 @@
 	letter-spacing: 0.05em;
 	color: #ffffff;
 }
-.spearkerCards {
+.speakerCards {
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -1242,7 +1242,7 @@
 	.ourSpeakersContainer .ourSpeakersHead {
 		max-width: 100% !important;
 	}
-	.spearkerCards {
+	.speakerCards {
 		max-width: 100% !important;
 	}
 	.speakerCard .speakerCardImg img {

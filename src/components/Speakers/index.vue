@@ -8,7 +8,7 @@
 					future of Proof-of-Work.
 				</p>
 			</div>
-			<div class="spearkerCards">
+			<div class="speakerCards">
 				<div class="d-flex justify-content-center align-items-center">
 					<div class="swiper-button-prev-unique">
 						<img src="@/assets/images/arrow-left.svg" alt="" />
