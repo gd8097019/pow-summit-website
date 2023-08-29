@@ -32,7 +32,11 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center">
-					<iframe width="100%" height="700px" src="https://app.eukapay.com/templates/tmp_CgDMNxsZWU6I74biuWamGNHsXu" allow="clipboard-write" frameborder="0"></iframe>
+					<div class="buyWithCyrpto">
+						<a href="https://app.eukapay.com/templates/tmp_CgDMNxsZWU6I74biuWamGNHsXu">
+							<button>Buy With Crypto</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
