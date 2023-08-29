@@ -5,7 +5,7 @@
 			<a target="_blank" href="https://etcgrantsdao.io/">
 				<img src="@/assets/images/edg-logo-green-with-text.abb09187-2.png" alt="ETC Grants DAO" />
 			</a>
-            <a target="_blank" href="https://m.jasminer.com/">
+            <a target="_blank" href="https://jasminer.com/">
 				<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 			</a>
 
