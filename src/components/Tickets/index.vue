@@ -33,7 +33,7 @@
 				</div>
 				<div class="d-flex justify-content-center">
 					<div class="buyWithCyrpto">
-						<a href="mailto:hello@mmhgroup.io">
+						<a href="https://app.eukapay.com/templates/tmp_CgDMNxsZWU6I74biuWamGNHsXu">
 							<button>Buy With Crypto</button>
 						</a>
 					</div>
