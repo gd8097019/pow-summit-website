@@ -35,7 +35,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12 px-md-3">
 				<div class="heroCard">
 					<div class="heroCardImg">
-						<img src="@/assets/images/heroImg2.jpg" alt="" />
+						<img src="@/assets/images/ltc-summit.png" alt="" />
 					</div>
 					<div class="heroCardContent">
 						<h3>NETWORKING <span>OPPORTUNITIES</span></h3>
