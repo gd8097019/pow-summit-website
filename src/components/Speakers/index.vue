@@ -4,8 +4,7 @@
 			<div class="ourSpeakersHead">
 				<h1>OUR SPEAKERS</h1>
 				<p>
-					Join the "OG's" of cryptocurrency as we discuss the birth, growth, and
-					future of Proof-of-Work.
+					The bravest and the brightest.
 				</p>
 			</div>
 			<div class="speakerCards">
