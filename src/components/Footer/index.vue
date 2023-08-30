@@ -32,20 +32,20 @@
 			<div class="socialMediaIcons">
 				<a href="https://twitter.com/PowSummit">
 					<img src="@/assets/images/twitter.svg" alt="" />
-					POW Twitter
+					@POWSummit
 				</a>
 				<a href="https://twitter.com/ETCCooperative">
 					<img src="@/assets/images/twitter.svg" alt="" />
-					ETC COOP Twitter
+					@ETCCooperative
 				</a>
 				<a href="https://twitter.com/LTCFoundation">
 					<img src="@/assets/images/twitter.svg" alt="" />
-					Litecoin Foundation Twitter
+					@LTCFoundation
 				</a>
 
 				<a href="https://www.linkedin.com/company/etc-cooperative/">
 					<img src="@/assets/images/linkedin.svg" alt="" />
-					ETC Coop Linkedin
+					ETC Cooperative
 				</a>
 				<a href="https://www.linkedin.com/company/litecoin-foundation/">
 					<img src="@/assets/images/linkedin.svg" alt="" />
