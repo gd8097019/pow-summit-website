@@ -254,16 +254,36 @@
 .activeSponsorsContainer {
 	padding: 50px 0px 20px 0px;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 40px;
 }
 
+.activeSponsorsContainer .diamond-plus img{
+	height: 150px;
+	width: 320px;
+}
+
+.activeSponsorsContainer .silver img{
+	height: 50px;
+}
+
 .activeSponsorsSection img {
 	width: 300px;
-	height: 150px;
+	height: 90px;
 	object-fit: contain;
+	display: flex;
+}
+
+.activeSponsorsSection h3 {
+	color: #b3b3b3;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.activeSponsorsContainer > div > div {
 	display: flex;
 }
 
@@ -283,15 +303,19 @@
 	}
 }
 
+@media screen and (max-width: 667px) {
+	.activeSponsorsContainer > div > div {
+		flex-direction: column;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.summitVenueContainer h1 {
 		font-size: 52px !important;
 		line-height: 50px;
 		margin-bottom: 20px;
 	}
-}
 
-@media screen and (max-width: 400px) {
 	.activeSponsorsSection h1 {
 		font-size: 52px !important;
 		line-height: 50px;
