@@ -12,8 +12,8 @@
 			<div class="platinum">
 				<h3>Platinum</h3>
 				<div>
-					<a target="_blank" href="https://etccooperative.org/">
-						<img src="@/assets/images/etc-coop.png" alt="ETC Cooperative" />
+					<a target="_blank" href="https://etcgrantsdao.io/">
+						<img src="@/assets/images/edg-logo-green-with-text.abb09187-2.png" alt="ETC Grants DAO" />
 					</a>
 
 					<a target="_blank" href="https://hivedigitaltechnologies.com/">
