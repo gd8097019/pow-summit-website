@@ -72,7 +72,6 @@ export default {
 		Speakers,
 		Agenda,
 		Tickets,
-		Sponsors,
 		Location,
 		MediaPartners,
 		ActiveSponsors,
