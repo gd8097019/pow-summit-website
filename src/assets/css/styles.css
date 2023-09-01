@@ -1026,6 +1026,83 @@
 
 /* where to stay section ends here */
 
+/* associated events section starts here */
+.assocatedEventsSection {
+	background-color: #0085fe !important;
+}
+
+.assocatedEventsSection h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+.assocatedEventsSection h4 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.assocatedEventsSection h5 {
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.assocatedEventsSection .title {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.assocatedEventsContainer {
+	max-width: 1350px !important;
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.assocatedEventsContainer img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.assocatedEventsContainer p {
+	max-width: 567px;
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 32px;
+	color: #ffffff;
+	margin: 15px auto 25px;
+}
+
+@media screen and (max-width: 991px) {
+	.assocatedEventsContainer {
+		padding: 65px 0px;
+	}
+
+	.assocatedEventsSection h1 {
+		font-size: 40px;
+	}
+
+	.assocatedEventsSection h4 {
+		font-size: 24px;
+	}
+
+	.assocatedEventsSection h5 {
+		font-size: 20px;
+	}
+
+	.assocatedEventsSection .title {
+		padding-bottom: 20px;
+	}
+
+	.assocatedEventsContainer p {
+		font-size: 18px;
+	}
+}
+/* associated events section ends here */
+
 /* footer starts here */
 .proofFooter {
 	background: #000000;
