@@ -36,7 +36,9 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-6 pe-lg-4 pe-3 order-lg-1 order-2">
-					<img src="@/assets/images/hackers-congress-paralelni-polis.png" alt="" />
+					<a href="https://resistance.hcpp.cz/" target="_blank">
+						<img src="@/assets/images/hackers-congress-paralelni-polis.png" alt="" />
+					</a>
 				</div>
 				<div class="col-lg-6 mb-lg-0 mb-5 order-lg-2 order-1 text-center">
 					<p>
