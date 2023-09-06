@@ -368,7 +368,7 @@
 	color: #ffffff;
 }
 .speakerCards {
-	max-width: 100%;
+	max-width: 991px;
 	margin: 0 auto;
 }
 .speakerCard {
@@ -376,13 +376,12 @@
 	width: 100% !important;
 }
 .speakerCard .speakerCardImg img {
-	width: 100%;
+	width: 248px;
 	height: 100%;
 	display: block;
 	margin: 0 auto;
 	object-fit: cover;
 	border: 0.2px solid white;
-	border: unset !important;
 }
 
 .speakerCard .speakerCardContent {
@@ -428,19 +427,11 @@
 		align-items: center;
 		padding: 0;
 	}
-	.speakerCard .speakerCardSocial {
-		display: none;
-	}
 	.speakerCard .speakerCardContent {
 		padding: 10px 0px 0;
 	}
 	.speakerCardContent p {
 		line-height: 18px;
-		font-size: 14px!important;
-	}
-	.speakerCardContent h3 {
-		margin-bottom: 0!important;
-		font-size: 18px!important;
 	}
 	.swiper-wrapper {
 		height: 520px;
@@ -448,11 +439,8 @@
 	.swiper-slide {
 		height: calc((100% - 30px) / 2) !important;
 	}
-	.ourSpeakersContainer {
-		padding: 60px 0px 60px !important;
-	}
-	.ourSpeakersSection .speakerCard .speakerCardImg img {
-		max-width: 160px;
+	.speakerCard .speakerCardImg {
+		width: 100%;
 	}
 }
 
@@ -1336,8 +1324,7 @@
 	}
 	.speakerCard .speakerCardImg img {
 		width: 100%;
-		height: 100% !important;
-		border: unset !important;
+		height: 273px !important;
 	}
 	.getTicketcards {
 		max-width: 100% !important;
@@ -1361,7 +1348,6 @@
 	}
 	.speakerCard .speakerCardImg img {
 		height: 100% !important;
-		border: unset !important;
 	}
 
 	.ourSpeakersContainer {
@@ -1556,7 +1542,6 @@
 
 	.speakerCard .speakerCardImg img {
 		height: 100% !important;
-		border: unset !important;
 	}
 
 	.ticketCard span {
