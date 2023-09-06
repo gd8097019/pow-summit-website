@@ -303,6 +303,11 @@
 			"image": "/img/speakers/alana-mediavilla.png",
 			"name": "ALANA MEDIAVILLA",
 			"title": "Filmmaker, Dirty Coin"
+		},
+		{
+			"image": "/img/speakers/ben-miklozek.jpg",
+			"name": "BEN MIKLOZEK",
+			"title": "Co-Founder, Lokotech"
 		}
 	]
 }
