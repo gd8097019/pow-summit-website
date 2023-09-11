@@ -5,7 +5,7 @@
 			<div class="diamond-plus">
 				<h3>Diamond Plus</h3>
 				<div>
-					<a target="_blank" href="https://m.jasminer.com/">
+					<a target="_blank" href="https://jasminer.com/">
 						<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 					</a>
 				</div>
