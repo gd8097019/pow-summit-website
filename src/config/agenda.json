@@ -1,65 +1,293 @@
 {
-	"isAgendaActive": false,
+	"isAgendaActive": true,
 	"data": [
 		{
 			"key": "day1",
 			"title": "Day 1",
-			"date": "June 26th",
 			"events": [
 				{
-					"time": "09:00 - 10:00 AM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/charlie-shrem.jpg",
-					"speaker_name": "Cristofer Botosh"
+					"color": "green",
+					"time": "09:00 - 09:10",
+					"session": "Intro",
+					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				},
 				{
-					"time": "10:30 - 12:00 PM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/charlie-lee.png",
-					"speaker_name": "Giana Kenter"
+					"color": "yellow",
+					"time": "09:10 - 09:30",
+					"session": "Why PoW Summit?",
+					"speaker_name": "Bob & Alan"
 				},
 				{
-					"session": "LUNCH BREAK"
+					"theme": "OG",
+					"time": "09:30 - 10:00",
+					"session": "Keynote - Jameson Lopp (30 mins)",
+					"speaker_name": "Jameson Lopp"
 				},
 				{
-					"time": "13:00 - 14:00 PM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/charlie-shrem.jpg",
-					"speaker_name": "Omar Workman"
+					"theme": "OG",
+					"time": "10:00 - 10:20",
+					"session": "Bitcoin Maximalism and Breaking FUD",
+					"speaker_name": "Vlad Costea"
 				},
 				{
-					"time": "14:00 - 15:00 PM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/alan-austin.jpg",
-					"speaker_name": "Haylie Culhane"
+					"theme": "OG",
+					"time": "10:20 - 10:40",
+					"session": "Amir Taaki",
+					"speaker_name": "Amir Taaki"
+				},
+				{
+					"theme": "OG",
+					"time": "10:40 - 11:00",
+					"session": "Keynote - Charlie Lee",
+					"speaker_name": "Charlie Lee"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "11:00 - 11:30",
+					"session": "Break"
+				},
+				{
+					"theme": "Mining",
+					"color": "blue",
+					"time": "11:30 - 12:00",
+					"session": "Mining panel #1 - Why POW is good for humanity and the world (30 mins)",
+					"speaker_name": "Jamie, Taras, Ben G, Ryan, moderated by Mags"
+				},
+				{
+					"theme": "Mining",
+					"time": "12:00 - 12:20",
+					"session": "Mining in Virunga park - How mining is saving gorillas ",
+					"speaker_name": "Sebastian Gouspillou"
+				},
+				{
+					"theme": "Mining",
+					"time": "12:20 - 12:40",
+					"session": "Kevin Zhang",
+					"speaker_name": "Kevin Zhang"
+				},
+				{
+					"theme": "Mining",
+					"time": "12:40 - 13:00",
+					"session": "Keynote - Jasminer",
+					"speaker_name": "Jasmine Miner sponsor"
+				},
+				{
+					"theme": "Lunch",
+					"color": "red",
+					"time": "13:00 - 14:00",
+					"session": "Lunch and Kakr Labs workshop: Dive into Litecoin and Blockchain Technology",
+					"speaker_name": "Kakr Labs"
+				},
+				{
+					"theme": "General",
+					"time": "14:00 - 14:20",
+					"session": "Mario Havel",
+					"speaker_name": "Mario Havel"
+				},
+				{
+					"theme": "General",
+					"time": "14:20 - 14:40",
+					"session": "Marta Geater Piekarska",
+					"speaker_name": "Marta Geater Piekarska"
+				},
+				{
+					"theme": "LTC",
+					"color": "blue",
+					"time": "14:40 - 15:20",
+					"session": "LTC Foundation panel (40 mins)",
+					"speaker_name": "Litecoin Foundation"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "15:20 - 15:50",
+					"session": "Break and MWEB workshop",
+					"speaker_name": "Kerry Washington"
+				},
+				{
+					"theme": "Finance",
+					"time": "15:50 - 16:10",
+					"session": "Keynote - Caitlin Long",
+					"speaker_name": "Caitlin Long"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:10 - 16:30",
+					"session": "Prime: new layer 1 for Bitcoin - miner opportunities",
+					"speaker_name": "Dr Maxim Orlovsky"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:30 - 16:50",
+					"session": "The world's first super commodity",
+					"speaker_name": "Ryan Condron"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:50 - 17:10",
+					"session": "Block Explorers",
+					"speaker_name": "Igor Barinov"
+				},
+				{
+					"theme": "OG",
+					"time": "17:10 - 17:40",
+					"session": "Closing Keynote - Phil Zimmermann (30 mins)",
+					"speaker_name": "Phil Zimmermann"
+				},
+				{
+					"color": "green",
+					"time": "17:40 - 17:45",
+					"session": "End of Day 1",
+					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				}
 			]
 		},
 		{
 			"key": "day2",
 			"title": "Day 2",
-			"date": "June 27th",
 			"events": [
 				{
-					"time": "09:00 - 10:00 AM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/jamie-leverton.jpg",
-					"speaker_name": "Cristofer Botosh"
+					"color": "green",
+					"time": "09:00 - 09:10",
+					"session": "Intro",
+					"speaker_name": "MC - Mags"
 				},
 				{
-					"time": "10:30 - 12:00 PM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/charlie-lee.png",
-					"speaker_name": "Giana Kenter"
+					"color": "green",
+					"theme": "OG",
+					"time": "09:10 - 09:30",
+					"session": "Keynote - Charlie Shrem",
+					"speaker_name": "Charlie Shrem"
 				},
 				{
-					"session": "LUNCH BREAK"
+					"color": "green",
+					"theme": "OG",
+					"time": "09:30 - 09:50",
+					"session": "\"Proof of Work, The Revolutionary Invention of Satoshi Nakamoto\"",
+					"speaker_name": "Donald McIntyre"
 				},
 				{
-					"time": "13:00 - 14:00 PM",
-					"session": "Lorem ipsum dolor sit amet consectetur.",
-					"speaker_image": "/img/speakers/taras-kulyk.jpg",
-					"speaker_name": "Omar Workman"
+					"color": "green",
+					"theme": "OG",
+					"time": "09:50 - 10:10",
+					"session": "Fireside chat with John D'Agostino",
+					"speaker_name": "John D'Agostino & Jaime Leverton"
+				},
+				{
+					"theme": "Film",
+					"time": "10:10 - 10:40",
+					"session": "Dirty Coin (30 mins)",
+					"speaker_name": "Alana Mediavilla"
+				},
+				{
+					"theme": "Mining",
+					"time": "10:40 - 11:00",
+					"session": "Keynote - Frank Holmes",
+					"speaker_name": "Frank Holmes"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "11:00 - 11:30",
+					"session": "Break"
+				},
+				{
+					"theme": "Privacy",
+					"color": "blue",
+					"time": "11:30 - 12:00",
+					"session": "Privacy panel (30 mins)",
+					"speaker_name": "Amir, Rachel, Max, Adella, ExiledSurfer"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:00 - 12:20",
+					"session": "Privacy memes",
+					"speaker_name": "Rachel Rose O'Leary"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:20 - 12:40",
+					"session": "Privacy is fundamental right: CBDCs and crypto",
+					"speaker_name": "Adella Toulon-Forester"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:40 - 13:00",
+					"session": "Max Hillebrand",
+					"speaker_name": "Max Hillebrand"
+				},
+				{
+					"theme": "Lunch",
+					"color": "red",
+					"time": "13:00 - 14:00",
+					"session": "Lunch and Darkfi workshop"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:00 - 14:30",
+					"session": "Mining panel #2 - Topic TBD (30 mins)",
+					"speaker_name": "Kevin, Ethan, Darcy, Russell, Ben M, moderated by Mags"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:30 - 14:50",
+					"session": "The joy of mining",
+					"speaker_name": "Bryan Bishop"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:50 - 15:10",
+					"session": "How not to mine",
+					"speaker_name": "Ben Gagnon"
+				},
+				{
+					"theme": "Mining",
+					"time": "15:10 - 15:30",
+					"session": "Ethan Vera",
+					"speaker_name": "Ethan Vera"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "15:30 - 16:00",
+					"session": "Break"
+				},
+				{
+					"theme": "ETC",
+					"time": "16:00 - 16:40",
+					"session": "Ethereum Classic Panel (40 mins)",
+					"speaker_name": "Bob, Donald and more TBD"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "16:40 - 17:00",
+					"session": "How Bitcoin's POW was a regulatory miracle",
+					"speaker_name": "Amber Scott"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "17:00 - 17:20",
+					"session": "How financial regulation erodes privacy",
+					"speaker_name": "J Gdanski"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "17:20 - 17:40",
+					"session": "Carol van Cleef",
+					"speaker_name": "Carol van Cleef"
+				},
+				{
+					"theme": "Vision",
+					"time": "17:40 - 18:00",
+					"session": "Closing keynote - Jarrad Hope",
+					"speaker_name": "Jarrad Hope"
+				},
+				{
+					"color": "green",
+					"time": "18:00 - 18:05",
+					"session": "End of Day 2",
+					"speaker_name": "MC - Mags"
 				}
 			]
 		}

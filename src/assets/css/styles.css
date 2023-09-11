@@ -542,7 +542,6 @@
 	background: #ffffff;
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
 	border: none;
-	border-left: 8px solid #109810;
 	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
@@ -552,12 +551,31 @@
 	margin-bottom: 24px;
 }
 
+.agendaCards .card.blue {
+	background: #0085fe;
+}
+.agendaCards .card.red {
+	background: #dc3545;
+}
+
+.agendaCards .card.blue h4,
+.agendaCards .card.blue h6,
+.agendaCards .card.blue p,
+.agendaCards .card.red h4,
+.agendaCards .card.red h6,
+.agendaCards .card.red p {
+	color: #fff !important;
+}
+
 .agendaCards .card.breakCard {
-	border-left: none !important;
 	padding: 24px 0px;
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
+}
+
+.agendaCards .card.breakCard p {
+	text-align: center;
 }
 
 .agendaCards .card.breakCard h4 {
@@ -569,6 +587,7 @@
 	letter-spacing: 0.03em;
 	color: #111111;
 	margin: 0;
+	text-align: center;
 }
 
 .agendaCards .card .agendaTimings {
