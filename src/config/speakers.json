@@ -120,6 +120,15 @@
 				"linkedin": "https://www.linkedin.com/in/mgronowska/"
 			}
 		},
+        {
+			"image": "/img/speakers/Sebastien-Gouspillou.png",
+			"name": "SÉBASTIEN GOUSPILLOU",
+			"title": "CEO, BigBlock Group",
+			"social": {
+				"twitter": "https://twitter.com/sebgouspillou",
+				"linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-gouspillou-7663b7aa/"
+			}
+		},
 		{
 			"image": "/img/speakers/maxhill.jpg",
 			"name": "MAX HILLEBRAND",
@@ -203,12 +212,29 @@
 			"name": "IGOR BARINOV",
 			"title": "Founder, Blockscout"
 		},
+        {
+			"image": "/img/speakers/Maxim-Orlovsky.png",
+			"name": "MAXIM ORLOVSKY",
+			"title": "LNP/BP Association, engineer of RGB and Prime",
+            "social": {
+				"twitter": "https://twitter.com/dr_orlovsky",
+                "linkedin": "https://www.linkedin.com/in/dr-orlovsky/"
+			}
+		},
 		{
 			"image": "/img/speakers/adella-toulon-forester.jpg",
 			"name": "ADELLA TOULON-FORESTER",
 			"title": "Digital Nomad",
 			"social": {
 				"linkedin": "https://www.linkedin.com/in/adellatoulon/"
+			}
+		},
+        {
+			"image": "/img/speakers/Parazyd.png",
+			"name": "PARAZYD",
+			"title": "Darkfi developer",
+			"social": {
+				"twitter": "https://twitter.com/parazyd"
 			}
 		},
 		{
@@ -264,6 +290,24 @@
 				"linkedin": "https://www.linkedin.com/in/donmcint/"
 			}
 		},
+        {
+			"image": "/img/speakers/jay-milla.png",
+			"name": "JAY MILLA",
+			"title": "Director of Marketing, Litecoin Foundation",
+			"social": {
+				"twitter": "https://twitter.com/MillaLiraj",
+				"linkedin": "https://www.linkedin.com/in/jaymilla/"
+			}
+		},
+        {
+			"image": "/img/speakers/Robbie-Coleman.png",
+			"name": "ROBBIE COLEMAN",
+			"title": "Creative Director, Litecoin Foundation",
+			"social": {
+				"twitter": "https://twitter.com/robertfcoleman",
+				"linkedin": "https://www.linkedin.com/in/robbiecoleman0/"
+			}
+		},
 		{
 			"image": "/img/speakers/david-schwartz.jpg",
 			"name": "DAVID SCHWARTZ",
@@ -297,6 +341,15 @@
 			"title": "Software, Litecoin Foundation",
 			"social": {
 				"twitter": "https://twitter.com/loshan1212"
+			}
+		},
+        {
+			"image": "/img/speakers/Darcy-Daubaras.png",
+			"name": "DARCY DAUBARAS",
+			"title": "CFO, HIVE Digital Technologies",
+			"social": {
+				"twitter": "https://twitter.com/ddaubaras",
+				"linkedin": "https://www.linkedin.com/in/ddaubarascpa/"
 			}
 		},
 		{
