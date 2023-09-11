@@ -261,6 +261,12 @@
 	gap: 40px;
 }
 
+.activeSponsorsContainer .diamond-plus div,
+.activeSponsorsContainer .silver div,
+.activeSponsorsContainer .platinum div {
+	gap: 50px;
+}
+
 .activeSponsorsContainer .diamond-plus img{
 	height: 150px;
 	width: 320px;
