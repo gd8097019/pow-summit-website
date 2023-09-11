@@ -8,9 +8,6 @@
 					<a target="_blank" href="https://m.jasminer.com/">
 						<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 					</a>
-					<a target="_blank" href="https://www.lokotech.no/">
-						<img src="@/assets/images/lokotech.png" alt="Lokotech" />
-					</a>
 				</div>
 			</div>
 
@@ -27,6 +24,15 @@
 				</div>
 			</div>
 
+			<div class="gold">
+				<h3>Gold</h3>
+				<div>
+					<a target="_blank" href="https://www.lokotech.no/">
+						<img src="@/assets/images/lokotech.png" alt="Lokotech" />
+					</a>
+				</div>
+			</div>
+
 			<div class="silver">
 				<h3>Silver</h3>
 				<div>
@@ -35,6 +41,9 @@
 					</a>
 					<a target="_blank" href="https://ipollo.com/">
 						<img src="@/assets/images/ipollo.png" alt="iPollo" />
+					</a>
+					<a target="_blank" href="https://ballet.com/">
+						<img src="@/assets/images/ballet.png" alt="Ballet" />
 					</a>
 				</div>
 			</div>

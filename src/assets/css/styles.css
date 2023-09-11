@@ -273,7 +273,7 @@
 }
 
 .activeSponsorsContainer .silver img{
-	height: 50px;
+	height: 70px;
 }
 
 .activeSponsorsSection img {
@@ -291,6 +291,8 @@
 
 .activeSponsorsContainer > div > div {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .activeSponsorsSection h1 {
