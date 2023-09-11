@@ -59,12 +59,5 @@
 				</div>
 			</div>
 		</div>
-		<a
-			class="text-decoration-none"
-			href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
-			target="_blank"
-		>
-			<button class="getTicketsBtn">GET EARLY<br />BIRD DISCOUNT</button>
-		</a>
 	</div>
 </template>
