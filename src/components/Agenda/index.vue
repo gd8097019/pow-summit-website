@@ -36,17 +36,12 @@
 					>
 						<div v-if="day.events" class="agendaCards">
 							<template v-for="(event, ekey) in day.events" :key="ekey">
-								<template v-if="event.speaker_name && event.speaker_image">
-									<div class="card">
+								<template v-if="event.theme != 'Break' && event.theme != 'Lunch'">
+									<div class="card" :class="{green: event.color == 'green', red: event.color == 'red', yellow: event.color == 'yellow', blue: event.color == 'blue'}">
 										<div class="agendaTimings">
 											<h4 v-if="event.time">{{ event.time }}</h4>
 										</div>
 										<div class="agendaDetails">
-											<img
-												v-if="event.speaker_image"
-												:src="event.speaker_image"
-												alt=""
-											/>
 											<div class="detailContent">
 												<h6 v-if="event.session">{{ event.session }}</h6>
 												<p v-if="event.speaker_name">
@@ -57,8 +52,18 @@
 									</div>
 								</template>
 								<template v-else>
-									<div class="card breakCard">
-										<h4 v-if="event.session">{{ event.session }}</h4>
+									<div class="card " :class="{green: event.color == 'green', red: event.color == 'red'}">
+										<div class="agendaTimings">
+											<h4 v-if="event.time">{{ event.time }}</h4>
+										</div>
+										<div class="agendaDetails">
+											<div class="detailContent">
+												<h6 v-if="event.session" :class="{'m-0': !event.speaker_name}">{{ event.session }}</h6>
+												<p v-if="event.speaker_name">
+													{{ event.speaker_name }}
+												</p>
+											</div>
+										</div>
 									</div>
 								</template>
 							</template>
