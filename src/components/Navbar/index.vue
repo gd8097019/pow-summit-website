@@ -33,7 +33,7 @@
 							<a class="nav-link" href="#ourSpeakersSection">Speakers</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#agendaSection">Agenda</a>
+							<a class="nav-link" href="#agenda">Agenda</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#getTicketSection">Tickets</a>
