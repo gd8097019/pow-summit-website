@@ -1,5 +1,5 @@
 <template>
-	<section v-if="isAgendaActive" class="agendaSection">
+	<section v-if="isAgendaActive" class="agendaSection" id="agendaSection">
 		<div class="agendaContainer">
 			<div class="heading">
 				<div class="becomeSpeakerContent" v-html="md(agendaMd)"></div>

@@ -9,6 +9,9 @@
 					<a href="#ourSpeakersSection">Speakers</a>
 				</li>
 				<li>
+					<a href="#agendaSection">Agenda</a>
+				</li>
+				<li>
 					<a href="#getTicketSection">Tickets</a>
 				</li>
 				<li>
