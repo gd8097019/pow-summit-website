@@ -11,7 +11,7 @@
 	<!-- speakers section ends here -->
 
 	<!-- agenda section starts here -->
-	<Agenda id="agenda" />
+	<Agenda />
 	<!-- agenda section ends here -->
 
 	<!-- tickets secyion starts here -->

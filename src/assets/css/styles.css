@@ -465,6 +465,16 @@
 	padding: 88px 0px;
 }
 
+.agendaSection .agenda-jasminer-logo {
+	display: flex;
+	justify-content: center;
+}
+
+.agendaSection .agenda-jasminer-logo img {
+	width: 250px;
+	margin-bottom: 40px;
+}
+
 .agendaContainer {
 	max-width: 830px !important;
 	width: 100%;
