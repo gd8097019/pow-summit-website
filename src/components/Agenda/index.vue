@@ -1,5 +1,5 @@
 <template>
-	<section v-if="isAgendaActive" class="agendaSection" id="agendaSection">
+	<section v-if="isAgendaActive" class="agendaSection" id="agenda">
 		<div class="agenda-jasminer-logo">
 			<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 		</div>

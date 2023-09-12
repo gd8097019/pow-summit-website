@@ -9,7 +9,7 @@
 					<a href="#ourSpeakersSection">Speakers</a>
 				</li>
 				<li>
-					<a href="#agendaSection">Agenda</a>
+					<a href="#agenda">Agenda</a>
 				</li>
 				<li>
 					<a href="#getTicketSection">Tickets</a>
