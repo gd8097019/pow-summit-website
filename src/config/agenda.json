@@ -2,25 +2,34 @@
 	"isAgendaActive": true,
 	"data": [
 		{
-			"key": "day1",
-			"title": "Day 1",
+			"key": "day0",
+			"title": "Sept 25",
 			"events": [
 				{
-					"color": "green",
+					"time": "20:00 - 23:00",
+					"session": "Opening night networking party",
+					"speaker_name": "Vnitroblock"
+				}
+			]
+		},
+		{
+			"key": "day1",
+			"title": "Sept 26",
+			"events": [
+				{
 					"time": "09:00 - 09:10",
 					"session": "Intro",
 					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				},
 				{
-					"color": "yellow",
 					"time": "09:10 - 09:30",
 					"session": "Why PoW Summit?",
-					"speaker_name": "Bob & Alan"
+					"speaker_name": "Bob Summerwill and Alan Austin"
 				},
 				{
 					"theme": "OG",
 					"time": "09:30 - 10:00",
-					"session": "Keynote - Jameson Lopp (30 mins)",
+					"session": "Keynote - Jameson Lopp",
 					"speaker_name": "Jameson Lopp"
 				},
 				{
@@ -36,10 +45,10 @@
 					"speaker_name": "Amir Taaki"
 				},
 				{
-					"theme": "OG",
+					"theme": "Mining",
 					"time": "10:40 - 11:00",
-					"session": "Keynote - Charlie Lee",
-					"speaker_name": "Charlie Lee"
+					"session": "Keynote - Frank Holmes",
+					"speaker_name": "Frank Holmes"
 				},
 				{
 					"theme": "Break",
@@ -51,8 +60,8 @@
 					"theme": "Mining",
 					"color": "blue",
 					"time": "11:30 - 12:00",
-					"session": "Mining panel #1 - Why POW is good for humanity and the world (30 mins)",
-					"speaker_name": "Jamie, Taras, Ben G, Ryan, moderated by Mags"
+					"session": "Mining panel #1 - Why POW is good for humanity and the world",
+					"speaker_name": "Jamie Leverton, Taras Kulyk, Ben Gagnon, Ryan Condron, moderated by Magdalena Gronowska"
 				},
 				{
 					"theme": "Mining",
@@ -95,8 +104,8 @@
 					"theme": "LTC",
 					"color": "blue",
 					"time": "14:40 - 15:20",
-					"session": "LTC Foundation panel (40 mins)",
-					"speaker_name": "Litecoin Foundation"
+					"session": "Litecoin Foundation panel",
+					"speaker_name": "Alan Austin, David Schwartz, Jay Milla, Robbie Coleman, Kerry Washington, Loshan T"
 				},
 				{
 					"theme": "Break",
@@ -132,26 +141,26 @@
 				{
 					"theme": "OG",
 					"time": "17:10 - 17:40",
-					"session": "Closing Keynote - Phil Zimmermann (30 mins)",
+					"session": "Closing Keynote - Phil Zimmermann",
 					"speaker_name": "Phil Zimmermann"
 				},
 				{
 					"color": "green",
 					"time": "17:40 - 17:45",
-					"session": "End of Day 1",
+					"session": "Wrap up",
 					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				}
 			]
 		},
 		{
 			"key": "day2",
-			"title": "Day 2",
+			"title": "Sept 27",
 			"events": [
 				{
 					"color": "green",
 					"time": "09:00 - 09:10",
 					"session": "Intro",
-					"speaker_name": "MC - Mags"
+					"speaker_name": "MC - Magdalena Gronowska"
 				},
 				{
 					"color": "green",
@@ -177,14 +186,14 @@
 				{
 					"theme": "Film",
 					"time": "10:10 - 10:40",
-					"session": "Dirty Coin (30 mins)",
+					"session": "Dirty Coin",
 					"speaker_name": "Alana Mediavilla"
 				},
 				{
-					"theme": "Mining",
+					"theme": "OG",
 					"time": "10:40 - 11:00",
-					"session": "Keynote - Frank Holmes",
-					"speaker_name": "Frank Holmes"
+					"session": "Fireside chat with Charlie Lee",
+					"speaker_name": "Charlie Lee"
 				},
 				{
 					"theme": "Break",
@@ -196,8 +205,8 @@
 					"theme": "Privacy",
 					"color": "blue",
 					"time": "11:30 - 12:00",
-					"session": "Privacy panel (30 mins)",
-					"speaker_name": "Amir, Rachel, Max, Adella, ExiledSurfer"
+					"session": "Privacy panel",
+					"speaker_name": "Amir Taaki, Rachel Rose O'Leary, Max Hillebrand, Adella Toulon-Forester, moderated by Exiled Surfer (Michael Parenti)"
 				},
 				{
 					"theme": "Privacy",
@@ -226,8 +235,8 @@
 				{
 					"theme": "Mining",
 					"time": "14:00 - 14:30",
-					"session": "Mining panel #2 - Topic TBD (30 mins)",
-					"speaker_name": "Kevin, Ethan, Darcy, Russell, Ben M, moderated by Mags"
+					"session": "Mining panel #2 - Topic TBD",
+					"speaker_name": "Kevin Zhang, Ethan Vera, Darcy Daubaras, Russell Cann, Ben Miklozek, moderated by Magdalena Gronowska"
 				},
 				{
 					"theme": "Mining",
@@ -256,8 +265,8 @@
 				{
 					"theme": "ETC",
 					"time": "16:00 - 16:40",
-					"session": "Ethereum Classic Panel (40 mins)",
-					"speaker_name": "Bob, Donald and more TBD"
+					"session": "Ethereum Classic Panel",
+					"speaker_name": "Bob Summerwill, Donald McIntyre and more TBD"
 				},
 				{
 					"theme": "Legal / reg",
@@ -286,8 +295,8 @@
 				{
 					"color": "green",
 					"time": "18:00 - 18:05",
-					"session": "End of Day 2",
-					"speaker_name": "MC - Mags"
+					"session": "Wrap up",
+					"speaker_name": "MC - Magdalena Gronowska"
 				}
 			]
 		}
