@@ -58,28 +58,28 @@
 				},
 				{
 					"theme": "Mining",
+					"time": "11:30 - 11:50",
+					"session": "Keynote - Jasminer",
+					"speaker_name": "Jasmine Miner sponsor"
+				},
+				{
+					"theme": "Mining",
 					"color": "blue",
-					"time": "11:30 - 12:00",
+					"time": "11:50 - 12:20",
 					"session": "Mining panel #1 - Why POW is good for humanity and the world",
 					"speaker_name": "Jamie Leverton, Taras Kulyk, Ben Gagnon, Ryan Condron, moderated by Magdalena Gronowska"
 				},
 				{
 					"theme": "Mining",
-					"time": "12:00 - 12:20",
+					"time": "12:20 - 12:40",
 					"session": "Mining in Virunga park - How mining is saving gorillas ",
 					"speaker_name": "Sebastian Gouspillou"
 				},
 				{
 					"theme": "Mining",
-					"time": "12:20 - 12:40",
+					"time": "12:40 - 13:00",
 					"session": "Kevin Zhang",
 					"speaker_name": "Kevin Zhang"
-				},
-				{
-					"theme": "Mining",
-					"time": "12:40 - 13:00",
-					"session": "Keynote - Jasminer",
-					"speaker_name": "Jasmine Miner sponsor"
 				},
 				{
 					"theme": "Lunch",
