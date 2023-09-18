@@ -41,13 +41,13 @@
 				{
 					"theme": "OG",
 					"time": "10:20 - 10:40",
-					"session": "Amir Taaki",
+					"session": "DarkFi Reorg Resistant POW",
 					"speaker_name": "Amir Taaki"
 				},
 				{
 					"theme": "Mining",
 					"time": "10:40 - 11:00",
-					"session": "Keynote - Jasminer",
+					"session": "Keynote - Why PoW? Why ETC?",
 					"speaker_name": "Victor Hou"
 				},
 				{
@@ -72,14 +72,14 @@
 				{
 					"theme": "Mining",
 					"time": "12:20 - 12:40",
-					"session": "Mining in Virunga park - How mining is saving gorillas ",
-					"speaker_name": "Sebastian Gouspillou"
+					"session": "Russell Cann - Core Scientific",
+					"speaker_name": "Russell Cann"
 				},
-				{
+                {
 					"theme": "Mining",
 					"time": "12:40 - 13:00",
-					"session": "Kevin Zhang",
-					"speaker_name": "Kevin Zhang"
+					"session": "Mining in Virunga park - How mining is saving gorillas ",
+					"speaker_name": "Sebastian Gouspillou"
 				},
 				{
 					"theme": "Lunch",
@@ -91,13 +91,13 @@
 				{
 					"theme": "General",
 					"time": "14:00 - 14:20",
-					"session": "Mario Havel",
+					"session": "Ethereum left PoW, what now?",
 					"speaker_name": "Mario Havel"
 				},
 				{
 					"theme": "General",
 					"time": "14:20 - 14:40",
-					"session": "Marta Geater Piekarska",
+					"session": "History never repeats itself but it always rhymes",
 					"speaker_name": "Marta Geater Piekarska"
 				},
 				{
@@ -147,7 +147,7 @@
 				{
 					"color": "green",
 					"time": "17:55 - 18:00",
-					"session": "Wrap up",
+					"session": "End of Day 1",
 					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				}
 			]
@@ -186,7 +186,7 @@
 				{
 					"theme": "Film",
 					"time": "10:10 - 10:40",
-					"session": "Dirty Coin",
+					"session": "First public screening of: Stranded: A Dirty Coin Short Film",
 					"speaker_name": "Alana Mediavilla"
 				},
 				{
@@ -199,7 +199,8 @@
 					"theme": "Break",
 					"color": "red",
 					"time": "11:00 - 11:30",
-					"session": "Break"
+					"session": "Break and POW Mining on a Private Network",
+                    "speaker_name": "Isaac Ardis, Chris Ziogas, Diego López Leon"
 				},
 				{
 					"theme": "Privacy",
@@ -223,7 +224,7 @@
 				{
 					"theme": "Privacy",
 					"time": "12:40 - 13:00",
-					"session": "Max Hillebrand",
+					"session": "The work the cypherpunks have proven",
 					"speaker_name": "Max Hillebrand"
 				},
 				{
@@ -253,7 +254,7 @@
 				{
 					"theme": "Mining",
 					"time": "15:10 - 15:30",
-					"session": "Ethan Vera",
+					"session": "Hashrate Derivatives",
 					"speaker_name": "Ethan Vera"
 				},
 				{
@@ -295,7 +296,7 @@
 				{
 					"color": "green",
 					"time": "18:00 - 18:05",
-					"session": "Wrap up",
+					"session": "End of Day 2",
 					"speaker_name": "MC - Magdalena Gronowska"
 				}
 			]
