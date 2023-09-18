@@ -68,18 +68,18 @@
 					"time": "11:50 - 12:20",
 					"session": "Mining panel #1 - Why POW is good for humanity and the world",
 					"speaker_name": "Jamie Leverton, Taras Kulyk, Ben Gagnon, Ryan Condron, moderated by Magdalena Gronowska"
-				},
-				{
+				},	
+                {
 					"theme": "Mining",
 					"time": "12:20 - 12:40",
-					"session": "Russell Cann - Core Scientific",
-					"speaker_name": "Russell Cann"
+					"session": "Mining in Virunga park - How mining is saving gorillas ",
+					"speaker_name": "Sebastian Gouspillou"
 				},
                 {
 					"theme": "Mining",
 					"time": "12:40 - 13:00",
-					"session": "Mining in Virunga park - How mining is saving gorillas ",
-					"speaker_name": "Sebastian Gouspillou"
+					"session": "Russell Cann - Core Scientific",
+					"speaker_name": "Russell Cann"
 				},
 				{
 					"theme": "Lunch",
@@ -147,7 +147,7 @@
 				{
 					"color": "green",
 					"time": "17:55 - 18:00",
-					"session": "End of Day 1",
+					"session": "Wrap up",
 					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
 				}
 			]
@@ -296,7 +296,7 @@
 				{
 					"color": "green",
 					"time": "18:00 - 18:05",
-					"session": "End of Day 2",
+					"session": "Wrap up",
 					"speaker_name": "MC - Magdalena Gronowska"
 				}
 			]
