@@ -8,8 +8,7 @@
 					<a target="_blank" href="https://jasminer.com/">
 						<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 					</a>
-				</div>
-				<div>
+			
 					<a target="_blank" href="https://www.bitmain.com/">
 						<img src="@/assets/images/Bitmain-logo.png" alt="Bitmain" />
 					</a>
