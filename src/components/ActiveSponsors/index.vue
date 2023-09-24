@@ -9,9 +9,7 @@
 						<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 					</a>
 			
-					<a target="_blank" href="https://www.bitmain.com/">
-						<img src="@/assets/images/Bitmain-logo.png" alt="Bitmain" />
-					</a>
+					
 				</div>
 			</div>
 
@@ -20,6 +18,10 @@
 				<div>
 					<a target="_blank" href="https://etcgrantsdao.io/">
 						<img src="@/assets/images/edg-logo-green-with-text.abb09187-2.png" alt="ETC Grants DAO" />
+					</a>
+
+					<a target="_blank" href="https://www.bitmain.com/">
+						<img src="@/assets/images/Bitmain-logo.png" alt="Bitmain" />
 					</a>
 
 					<a target="_blank" href="https://hivedigitaltechnologies.com/">
