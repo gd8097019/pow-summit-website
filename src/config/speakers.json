@@ -45,7 +45,7 @@
 				"linkedin": "https://www.linkedin.com/in/caitlin-long-/"
 			}
 		},
-        {
+        	{
 			"image": "/img/speakers/amir-taaki.png",
 			"name": " AMIR TAAKI",
 			"title": "DarkFi cryptography",
@@ -53,7 +53,11 @@
 				"twitter": "https://twitter.com/Narodism/"				
 			}
 		},
-        
+        	{
+			"image": "/img/speakers/Victor-Hou.png",
+			"name": "Victor Hou",
+			"title": "Product Director, JASMINER"
+		},        
 		{
 			"image": "/img/speakers/Frank-Holmes.png",
 			"name": "FRANK HOLMES",
@@ -367,6 +371,32 @@
 			"image": "/img/speakers/russell_cann.png",
 			"name": "RUSSELL CANN",
 			"title": "EVP of Client Services, Core Scientific"
+		},
+		{
+			"image": "/img/speakers/Margie-Feng.png",
+			"name": "MARGIE FENG",
+			"title": "Marketing Manager, BITMAIN",
+			"social": {
+				"twitter": "https://twitter.com/MargieFengLOL",
+				"linkedin": "https://www.linkedin.com/in/yue-feng-08630312b/"
+			}
+		},
+		{
+			"image": "/img/speakers/Diego-Lopez-Leon.png",
+			"name": "DIEGO LÓPEZ LEÓN",
+			"title": "Core Developer, ETC Cooperative",
+			"social": {
+				"twitter": "https://twitter.com/diega",
+				"linkedin": "https://www.linkedin.com/in/dlopezleon/"
+			}
+		},
+		{
+			"image": "/img/speakers/Istora.jpeg",
+			"name": "Istora",
+			"title": "ETC contributor, Proof of Work enjoyer",
+			"social": {
+				"twitter": "https://twitter.com/Istora_Mandiri"
+			}			
 		}
 	]
 }

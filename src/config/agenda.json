@@ -41,7 +41,7 @@
 				{
 					"theme": "OG",
 					"time": "10:20 - 10:40",
-					"session": "DarkFi Reorg Resistant POW",
+					"session": "DarkFi: Anonymous Smart Contracts with PoW Finality",
 					"speaker_name": "Amir Taaki"
 				},
 				{
@@ -173,7 +173,7 @@
 					"color": "green",
 					"theme": "OG",
 					"time": "09:30 - 09:50",
-					"session": "\"Proof of Work, The Revolutionary Invention of Satoshi Nakamoto\"",
+					"session": "Proof of Work, The Revolutionary Invention of Satoshi Nakamoto",
 					"speaker_name": "Donald McIntyre"
 				},
 				{
@@ -237,7 +237,7 @@
 					"theme": "Mining",
 					"time": "14:00 - 14:30",
 					"session": "Mining panel #2 - Topic TBD",
-					"speaker_name": "Kevin Zhang, Ethan Vera, Darcy Daubaras, Russell Cann, Ben Miklozek, moderated by Magdalena Gronowska"
+					"speaker_name": "Kevin Zhang, Ethan Vera, Darcy Daubaras, Russell Cann, Ben Miklozek, Margie Feng, moderated by Magdalena Gronowska"
 				},
 				{
 					"theme": "Mining",
@@ -267,7 +267,7 @@
 					"theme": "ETC",
 					"time": "16:00 - 16:40",
 					"session": "Ethereum Classic Panel",
-					"speaker_name": "Bob Summerwill, Donald McIntyre, and Diego López Leon more TBD"
+					"speaker_name": "Bob Summerwill, Donald McIntyre, Diego López Leon and Istora"
 				},
 				{
 					"theme": "Legal / reg",
