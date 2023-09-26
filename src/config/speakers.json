@@ -56,7 +56,10 @@
         	{
 			"image": "/img/speakers/Victor-Hou.png",
 			"name": "Victor Hou",
-			"title": "Product Director, JASMINER"
+			"title": "Product Director, JASMINER",
+			"social": {
+				"twitter": "https://twitter.com/pandaV46194503"				
+			}
 		},        
 		{
 			"image": "/img/speakers/Frank-Holmes.png",
@@ -87,7 +90,10 @@
 		{
 			"image": "/img/speakers/rachel-rose-o-leary.jpg",
 			"name": "RACHEL ROSE O'LEARY",
-			"title": "DarkFi core dev & writer"
+			"title": "DarkFi core dev & writer",
+			"social": {
+				"twitter": "https://twitter.com/lunar_mining"
+			}
 		},
 		{
 			"image": "/img/speakers/marta-piekarska.jpg",
@@ -103,7 +109,7 @@
 			"title": "COO, Luxor",
 			"social": {
 				"linkedin": "https://www.linkedin.com/in/ethanvera/",
-                "twitter": "https://twitter.com/ethan_vera"
+                		"twitter": "https://twitter.com/ethan_vera"
 			}
 		},
 		
@@ -125,7 +131,7 @@
 				"linkedin": "https://www.linkedin.com/in/mgronowska/"
 			}
 		},
-        {
+        	{
 			"image": "/img/speakers/Sebastien-Gouspillou.png",
 			"name": "SÉBASTIEN GOUSPILLOU",
 			"title": "CEO, BigBlock Group",
@@ -151,21 +157,13 @@
 				"linkedin": "https://www.linkedin.com/in/bryan-bishop-3a63978/"
 			}
 		},
-        {
+		{
 			"image": "/img/speakers/jarrad-hope.png",
 			"name": "JARRAD HOPE",
 			"title": "Thought leader & Co-founder, Status.im",
 			"social": {
 				"twitter": "https://twitter.com/jarradhope_/",
 				"linkedin": "https://www.linkedin.com/in/jarradhope/"
-			}
-		},
-		{
-			"image": "/img/speakers/jonathan-wilkins.jpeg",
-			"name": "JONATHAN WILKINS",
-			"title": "CEO, Cloaked Services",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/jwilkins/"
 			}
 		},
 		{
@@ -177,7 +175,7 @@
 				"linkedin": "https://www.linkedin.com/in/vladkostea/"
 			}
 		},
-        {
+        	{
 			"image": "/img/speakers/KZhang.png",
 			"name": "KEVIN ZHANG",
 			"title": "SVP of Business Development, Foundry",
@@ -215,15 +213,19 @@
 		{
 			"image": "/img/speakers/igor-barinov.png",
 			"name": "IGOR BARINOV",
-			"title": "Founder, Blockscout"
+			"title": "Founder, Blockscout",
+			"social": {
+				"twitter": "https://twitter.com/barinov",
+				"linkedin": "https://www.linkedin.com/in/igorbarinov/"
+			}
 		},
-        {
+        	{
 			"image": "/img/speakers/Maxim-Orlovsky.png",
 			"name": "MAXIM ORLOVSKY",
 			"title": "LNP/BP Association, engineer of RGB and Prime",
-            "social": {
+            		"social": {
 				"twitter": "https://twitter.com/dr_orlovsky",
-                "linkedin": "https://www.linkedin.com/in/dr-orlovsky/"
+                		"linkedin": "https://www.linkedin.com/in/dr-orlovsky/"
 			}
 		},
 		{
@@ -234,7 +236,7 @@
 				"linkedin": "https://www.linkedin.com/in/adellatoulon/"
 			}
 		},
-        {
+        	{
 			"image": "/img/speakers/Parazyd.png",
 			"name": "PARAZYD",
 			"title": "Darkfi developer",
@@ -295,31 +297,13 @@
 				"linkedin": "https://www.linkedin.com/in/donmcint/"
 			}
 		},
-        {
-			"image": "/img/speakers/jay-milla.png",
-			"name": "JAY MILLA",
-			"title": "Director of Marketing, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/MillaLiraj",
-				"linkedin": "https://www.linkedin.com/in/jaymilla/"
-			}
-		},
-        {
+        	{
 			"image": "/img/speakers/Robbie-Coleman.png",
 			"name": "ROBBIE COLEMAN",
 			"title": "Creative Director, Litecoin Foundation",
 			"social": {
 				"twitter": "https://twitter.com/robertfcoleman",
 				"linkedin": "https://www.linkedin.com/in/robbiecoleman0/"
-			}
-		},
-		{
-			"image": "/img/speakers/david-schwartz.jpg",
-			"name": "DAVID SCHWARTZ",
-			"title": "Director of Strategic Partnerships, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/DaddyCool1991",
-				"linkedin": "https://www.linkedin.com/in/david-schwartz-562a346b/"
 			}
 		},
 		{
@@ -348,7 +332,7 @@
 				"twitter": "https://twitter.com/loshan1212"
 			}
 		},
-        {
+        	{
 			"image": "/img/speakers/Darcy-Daubaras.png",
 			"name": "DARCY DAUBARAS",
 			"title": "CFO, HIVE Digital Technologies",
@@ -360,17 +344,28 @@
 		{
 			"image": "/img/speakers/alana-mediavilla.png",
 			"name": "ALANA MEDIAVILLA",
-			"title": "Filmmaker, Dirty Coin"
+			"title": "Filmmaker, Dirty Coin",
+			"social": {
+				"twitter": "https://twitter.com/AlanaMediavilla",
+				"linkedin": "https://www.linkedin.com/in/halana/"
+			}
 		},
 		{
 			"image": "/img/speakers/ben-miklozek.jpg",
 			"name": "BEN MIKLOZEK",
-			"title": "Co-Founder, Lokotech"
+			"title": "Co-Founder, Lokotech",
+			"social": {
+				"twitter": "https://twitter.com/BenMiklozek",
+				"linkedin": "https://www.linkedin.com/in/ben-m-a96043151/"
+			}
 		},
 		{
 			"image": "/img/speakers/russell_cann.png",
 			"name": "RUSSELL CANN",
-			"title": "EVP of Client Services, Core Scientific"
+			"title": "EVP of Client Services, Core Scientific",
+			"social": {
+				"linkedin": "https://www.linkedin.com/in/russell-cann-300b14aa/"
+			}
 		},
 		{
 			"image": "/img/speakers/Margie-Feng.png",
@@ -392,7 +387,7 @@
 		},
 		{
 			"image": "/img/speakers/Istora.jpeg",
-			"name": "Istora",
+			"name": "ISTORA",
 			"title": "ETC contributor, Proof of Work enjoyer",
 			"social": {
 				"twitter": "https://twitter.com/Istora_Mandiri"

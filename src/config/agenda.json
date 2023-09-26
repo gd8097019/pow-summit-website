@@ -69,13 +69,13 @@
 					"session": "Mining panel #1 - Why POW is good for humanity and the world",
 					"speaker_name": "Jamie Leverton, Taras Kulyk, Ben Gagnon, Ryan Condron, moderated by Magdalena Gronowska"
 				},	
-                {
+                		{
 					"theme": "Mining",
 					"time": "12:20 - 12:40",
 					"session": "Mining in Virunga park - How mining is saving gorillas ",
 					"speaker_name": "Sebastian Gouspillou"
 				},
-                {
+		                {
 					"theme": "Mining",
 					"time": "12:40 - 13:00",
 					"session": "Russell Cann - Core Scientific",
@@ -207,7 +207,7 @@
 					"color": "blue",
 					"time": "11:30 - 12:00",
 					"session": "Privacy panel",
-					"speaker_name": "Amir Taaki, Rachel Rose O'Leary, Max Hillebrand, Adella Toulon-Forester, moderated by Exiled Surfer (Michael Parenti)"
+					"speaker_name": "Rachel Rose O'Leary, Parazyd, Max Hillebrand, Adella Toulon-Forester, moderated by Exiled Surfer (Michael Parenti)"
 				},
 				{
 					"theme": "Privacy",
@@ -231,7 +231,7 @@
 					"theme": "Lunch",
 					"color": "red",
 					"time": "13:00 - 14:00",
-					"session": "Lunch and Darkfi workshop"
+					"session": "Lunch"
 				},
 				{
 					"theme": "Mining",
