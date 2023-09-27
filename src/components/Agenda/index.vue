@@ -12,7 +12,7 @@
 					<li v-if="day.key && day.title" class="nav-item" role="presentation">
 						<button
 							class="nav-link"
-							:class="{ active: dkey === 1 }"
+							:class="{ active: dkey === 2 }"
 							:id="day.key"
 							data-bs-toggle="tab"
 							:data-bs-target="`#${day.key}-tab-pane`"
@@ -31,7 +31,7 @@
 				<template v-for="(day, dkey) in agenda" :key="dkey">
 					<div
 						class="tab-pane fade"
-						:class="{ active: dkey === 1, show: dkey === 1 }"
+						:class="{ active: dkey === 2, show: dkey === 2 }"
 						:id="`${day.key}-tab-pane`"
 						role="tabpanel"
 						:aria-labelledby="`${day.key}-tab`"
