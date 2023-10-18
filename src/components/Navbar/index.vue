@@ -27,22 +27,28 @@
 				>
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="/">Home</a>
+							<router-link class="nav-link" active-class="active" to="/">Home</router-link>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#ourSpeakersSection">Speakers</a>
+							<a class="nav-link" href="/#ourSpeakersSection">Speakers</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#agenda">Agenda</a>
+							<a class="nav-link" href="/#agenda">Agenda</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#getTicketSection">Tickets</a>
+							<a class="nav-link" href="/#getTicketSection">Tickets</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#activeSponsorsSection">Sponsors</a>
+							<a class="nav-link" href="/#activeSponsorsSection">Sponsors</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/#summitVenueSection">Venue</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#summitVenueSection">Venue</a>
+						</li>
+						<li class="nav-item">
+							<router-link class="nav-link" active-class="active" to="/videos">Videos</router-link>
 						</li>
 					</ul>
 				</div>

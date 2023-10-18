@@ -3,22 +3,28 @@
 		<div class="footerContainer">
 			<ul class="footerLinks">
 				<li>
-					<a href="/">Home</a>
+					<router-link active-class="active" to="/">Home</router-link>
 				</li>
 				<li>
-					<a href="#ourSpeakersSection">Speakers</a>
+					<a href="/#ourSpeakersSection">Speakers</a>
 				</li>
 				<li>
-					<a href="#agenda">Agenda</a>
+					<a href="/#agenda">Agenda</a>
 				</li>
 				<li>
-					<a href="#getTicketSection">Tickets</a>
+					<a href="/#getTicketSection">Tickets</a>
 				</li>
 				<li>
-					<a href="#ourSponsorsSections">Sponsors</a>
+					<a href="/#ourSponsorsSections">Sponsors</a>
+				</li>
+				<li>
+					<a href="/#summitVenueSection">Venue</a>
 				</li>
 				<li>
 					<a href="#summitVenueSection">Venue</a>
+				</li>
+				<li>
+					<router-link to="/videos">Videos</router-link>
 				</li>
 			</ul>
 			<h1>BROUGHT TO YOU BY</h1>
