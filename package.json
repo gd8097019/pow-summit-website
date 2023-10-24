@@ -16,6 +16,7 @@
 		"raw-loader": "^4.0.2",
 		"swiper": "^10.2.0",
 		"vue": "^3.2.13",
+		"vue-easy-lightbox": "^1.16.0",
 		"vue-router": "^4.0.3",
 		"vue3-lazyload": "^0.3.8"
 	},
