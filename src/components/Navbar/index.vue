@@ -44,11 +44,36 @@
 						<li class="nav-item">
 							<a class="nav-link" href="/#summitVenueSection">Venue</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#summitVenueSection">Venue</a>
-						</li>
-						<li class="nav-item">
-							<router-link class="nav-link" active-class="active" to="/videos">Videos</router-link>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Media
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<router-link
+										class="dropdown-item"
+										aria-current="page"
+										to="/photos"
+									>
+										Photos
+									</router-link>
+								</li>
+								<li>
+									<router-link
+										class="dropdown-item"
+										aria-current="page"
+										to="/videos"
+									>
+										Videos
+									</router-link>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</div>

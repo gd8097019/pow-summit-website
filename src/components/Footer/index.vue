@@ -21,7 +21,7 @@
 					<a href="/#summitVenueSection">Venue</a>
 				</li>
 				<li>
-					<a href="#summitVenueSection">Venue</a>
+					<router-link to="/photos">Photos</router-link>
 				</li>
 				<li>
 					<router-link to="/videos">Videos</router-link>
