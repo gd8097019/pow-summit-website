@@ -25,13 +25,15 @@
                     <h2>{{ item.title }}</h2>
                     <template v-for="(imageName, j) in item.images" :key="j">
                         <div class="p-2 galleryImg" :class="getImageClass(j)">
-                            <img v-lazy="require(`@/assets/images/photos/${imageName}`)" alt="gallery-img" />
+                            <img v-lazy="require(`@/assets/images/photos/${imageName}`)" @click="() => showImg(i, j)" alt="gallery-img" />
                         </div>
                     </template>
                 </template>
             </div>
         </div>
     </section>
+
+    <vue-easy-lightbox :visible="visibleRef" :imgs="imagesArr" :index="indexRef" @hide="onHide" :moveDisabled="true" :rotateDisabled="true"></vue-easy-lightbox>
 
 	<!-- location section starts here -->
 	<Footer />
@@ -52,14 +54,36 @@ export default {
     data() {
         return {
             photos,
+            visibleRef: false,
+            indexRef: 0,
+            imagesArr: [],
         }
     },
     methods: {
         getImageClass(index) {
             const modC = Math.ceil((index + 1) / 6) * 6;
             return (index + 1) <= modC - 2 ? 'col-md-3 col-6' : 'col-lg-6 col-12';
+        },
+        showImg(i, j) {
+            let value = 0;
+            for (let k = 0; k < i; k++) {
+                value += this.photos.data[k].images.length;
+            }
+            this.indexRef = value + j
+            this.visibleRef = true
+        },
+        onHide() {
+            this.visibleRef = false
+        },
+    },
+    mounted() {
+        for (let i = 0; i < this.photos.data.length; i++) {
+            this.imagesArr = this.imagesArr.concat(
+                this.photos.data[i].images.map(item => {
+                    return require(`@/assets/images/photos/${item}`)
+                }));
         }
-    }
+    },
 }
 </script>
 <style>
