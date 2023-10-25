@@ -7,6 +7,8 @@ import "@/assets/css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import VueCountdown from "@chenfengyuan/vue-countdown";
+import VueLazyLoad from 'vue3-lazyload';
+import VueEasyLightbox from 'vue-easy-lightbox';
 
 const mixins = {
 	methods: {
@@ -19,5 +21,7 @@ const mixins = {
 createApp(App)
 	.mixin(mixins)
 	.use(router)
+	.use(VueLazyLoad)
+	.use(VueEasyLightbox)
 	.component(VueCountdown.name, VueCountdown)
 	.mount("#app");
