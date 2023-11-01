@@ -1,11 +1,6 @@
 <template>
 	<div>
-		<div class="global-count-down">
-			<vue-countdown :time="time" v-slot="{ days, hours, minutes, seconds }">
-				Time remaining: {{ days }} days, {{ hours }} hours,
-				{{ minutes }} minutes, {{ seconds }} seconds.
-			</vue-countdown>
-		</div>
+		
 	</div>
 	<div>
 		<nav class="navbar navbar-expand-lg proofNav">
