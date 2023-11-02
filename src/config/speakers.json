@@ -17,15 +17,7 @@
 				"twitter": "https://twitter.com/lopp",
 				"website": "https://www.lopp.net"
 			}
-		},
-		{
-			"image": "/img/speakers/charlie-shrem.jpg",
-			"name": "CHARLIE SHREM",
-			"title": "Bitcoin Pioneer, CharlieShrem.com",
-			"social": {
-				"twitter": "https://twitter.com/charlieshrem",
-				"linkedin": "https://www.linkedin.com/in/charlieshrem/"
-			}
+		
 		},
 		{
 			"image": "/img/speakers/charlie-lee.png",
