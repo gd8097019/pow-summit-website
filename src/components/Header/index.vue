@@ -27,7 +27,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 					<div class="heroCardContent">
 						<h3>WORLD CLASS <span>SPEAKERS</span></h3>
 						<p>
-							Watch our video archive on our<a href="https://www.youtube.com/@POWSummit/"> YouTube channel</a> featuring Phil Zimmermann, Jameson Lopp, Charlie Lee, Caitlin Long & Jared Hope & more...
+							Watch our video archive on our<a href="https://www.youtube.com/@POWSummit/"> YouTube channel</a> featuring Phil Zimmermann, Jameson Lopp, Charlie Lee, Caitlin Long & Jarrad Hope & more...
 						</p>
 					</div>
 				</div>
