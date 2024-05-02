@@ -40,7 +40,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 					<div class="heroCardContent">
 						<h3>NETWORKING <span>OPPORTUNITIES</span></h3>
 						<p>
-							Meet & interact with speakers & guests at the conference or at our after-hours events.  <a href="https://powsummit.com/photos">See our photos here.</a> 
+							Meet & interact with speakers & guests at the conference or at our after-hours events. <a href="https://powsummit.com/photos">See our photos here.</a> 
 						</p>
 					</div>
 				</div>

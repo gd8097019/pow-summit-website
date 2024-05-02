@@ -1,0 +1,299 @@
+{
+	"isAgendaActive": true,
+	"data": [
+		{
+			"key": "day0",
+			"title": "Sept 25",
+			"events": [
+				{
+					"time": "20:00 - 23:00",
+					"session": "Opening night networking party",
+					"speaker_name": "Vnitroblock"
+				}
+			]
+		},
+		{
+			"key": "day1",
+			"title": "Sept 26",
+			"events": [
+				{
+					"time": "09:00 - 09:10",
+					"session": "Intro",
+					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
+				},
+				{
+					"time": "09:10 - 09:30",
+					"session": "Why PoW Summit?",
+					"speaker_name": "Bob Summerwill and Alan Austin"
+				},
+				{
+					"theme": "OG",
+					"time": "09:30 - 10:00",
+					"session": "Keynote - Hunting Bitcoin's Real Hashrate",
+					"speaker_name": "Jameson Lopp"
+				},
+				{
+					"theme": "OG",
+					"time": "10:00 - 10:20",
+					"session": "Bitcoin Maximalism and Breaking FUD",
+					"speaker_name": "Vlad Costea"
+				},
+				{
+					"theme": "OG",
+					"time": "10:20 - 10:40",
+					"session": "DarkFi: Anonymous Smart Contracts with PoW Finality",
+					"speaker_name": "Amir Taaki"
+				},
+				{
+					"theme": "Mining",
+					"time": "10:40 - 11:00",
+					"session": "Keynote - Why PoW? Why ETC?",
+					"speaker_name": "Victor Hou"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "11:00 - 11:30",
+					"session": "Break"
+				},
+				{
+					"theme": "Mining",
+					"time": "11:30 - 11:50",
+					"session": "Keynote - Frank Holmes",
+					"speaker_name": "Frank Holmes"
+				},
+				{
+					"theme": "Mining",
+					"color": "blue",
+					"time": "11:50 - 12:20",
+					"session": "Mining panel #1 - Why POW is good for humanity and the world",
+					"speaker_name": "Jamie Leverton, Taras Kulyk, Ben Gagnon, Ryan Condron, moderated by Magdalena Gronowska"
+				},	
+                		{
+					"theme": "Mining",
+					"time": "12:20 - 12:40",
+					"session": "Mining in Virunga park - How mining is saving gorillas ",
+					"speaker_name": "Sebastian Gouspillou"
+				},
+		                {
+					"theme": "Mining",
+					"time": "12:40 - 13:00",
+					"session": "Russell Cann - Core Scientific",
+					"speaker_name": "Russell Cann"
+				},
+				{
+					"theme": "Lunch",
+					"color": "red",
+					"time": "13:00 - 14:00",
+					"session": "Lunch and Kakr Labs workshop: Dive into Litecoin and Blockchain Technology",
+					"speaker_name": "Kakr Labs"
+				},
+				{
+					"theme": "General",
+					"time": "14:00 - 14:20",
+					"session": "Ethereum left PoW, what now?",
+					"speaker_name": "Mario Havel"
+				},
+				{
+					"theme": "General",
+					"time": "14:20 - 14:40",
+					"session": "History never repeats itself but it always rhymes",
+					"speaker_name": "Marta Geater Piekarska"
+				},
+				{
+					"theme": "LTC",
+					"color": "blue",
+					"time": "14:40 - 15:20",
+					"session": "Litecoin Foundation: Zero downtime through PoW",
+					"speaker_name": "Alan Austin, Robbie Coleman, Kerry Washington, Loshan T"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "15:20 - 15:50",
+					"session": "Break and MWEB workshop",
+					"speaker_name": "Kerry Washington"
+				},
+				{
+					"theme": "Finance",
+					"time": "15:50 - 16:10",
+					"session": "Keynote - Caitlin Long",
+					"speaker_name": "Caitlin Long"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:10 - 16:30",
+					"session": "Prime: new layer 1 for Bitcoin - miner opportunities",
+					"speaker_name": "Dr Maxim Orlovsky"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:30 - 16:50",
+					"session": "The world's first super commodity",
+					"speaker_name": "Ryan Condron"
+				},
+				{
+					"theme": "Technical",
+					"time": "16:50 - 17:10",
+					"session": "Block Explorers",
+					"speaker_name": "Igor Barinov"
+				},
+				{
+					"theme": "OG",
+					"time": "17:10 - 17:55",
+					"session": "Closing Keynote - Phil Zimmermann",
+					"speaker_name": "Phil Zimmermann"
+				},
+				{
+					"color": "green",
+					"time": "17:55 - 18:00",
+					"session": "Wrap up",
+					"speaker_name": "MC - Exiled Surfer (Michael Parenti)"
+				}
+			]
+		},
+		{
+			"key": "day2",
+			"title": "Sept 27",
+			"events": [
+				{
+					"color": "green",
+					"time": "09:00 - 09:10",
+					"session": "Intro",
+					"speaker_name": "MC - Magdalena Gronowska"
+				},
+				
+				{
+					"color": "green",
+					"theme": "OG",
+					"time": "09:30 - 09:50",
+					"session": "Proof of Work, The Revolutionary Invention of Satoshi Nakamoto",
+					"speaker_name": "Donald McIntyre"
+				},
+				{
+					"color": "green",
+					"theme": "OG",
+					"time": "09:50 - 10:10",
+					"session": "Fireside chat with John D'Agostino",
+					"speaker_name": "John D'Agostino & Jaime Leverton"
+				},
+				{
+					"theme": "Film",
+					"time": "10:10 - 10:40",
+					"session": "First public screening of: Stranded: A Dirty Coin Short Film",
+					"speaker_name": "Alana Mediavilla"
+				},
+				{
+					"theme": "OG",
+					"time": "10:40 - 11:00",
+					"session": "Fireside chat with Charlie Lee",
+					"speaker_name": "Charlie Lee"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "11:00 - 11:30",
+					"session": "Break and POW Mining on a Private Network",
+                    "speaker_name": "Isaac Ardis, Chris Ziogas, Diego López Leon"
+				},
+				{
+					"theme": "Privacy",
+					"color": "blue",
+					"time": "11:30 - 12:00",
+					"session": "Privacy panel",
+					"speaker_name": "Rachel Rose O'Leary, Parazyd, Max Hillebrand, Adella Toulon-Foerster, moderated by Exiled Surfer (Michael Parenti)"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:00 - 12:20",
+					"session": "Privacy memes",
+					"speaker_name": "Rachel Rose O'Leary"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:20 - 12:40",
+					"session": "Privacy is fundamental right: CBDCs and crypto",
+					"speaker_name": "Adella Toulon-Foerster"
+				},
+				{
+					"theme": "Privacy",
+					"time": "12:40 - 13:00",
+					"session": "The work the cypherpunks have proven",
+					"speaker_name": "Max Hillebrand"
+				},
+				{
+					"theme": "Lunch",
+					"color": "red",
+					"time": "13:00 - 14:00",
+					"session": "Lunch"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:00 - 14:30",
+					"session": "Mining panel #2 - Topic TBD",
+					"speaker_name": "Kevin Zhang, Ethan Vera, Darcy Daubaras, Russell Cann, Ben Miklozek, Margie Feng, moderated by Magdalena Gronowska"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:30 - 14:50",
+					"session": "The joy of mining",
+					"speaker_name": "Bryan Bishop"
+				},
+				{
+					"theme": "Mining",
+					"time": "14:50 - 15:10",
+					"session": "How not to mine",
+					"speaker_name": "Ben Gagnon"
+				},
+				{
+					"theme": "Mining",
+					"time": "15:10 - 15:30",
+					"session": "Hashrate Derivatives",
+					"speaker_name": "Ethan Vera"
+				},
+				{
+					"theme": "Break",
+					"color": "red",
+					"time": "15:30 - 16:00",
+					"session": "Break"
+				},
+				{
+					"theme": "ETC",
+					"time": "16:00 - 16:40",
+					"session": "Ethereum Classic Panel",
+					"speaker_name": "Bob Summerwill, Donald McIntyre, Diego López Leon and Istora"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "16:40 - 17:00",
+					"session": "How Bitcoin's POW was a regulatory miracle",
+					"speaker_name": "Amber Scott"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "17:00 - 17:20",
+					"session": "How financial regulation erodes privacy",
+					"speaker_name": "J Gdanski"
+				},
+				{
+					"theme": "Legal / reg",
+					"time": "17:20 - 17:40",
+					"session": "Carol van Cleef",
+					"speaker_name": "Carol van Cleef"
+				},
+				{
+					"theme": "Vision",
+					"time": "17:40 - 18:00",
+					"session": "Closing keynote - Jarrad Hope",
+					"speaker_name": "Jarrad Hope"
+				},
+				{
+					"color": "green",
+					"time": "18:00 - 18:05",
+					"session": "Wrap up",
+					"speaker_name": "MC - Magdalena Gronowska"
+				}
+			]
+		}
+	]
+}

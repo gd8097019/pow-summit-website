@@ -49,14 +49,14 @@
 
 <script>
 import Navbar from "@/components/Navbar";
-import Header from "@/components/2024/Header";
-import Speakers from "@/components/2024/Speakers";
-import Tickets from "@/components/2024/Tickets";
-import Location from "@/components/2024/Location";
-import Sponsors from "@/components/2024/Sponsors";
-import Agenda from "@/components/2024/Agenda";
-import MediaPartners from "@/components/2024/MediaPartners";
-import ActiveSponsors from "@/components/2024/ActiveSponsors";
+import Header from "@/components/2023/Header";
+import Speakers from "@/components/2023/Speakers";
+import Tickets from "@/components/2023/Tickets";
+import Location from "@/components/2023/Location";
+import Sponsors from "@/components/2023/Sponsors";
+import Agenda from "@/components/2023/Agenda";
+import MediaPartners from "@/components/2023/MediaPartners";
+import ActiveSponsors from "@/components/2023/ActiveSponsors";
 import Footer from "@/components/Footer";
 
 /*
