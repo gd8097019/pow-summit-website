@@ -12,12 +12,17 @@ const routes = [
 	{
 		path: "/",
 		name: "home",
-		component: HomeView,
+		component: HomeView_2023,
 	},
 	{
 		path: "/2023",
 		name: "2023",
 		component: HomeView_2023,
+	},
+	{
+		path: "/2024",
+		name: "2024",
+		component: HomeView,
 	},
 	{
 		path: "/cookie-policy",
@@ -30,24 +35,24 @@ const routes = [
 		component: PrivacyPolicy,
 	},
 	{
-		path: "/2023/photos",
-		name: "2023photos",
-		component: Photos_2023,
+		path: "/2024/photos",
+		name: "2024photos",
+		component: Photos,
 	},
 	{
-		path: "/2023/videos",
-		name: "2023videos",
-		component: Videos_2023,
+		path: "/2024/videos",
+		name: "2024videos",
+		component: Videos,
 	},
 	{
 		path: "/photos",
 		name: "photos",
-		component: Photos,
+		component: Photos_2023,
 	},
 	{
 		path: "/videos",
 		name: "videos",
-		component: Videos,
+		component: Videos_2023,
 	},
 ];
 
