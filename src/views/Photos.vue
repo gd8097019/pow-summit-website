@@ -25,7 +25,7 @@
                     <h2>{{ item.title }}</h2>
                     <template v-for="(imageName, j) in item.images" :key="j">
                         <div class="p-2 galleryImg" :class="getImageClass(j)">
-                            <img v-lazy="require(`@/assets/images/photos/${imageName}`)" @click="() => showImg(i, j)" alt="gallery-img" />
+                            <img v-lazy="require(`@/assets/images/photos/2023/${imageName}`)" @click="() => showImg(i, j)" alt="gallery-img" />
                         </div>
                     </template>
                 </template>
@@ -41,8 +41,8 @@
 </template>
 <script>
 import photos from "@/config/photos.json";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/2024/Navbar";
+import Footer from "@/components/2024/Footer";
 import VueEasyLightbox, { useEasyLightbox } from 'vue-easy-lightbox';
 
 export default {
@@ -80,7 +80,7 @@ export default {
         for (let i = 0; i < this.photos.data.length; i++) {
             this.imagesArr = this.imagesArr.concat(
                 this.photos.data[i].images.map(item => {
-                    return require(`@/assets/images/photos/${item}`)
+                    return require(`@/assets/images/photos/2023/${item}`)
                 }));
         }
     },

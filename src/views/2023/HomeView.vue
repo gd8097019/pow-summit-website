@@ -19,16 +19,16 @@
 	<!-- tickets secyion ends here -->
 
 	<!-- active sponsors section starts here -->
-	<ActiveSponsors />
+	<Sponsors />
 	<!-- active sponsors section ends here -->
 
 	<!-- media partners section starts here  -->
 	<MediaPartners />
 	<!-- media partners section ends here -->
 
-	<!-- sponsors section starts here -->
-	<Sponsors />
-	<!-- sponsors section ends here -->
+	<!-- become sponsor section starts here -->
+	<BecomeSponsor />
+	<!-- become sponsor section ends here -->
 
 	<!-- location section starts here -->
 	<Location />
@@ -48,16 +48,16 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/2023/Navbar";
 import Header from "@/components/2023/Header";
 import Speakers from "@/components/2023/Speakers";
 import Tickets from "@/components/2023/Tickets";
 import Location from "@/components/2023/Location";
-import Sponsors from "@/components/2023/Sponsors";
+import BecomeSponsor from "@/components/2023/BecomeSponsor";
 import Agenda from "@/components/2023/Agenda";
 import MediaPartners from "@/components/2023/MediaPartners";
-import ActiveSponsors from "@/components/2023/ActiveSponsors";
-import Footer from "@/components/Footer";
+import Sponsors from "@/components/2023/Sponsors";
+import Footer from "@/components/2023/Footer";
 
 /*
 import About from "@/components/About";
@@ -73,8 +73,9 @@ export default {
 		Agenda,
 		Tickets,
 		Location,
+		BecomeSponsor,
 		MediaPartners,
-		ActiveSponsors,
+		Sponsors,
 		Footer,
 		/*
 			About,

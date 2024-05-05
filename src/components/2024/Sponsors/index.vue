@@ -1,34 +1,59 @@
 <template>
-	<section class="ourSponsorsSections" id="ourSponsorsSections">
-		<div class="proofMainContainer ourSponsorsContainer">
-			<h1>BECOME A SPONSOR</h1>
-			<p>
-				The Summit offers a range of sponsorship packages, ​suited your
-				company’s marketing needs and budget.
-			</p>
-			<p class="mt-4">To ​learn more, please submit an enquiry.</p>
-			<a
-				href="https://docs.google.com/presentation/d/e/2PACX-1vSqLdy0IZdutg1TND6FnfH-nr2G9bpxyGxSQNgoEGkhXW7n5gJjYRif_mztpmBWf40tnHLTsGYNieHh/pub?start=false&loop=false&delayms=60000&slide=id.g1534bf91b0c_0_105"
-				class="text-decoration-none"
-				target="_blank"
-			>
-				<button>BECOME A SPONSOR</button>
-			</a>
+	<section class="activeSponsorsSection" id="activeSponsorsSection">
+		<h1>Sponsors</h1>
+		<div class="activeSponsorsContainer">
+			<div class="diamond-plus">
+				<h3>Diamond Plus</h3>
+				<div>
+					<a target="_blank" href="https://jasminer.com/">
+						<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
+					</a>
+			
+					
+				</div>
+			</div>
+
+			<div class="platinum">
+				<h3>Platinum</h3>
+				<div>
+					<a target="_blank" href="https://etcgrantsdao.io/">
+						<img src="@/assets/images/edg-logo-green-with-text.abb09187-2.png" alt="ETC Grants DAO" />
+					</a>
+
+
+					<a target="_blank" href="https://hivedigitaltechnologies.com/">
+						<img src="@/assets/images/hive-digital.png" alt="HIVE Digital Technologies" />
+					</a>
+
+					<a target="_blank" href="https://www.bitmain.com/">
+						<img src="@/assets/images/Bitmain-logo.png" alt="Bitmain" />
+					</a>
+				</div>
+			</div>
+
+			<div class="gold">
+				<h3>Gold</h3>
+				<div>
+					<a target="_blank" href="https://www.lokotech.no/">
+						<img src="@/assets/images/lokotech.png" alt="Lokotech" />
+					</a>
+				</div>
+			</div>
+
+			<div class="silver">
+				<h3>Silver</h3>
+				<div>
+					<a target="_blank" href="https://lumerin.io/">
+						<img src="@/assets/images/lumerin.png" alt="Lumerin" />
+					</a>
+					<a target="_blank" href="https://ipollo.com/">
+						<img src="@/assets/images/ipollo.png" alt="iPollo" />
+					</a>
+					<a target="_blank" href="https://ballet.com/">
+						<img src="@/assets/images/ballet.png" alt="Ballet" />
+					</a>
+				</div>
+			</div>
 		</div>
 	</section>
 </template>
-<script>
-import sponsorsConfig from "@/config/sponsors.json";
-import sponsorsMd from "@/md/sponsors.md";
-import { getButton } from "@/config/buttons.js";
-export default {
-	data() {
-		return {
-			sponsorsMd,
-			sponsors: sponsorsConfig.data,
-			becomeVolunteerButton: getButton("become_volunteer"),
-			becomeSponsorButton: getButton("become_sponsor"),
-		};
-	},
-};
-</script>
