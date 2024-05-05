@@ -43,8 +43,8 @@
 	<!-- location section ends here -->
 </template>
 <script>
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/2023/Navbar";
+import Footer from "@/components/2023/Footer";
 import FsLightbox from "fslightbox-vue/v3";
 import axios from 'axios';
 

@@ -4,9 +4,6 @@
 			<img src="@/assets/images/JASMINER_logo.png" alt="Jasminer" />
 		</div>
 		<div class="agendaContainer">
-			<div class="heading">
-				<div class="becomeSpeakerContent" v-html="md(agendaMd)"></div>
-			</div>
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<template v-for="(day, dkey) in agenda" :key="dkey">
 					<li v-if="day.key && day.title" class="nav-item" role="presentation">
@@ -78,13 +75,11 @@
 	</section>
 </template>
 <script>
-import agendaMd from "@/md/2023/agenda.md";
 import agendaConfig from "@/config/2023/agenda.json";
 export default {
 	name: "Agenda",
 	data() {
 		return {
-			agendaMd,
 			agenda: agendaConfig.data,
 			isAgendaActive: agendaConfig.isAgendaActive,
 		};
