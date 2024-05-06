@@ -3,7 +3,7 @@
 		<div class="proofOfWorkContainer">
 			<div class="proofMainContainer">
 				<div class="proofOfWorkImg">
-					<img src="@/assets/images/proof-of-work.png" alt="" />
+					<img src="@/assets/images/proof-of-work-2024.png" alt="" />
 				</div>
 			</div>
 		</div>
