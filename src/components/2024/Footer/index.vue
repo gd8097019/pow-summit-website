@@ -6,19 +6,10 @@
 					<router-link active-class="active" to="/">Home</router-link>
 				</li>
 				<li>
-					<a href="/#ourSpeakersSection">Speakers</a>
+					<a href="2024/#ourSpeakersSection">Speakers</a>
 				</li>
 				<li>
-					<a href="/#agenda">Agenda</a>
-				</li>
-				<li>
-					<a href="/#getTicketSection">Tickets</a>
-				</li>
-				<li>
-					<a href="/#ourSponsorsSections">Sponsors</a>
-				</li>
-				<li>
-					<a href="/#summitVenueSection">Venue</a>
+					<a href="/2024/#getTicketSection">Tickets</a>
 				</li>
 				<li>
 					<router-link to="/photos">Photos</router-link>
@@ -30,11 +21,11 @@
 			<h1>BROUGHT TO YOU BY</h1>
 
 			<div class="footerLogo">
-				<a href="https://litecoin.net">
-					<img src="@/assets/images/footer-logo1.png" alt="" />
-				</a>
 				<a href="https://etccooperative.org">
 					<img src="@/assets/images/footer-logo2.png" alt="" />
+				</a>
+				<a href="https://litecoin.net">
+					<img src="@/assets/images/footer-logo1.png" alt="" />
 				</a>
 			</div>
 

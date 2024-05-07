@@ -25,19 +25,10 @@
 							<router-link class="nav-link" active-class="active" to="/">Home</router-link>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#ourSpeakersSection">Speakers</a>
+							<a class="nav-link" href="/2024/#ourSpeakersSection">Speakers</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#agenda">Agenda</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/#getTicketSection">Tickets</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/#activeSponsorsSection">Sponsors</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/#summitVenueSection">Venue</a>
+							<a class="nav-link" href="/2024/#getTicketSection">Tickets</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a

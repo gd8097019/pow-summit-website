@@ -8,7 +8,7 @@
 			</p>
 			<p class="mt-4">To ​learn more, please submit an enquiry.</p>
 			<a
-				href="https://docs.google.com/presentation/d/e/2PACX-1vSqLdy0IZdutg1TND6FnfH-nr2G9bpxyGxSQNgoEGkhXW7n5gJjYRif_mztpmBWf40tnHLTsGYNieHh/pub?start=false&loop=false&delayms=60000&slide=id.g1534bf91b0c_0_105"
+				href="/POW-2024-Sponsor.pdf"
 				class="text-decoration-none"
 				target="_blank"
 			>

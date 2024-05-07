@@ -1,15 +1,6 @@
 {
 	"data": [
 		{
-			"image": "/img/speakers/phil-zimmermann.jpg",
-			"name": "PHIL ZIMMERMANN",
-			"title": "Creator, Pretty Good Privacy (PGP)",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/philip-zimmermann-02a3a38b/",
-				"website": "https://philzimmermann.com/EN/background/index.html"
-			}
-		},
-		{
 			"image": "/img/speakers/jameson-lopp.jpg",
 			"name": "JAMESON LOPP",
 			"title": "Professional Cypherpunk, www.lopp.net",
@@ -20,142 +11,12 @@
 		
 		},
 		{
-			"image": "/img/speakers/charlie-lee.png",
+			"image": "/img/speakers/charlie-lee-2024.png",
 			"name": "CHARLIE LEE",
 			"title": "Founder, Litecoin",
 			"social": {
 				"twitter": "https://twitter.com/SatoshiLite",
 				"linkedin": "https://www.linkedin.com/in/chocobo/"
-			}
-		},
-		{
-			"image": "/img/speakers/caitlyn-long.jpg",
-			"name": "CAITLIN LONG",
-			"title": "Founder & CEO, Custodia Bank",
-			"social": {
-				"twitter": "https://twitter.com/CaitlinLong_",
-				"linkedin": "https://www.linkedin.com/in/caitlin-long-/"
-			}
-		},
-        	{
-			"image": "/img/speakers/amir-taaki.png",
-			"name": " AMIR TAAKI",
-			"title": "DarkFi cryptography",
-			"social": {
-				"twitter": "https://twitter.com/Narodism/"				
-			}
-		},
-        	{
-			"image": "/img/speakers/Victor-Hou.png",
-			"name": "Victor Hou",
-			"title": "Product Director, JASMINER",
-			"social": {
-				"twitter": "https://twitter.com/pandaV46194503"				
-			}
-		},        
-		{
-			"image": "/img/speakers/Frank-Holmes.png",
-			"name": "FRANK HOLMES",
-			"title": "Executive Chairman, HIVE Digital Technologies",
-			"social": {
-				"twitter": "https://twitter.com/bulldogholmes",
-				"linkedin": "https://www.linkedin.com/in/frank-holmes-0a941b16/"
-			}
-		},
-		{
-			"image": "/img/speakers/john-dagostino.jpg",
-			"name": "JOHN D'AGOSTINO",
-			"title": "Senior Director of Institutional Strategy, Coinbase",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/johnjdagostino1/"
-			}
-		},
-		{
-			"image": "/img/speakers/jamie-leverton.jpg",
-			"name": "JAIME LEVERTON",
-			"title": "Chief Executive Officer, Hut 8",
-			"social": {
-				"twitter": "https://twitter.com/JaimeLeverton",
-				"linkedin": "https://www.linkedin.com/in/jaime-leverton-she-her-3033a911/"
-			}
-		},
-		{
-			"image": "/img/speakers/rachel-rose-o-leary.jpg",
-			"name": "RACHEL ROSE O'LEARY",
-			"title": "DarkFi core dev & writer",
-			"social": {
-				"twitter": "https://twitter.com/lunar_mining"
-			}
-		},
-		{
-			"image": "/img/speakers/marta-piekarska.jpg",
-			"name": "MARTA GEATER PIEKARSKA",
-			"title": "Director of Web3 Engagement and DAO Strategy, Consensys",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/martapiekarska/"
-			}
-		},
-        {
-			"image": "/img/speakers/EthanVera.png",
-			"name": "ETHAN VERA",
-			"title": "COO, Luxor",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/ethanvera/",
-                		"twitter": "https://twitter.com/ethan_vera"
-			}
-		},
-		
-		{
-			"image": "/img/speakers/Ryan-Condron.png",
-			"name": "RYAN CONDRON",
-			"title": "Co-Founder, Lumerin",
-			"social": {
-				"twitter": "https://twitter.com/ryankcondron",
-				"linkedin": "https://www.linkedin.com/in/rcondron/"
-			}
-		},
-		{
-			"image": "/img/speakers/Magdalena-Gronowska.png",
-			"name": "MAGDALENA GRONOWSKA",
-			"title": "Advisor, PRTI: integrated energy & bitcoin mining operation",
-			"social": {
-				"twitter": "https://twitter.com/Crypto_Mags",
-				"linkedin": "https://www.linkedin.com/in/mgronowska/"
-			}
-		},
-        	{
-			"image": "/img/speakers/Sebastien-Gouspillou.png",
-			"name": "SÉBASTIEN GOUSPILLOU",
-			"title": "CEO, BigBlock Group",
-			"social": {
-				"twitter": "https://twitter.com/sebgouspillou",
-				"linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-gouspillou-7663b7aa/"
-			}
-		},
-		{
-			"image": "/img/speakers/maxhill.jpg",
-			"name": "MAX HILLEBRAND",
-			"title": "Contributor, Wasabi Wallet; CEO, zkSNACKs",
-			"social": {
-				"twitter": "https://twitter.com/HillebrandMax"
-			}
-		},
-		{
-			"image": "/img/speakers/bryan-bishop.png",
-			"name": "BRYAN BISHOP",
-			"title": "Founder, Webcash",
-			"social": {
-				"twitter": "https://twitter.com/kanzure",
-				"linkedin": "https://www.linkedin.com/in/bryan-bishop-3a63978/"
-			}
-		},
-		{
-			"image": "/img/speakers/jarrad-hope.png",
-			"name": "JARRAD HOPE",
-			"title": "Thought leader & Co-founder, Status.im",
-			"social": {
-				"twitter": "https://twitter.com/jarradhope_/",
-				"linkedin": "https://www.linkedin.com/in/jarradhope/"
 			}
 		},
 		{
@@ -167,82 +28,13 @@
 				"linkedin": "https://www.linkedin.com/in/vladkostea/"
 			}
 		},
-        	{
-			"image": "/img/speakers/KZhang.png",
-			"name": "KEVIN ZHANG",
-			"title": "SVP of Business Development, Foundry",
-			"social": {
-				"twitter": "https://twitter.com/SinoCrypto",
-				"linkedin": "https://www.linkedin.com/in/kevinzhang56/"
-			}
-		},
 		{
-			"image": "/img/speakers/ben-gagnon.jpg",
-			"name": "BEN GAGNON",
-			"title": "Chief Mining Officer, Bitfarms",
+			"image": "/img/speakers/Magdalena-Gronowska.png",
+			"name": "MAGDALENA GRONOWSKA",
+			"title": "Advisor, PRTI: integrated energy & bitcoin mining operation",
 			"social": {
-				"twitter": "https://twitter.com/hashoveride"
-			}
-		},
-		{
-			"image": "/img/speakers/carol-van-cleef.jpg",
-			"name": "CAROL VAN CLEEF",
-			"title": "Luminous Group",
-			"social": {
-				"twitter": "https://twitter.com/Carol_VanCleef",
-				"linkedin": "https://www.linkedin.com/in/carol-van-cleef-a9b98521/"
-			}
-		},
-		{
-			"image": "/img/speakers/amber-scott.jpg",
-			"name": "AMBER SCOTT",
-			"title": "Founder & CEO, Outlier Solutions Inc.",
-			"social": {
-				"twitter": "https://twitter.com/OutlierCanada",
-				"linkedin": "https://www.linkedin.com/in/amberdscott/"
-			}
-		},
-		{
-			"image": "/img/speakers/igor-barinov.png",
-			"name": "IGOR BARINOV",
-			"title": "Founder, Blockscout",
-			"social": {
-				"twitter": "https://twitter.com/barinov",
-				"linkedin": "https://www.linkedin.com/in/igorbarinov/"
-			}
-		},
-        	{
-			"image": "/img/speakers/Maxim-Orlovsky.png",
-			"name": "MAXIM ORLOVSKY",
-			"title": "LNP/BP Association, engineer of RGB and Prime",
-            		"social": {
-				"twitter": "https://twitter.com/dr_orlovsky",
-                		"linkedin": "https://www.linkedin.com/in/dr-orlovsky/"
-			}
-		},
-		{
-			"image": "/img/speakers/adella-toulon-forester.jpg",
-			"name": "ADELLA TOULON-FOERSTER",
-			"title": "Digital Nomad",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/adellatoulon/"
-			}
-		},
-        	{
-			"image": "/img/speakers/Parazyd.png",
-			"name": "PARAZYD",
-			"title": "Darkfi developer",
-			"social": {
-				"twitter": "https://twitter.com/parazyd"
-			}
-		},
-		{
-			"image": "/img/speakers/alan-austin.jpg",
-			"name": "ALAN AUSTIN",
-			"title": "Managing Director, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/alangaustin",
-				"linkedin": "https://www.linkedin.com/in/alangaustin/"
+				"twitter": "https://twitter.com/Crypto_Mags",
+				"linkedin": "https://www.linkedin.com/in/mgronowska/"
 			}
 		},
 		{
@@ -264,23 +56,6 @@
 			}
 		},
 		{
-			"image": "/img/speakers/j-gdanski.png",
-			"name": "J GDANSKI",
-			"title": "CEO & Founder, Evertas",
-			"social": {
-				"twitter": "https://twitter.com/gdanskij",
-				"linkedin": "https://www.linkedin.com/in/gdanskij/"
-			}
-		},
-		{
-			"image": "/img/speakers/mario-havel.jpg",
-			"name": "MARIO HAVEL",
-			"title": "Protocol Supporter, Ethereum Foundation",
-			"social": {
-				"twitter": "https://twitter.com/tmiychao"
-			}
-		},
-		{
 			"image": "/img/speakers/donald-mcintyre.png",
 			"name": "DONALD MCINTYRE",
 			"title": "Senior Editor, ETC Cooperative",
@@ -288,102 +63,6 @@
 				"twitter": "https://twitter.com/ETCPOW",
 				"linkedin": "https://www.linkedin.com/in/donmcint/"
 			}
-		},
-        	{
-			"image": "/img/speakers/Robbie-Coleman.png",
-			"name": "ROBBIE COLEMAN",
-			"title": "Creative Director, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/robertfcoleman",
-				"linkedin": "https://www.linkedin.com/in/robbiecoleman0/"
-			}
-		},
-		{
-			"image": "/img/speakers/Kerrry-Washington.png",
-			"name": "KERRY WASHINGTON",
-			"title": "Lead Litewallet Developer, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/bigkerrytweets",
-				"linkedin": "https://www.linkedin.com/in/kerrycwashington/"
-			}
-		},
-		{
-			"image": "/img/speakers/taras-kulyk.jpg",
-			"name": "TARAS KULYK",
-			"title": "Founder & CEO, SunnySide Digital",
-			"social": {
-				"twitter": "https://twitter.com/tmskulyk",
-				"linkedin": "https://www.linkedin.com/in/tkulyk/"
-			}
-		},
-		{
-			"image": "/img/speakers/loshan.jpg",
-			"name": "LOSHAN",
-			"title": "Software, Litecoin Foundation",
-			"social": {
-				"twitter": "https://twitter.com/loshan1212"
-			}
-		},
-        	{
-			"image": "/img/speakers/Darcy-Daubaras.png",
-			"name": "DARCY DAUBARAS",
-			"title": "CFO, HIVE Digital Technologies",
-			"social": {
-				"twitter": "https://twitter.com/DarcyDaubaras",
-				"linkedin": "https://www.linkedin.com/in/ddaubarascpa/"
-			}
-		},
-		{
-			"image": "/img/speakers/alana-mediavilla.png",
-			"name": "ALANA MEDIAVILLA",
-			"title": "Filmmaker, Dirty Coin",
-			"social": {
-				"twitter": "https://twitter.com/AlanaMediavilla",
-				"linkedin": "https://www.linkedin.com/in/halana/"
-			}
-		},
-		{
-			"image": "/img/speakers/ben-miklozek.jpg",
-			"name": "BEN MIKLOZEK",
-			"title": "Co-Founder, Lokotech",
-			"social": {
-				"twitter": "https://twitter.com/BenMiklozek",
-				"linkedin": "https://www.linkedin.com/in/ben-m-a96043151/"
-			}
-		},
-		{
-			"image": "/img/speakers/russell_cann.png",
-			"name": "RUSSELL CANN",
-			"title": "EVP of Client Services, Core Scientific",
-			"social": {
-				"linkedin": "https://www.linkedin.com/in/russell-cann-300b14aa/"
-			}
-		},
-		{
-			"image": "/img/speakers/Margie-Feng.png",
-			"name": "MARGIE FENG",
-			"title": "Marketing Manager, BITMAIN",
-			"social": {
-				"twitter": "https://twitter.com/MargieFengLOL",
-				"linkedin": "https://www.linkedin.com/in/yue-feng-08630312b/"
-			}
-		},
-		{
-			"image": "/img/speakers/Diego-Lopez-Leon.png",
-			"name": "DIEGO LÓPEZ LEÓN",
-			"title": "Core Developer, ETC Cooperative",
-			"social": {
-				"twitter": "https://twitter.com/diega",
-				"linkedin": "https://www.linkedin.com/in/dlopezleon/"
-			}
-		},
-		{
-			"image": "/img/speakers/Istora.jpeg",
-			"name": "ISTORA",
-			"title": "ETC contributor, Proof of Work enjoyer",
-			"social": {
-				"twitter": "https://twitter.com/Istora_Mandiri"
-			}			
 		}
 	]
 }

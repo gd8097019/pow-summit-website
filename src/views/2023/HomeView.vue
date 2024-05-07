@@ -38,13 +38,6 @@
 	<Footer />
 	<!-- location section ends here -->
 
-	<!-- about section starts here -->
-	<!--  About /-->
-	<!-- about section ends here -->
-
-	<!-- become a speaker section starts here -->
-	<!--BecomeSpeaker /-->
-	<!-- become a speaker section ends here -->
 </template>
 
 <script>
@@ -59,11 +52,6 @@ import MediaPartners from "@/components/2023/MediaPartners";
 import Sponsors from "@/components/2023/Sponsors";
 import Footer from "@/components/2023/Footer";
 
-/*
-import About from "@/components/About";
-import BecomeSpeaker from "@/components/BecomeSpeaker";
-*/
-
 export default {
 	name: "HomeView",
 	components: {
@@ -77,10 +65,6 @@ export default {
 		MediaPartners,
 		Sponsors,
 		Footer,
-		/*
-			About,
-			BecomeSpeaker,
-		*/
 	},
 };
 </script>

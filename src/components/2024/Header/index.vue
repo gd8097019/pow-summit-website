@@ -12,9 +12,8 @@
 		<div class="proofHeroHead">
 			<h2>SECURING BLOCKCHAIN'S FUTURE</h2>
 			<p>
-Our cypherpunk-grounded, proof-of-work summit in Prague this fall was a smashing success. 
-Our speakers and guests discussed Proof of Work and pushed back against the misleading mainstream narratives 
-around PoW and focused on the fundamentals of this revolutionary freedom technology.
+POW Summit is an annual event bringing together the major Proof of Work (POW) communities for a unique
+cypherpunk-based celebration of the revolutionary freedom technology underlying Bitcoin and other cryptocurrencies.
 			</p>
 		</div>
 
@@ -27,7 +26,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 					<div class="heroCardContent">
 						<h3>WORLD CLASS <span>SPEAKERS</span></h3>
 						<p>
-							Watch our video archive on our<a href="https://www.youtube.com/@POWSummit/"> YouTube channel</a> featuring Phil Zimmermann, Jameson Lopp, Charlie Lee, Caitlin Long & Jarrad Hope & more...
+							Watch our 2023 video archive on our <a href="https://www.youtube.com/playlist?list=PL6M4J55WQYzxm8Glh8aTIYATArK90hf51">YouTube channel</a> featuring Phil Zimmermann, Jameson Lopp, Charlie Lee, Caitlin Long & Jarrad Hope & more...
 						</p>
 					</div>
 				</div>
@@ -40,7 +39,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 					<div class="heroCardContent">
 						<h3>NETWORKING <span>OPPORTUNITIES</span></h3>
 						<p>
-							Meet & interact with speakers & guests at the conference or at our after-hours events. <a href="https://powsummit.com/photos">See our photos here.</a> 
+							Meet & interact with speakers & guests at the conference or at our after-hours events. <a href="https://powsummit.com/photos">See our 2023 photos here.</a> 
 						</p>
 					</div>
 				</div>

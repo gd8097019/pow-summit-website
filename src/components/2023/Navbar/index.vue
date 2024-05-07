@@ -70,28 +70,6 @@
 								</li>
 							</ul>
 						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								Past Events
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<router-link
-										class="dropdown-item"
-										aria-current="page"
-										to="/2023"
-									>
-										2023
-									</router-link>
-								</li>
-							</ul>
-						</li>
 					</ul>
 				</div>
 				<a
