@@ -3,10 +3,11 @@
 		<div class="proofMainContainer ourSponsorsContainer">
 			<h1>BECOME A SPONSOR</h1>
 			<p>
-				The Summit offers a range of sponsorship packages, ​suited your
-				company’s marketing needs and budget.
+				We’d love to partner with you to bring the
+				Proof-of-Work Summit to life in Frankfurt!
+				Please feel free to reach out with any questions
+				to Emma Todd (logistics@powsummit.com)
 			</p>
-			<p class="mt-4">To ​learn more, please submit an enquiry.</p>
 			<a
 				href="/POW-2024-Sponsor.pdf"
 				class="text-decoration-none"

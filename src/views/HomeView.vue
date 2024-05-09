@@ -5,6 +5,7 @@
 	</section>
 
 	<Speakers />
+	<BecomeSpeaker />
 	<Agenda />
 	<Tickets />
 	<Sponsors />
@@ -19,6 +20,7 @@
 import Navbar from "@/components/2024/Navbar";
 import Header from "@/components/2024/Header";
 import Speakers from "@/components/2024/Speakers";
+import BecomeSpeaker from "@/components/2024/BecomeSpeaker";
 import Tickets from "@/components/2024/Tickets";
 import Location from "@/components/2024/Location";
 import BecomeSponsor from "@/components/2024/BecomeSponsor";
@@ -33,6 +35,7 @@ export default {
 		Navbar,
 		Header,
 		Speakers,
+		BecomeSpeaker,
 		/* Agenda, */
 		Tickets,
 		Location,
