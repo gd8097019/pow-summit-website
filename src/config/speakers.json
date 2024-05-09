@@ -47,6 +47,15 @@
 			}
 		},
 		{
+			"image": "/img/speakers/alan-austin.jpg",
+			"name": "ALAN AUSTIN",
+			"title": "Managing Director, Litecoin Foundation",
+			"social": {
+				"twitter": "https://twitter.com/alangaustin",
+				"linkedin": "https://www.linkedin.com/in/alangaustin/"
+			}
+		},
+		{
 			"image": "/img/speakers/michael-parenti.jpg",
 			"name": "MICHAEL PARENTI",
 			"title": "Cryptorealist & Ecosystem Integrator, Parallelní Polis",
