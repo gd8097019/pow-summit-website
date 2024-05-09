@@ -1,42 +1,17 @@
 <template>
-	<!-- hero section with navbar starts here -->
 	<section class="proofHeroSecion">
 		<Navbar />
 		<Header />
 	</section>
-	<!-- hero section with navbar ends here -->
 
-	<!-- speakers section starts here -->
 	<Speakers />
-	<!-- speakers section ends here -->
-
-	<!-- agenda section starts here -->
 	<Agenda />
-	<!-- agenda section ends here -->
-
-	<!-- tickets secyion starts here -->
 	<Tickets />
-	<!-- tickets secyion ends here -->
-
-	<!-- sponsors section starts here -->
 	<Sponsors />
-	<!-- sponsors section ends here -->
-
-	<!-- media partners section starts here  -->
 	<MediaPartners />
-	<!-- media partners section ends here -->
-
-	<!-- become sponsor section starts here -->
 	<BecomeSponsor />
-	<!-- become sponsor section ends here -->
-
-	<!-- location section starts here -->
 	<Location />
-	<!-- location section ends here -->
-
-	<!-- location section starts here -->
 	<Footer />
-	<!-- location section ends here -->
 
 </template>
 
@@ -60,7 +35,7 @@ export default {
 		Speakers,
 		/* Agenda, */
 		Tickets,
-		/* Location, */
+		Location,
 		BecomeSponsor,
 		/* Sponsors, */
 		/* MediaPartners, */
