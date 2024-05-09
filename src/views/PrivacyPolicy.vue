@@ -27,7 +27,7 @@
 					</ul>
 				</div>
 				<a
-					href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+					href="https://powsummit2024.eventbrite.ca/"
 					class="getTicketsBtn order-lg-3 order-2"
 					>GET TICKETS</a
 				>

@@ -4,13 +4,13 @@
 			"type": "General Pass",
 			"price": "€100",
 			"features": "Includes access to all presentations, workshops and general networking events including the opening night party.",
-			"buy_ticket_link": "https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+			"buy_ticket_link": "https://powsummit2024.eventbrite.ca/"
 		},
 		{
 			"type": "VIP Pass",
 			"price": "€150",
 			"features": "Includes everything in the general pass, plus an invitation to the Speaker/VIP dinner.",
-			"buy_ticket_link": "https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+			"buy_ticket_link": "https://powsummit2024.eventbrite.ca/"
 		}
 	]
 }

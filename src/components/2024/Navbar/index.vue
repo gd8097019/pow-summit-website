@@ -86,7 +86,7 @@
 					</ul>
 				</div>
 				<a
-					href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+					href="https://powsummit2024.eventbrite.ca/"
 					class="getTicketsBtn order-lg-3 order-2"
 					>GET TICKETS
 				</a>
@@ -98,7 +98,7 @@
 export default {
 	data() {
 		const now = new Date();
-		const powDate = Date.parse("2023-09-24T00:00:00");
+		const powDate = Date.parse("2024-09-27T00:00:00");
 
 		return {
 			time: powDate - now,

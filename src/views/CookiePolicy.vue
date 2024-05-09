@@ -27,7 +27,7 @@
 					</ul>
 				</div>
 				<a
-					href="https://www.eventbrite.ca/e/pow-summit-2023-tickets-551536098317"
+					href="https://powsummit2024.eventbrite.ca/"
 					class="getTicketsBtn order-lg-3 order-2"
 					>GET TICKETS</a
 				>
@@ -39,12 +39,12 @@
 			<div class="row">
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>
 				<div class="col-sm-12 col-md-8 col-lg-8">
-					<h1 class="pb-4">COOKIE POLICY OF ETCCOOPERATIVE.ORG</h1>
+					<h1 class="pb-4">COOKIE POLICY OF POWSUMMIT.COM</h1>
 
 					<h2>1. Introduction</h2>
 
 					<p>
-						Our website, etccooperative.org (hereinafter: "the website") uses
+						Our website, powsummit.com (hereinafter: "the website") uses
 						cookies and similar technologies (for convenience, all such
 						technologies are referred to as "cookies"). Cookies are also placed
 						by third parties we have engaged. In the document below, we inform
@@ -145,11 +145,11 @@
 			</ul>
 			<h1>BROUGHT TO YOU BY</h1>
 			<div class="footerLogo">
-				<a href="https://litecoin.net">
-					<img src="@/assets/images/footer-logo1.png" alt="" />
-				</a>
 				<a href="https://etccooperative.org">
 					<img src="@/assets/images/footer-logo2.png" alt="" />
+				</a>
+				<a href="https://litecoin.net">
+					<img src="@/assets/images/footer-logo1.png" alt="" />
 				</a>
 			</div>
 		</div>
