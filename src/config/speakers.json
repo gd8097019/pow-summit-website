@@ -72,6 +72,15 @@
 				"twitter": "https://twitter.com/ETCPOW",
 				"linkedin": "https://www.linkedin.com/in/donmcint/"
 			}
+		},
+		{
+			"image": "/img/speakers/david-schwartz.jpg",
+			"name": "DAVID SCHWARTZ",
+			"title": "Strategic Partnerships Director, Litecoin Foundation",
+			"social": {
+				"twitter": "https://twitter.com/DaddyCool1991",
+				"linkedin": "https://www.linkedin.com/in/david-schwartz-562a346b/"
+			}
 		}
 	]
 }
