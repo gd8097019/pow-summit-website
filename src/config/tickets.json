@@ -2,13 +2,15 @@
 	"data": [
 		{
 			"type": "General Pass",
-			"price": "€100",
+			"price": "€119.00",
+			"price_subtext": "(€100 + 19% VAT)",
 			"features": "Includes access to all presentations, workshops and general networking events including the opening night party.",
 			"buy_ticket_link": "https://powsummit2024.eventbrite.ca/"
 		},
 		{
 			"type": "VIP Pass",
-			"price": "€150",
+			"price": "€178.50",
+			"price_subtext": "(€150 + 19% VAT)",
 			"features": "Includes everything in the general pass, plus an invitation to the Speaker/VIP dinner.",
 			"buy_ticket_link": "https://powsummit2024.eventbrite.ca/"
 		}

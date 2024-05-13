@@ -8,6 +8,7 @@
 						<div>
 							<span>{{ tickets[0].type }}</span>
 							<h2>{{ tickets[0].price }}</h2>
+							<h3>{{ tickets[0].price_subtext }}</h3>
 							<p>
 								{{ tickets[0].features }}
 							</p>
@@ -22,6 +23,7 @@
 						<div>
 							<span>{{ tickets[1].type }}</span>
 							<h2>{{ tickets[1].price }}</h2>
+							<h3>{{ tickets[1].price_subtext }}</h3>
 							<p>
 								{{ tickets[1].features }}
 							</p>
