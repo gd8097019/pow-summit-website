@@ -1,6 +1,15 @@
 {
 	"data": [
 		{
+			"image": "/img/speakers/phil-zimmermann.jpg",
+			"name": "PHIL ZIMMERMANN",
+			"title": "Creator, Pretty Good Privacy (PGP)",
+			"social": {
+				"linkedin": "https://www.linkedin.com/in/philip-zimmermann-02a3a38b/",
+				"website": "https://philzimmermann.com/EN/background/index.html"
+			}
+		},
+		{
 			"image": "/img/speakers/jameson-lopp.jpg",
 			"name": "JAMESON LOPP",
 			"title": "Professional Cypherpunk, www.lopp.net",
