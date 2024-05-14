@@ -40,7 +40,7 @@
 	<!-- location section ends here -->
 </template>
 <script>
-import photos from "@/config/photos.json";
+import photos from "@/config/2024/photos.json";
 import Navbar from "@/components/2024/Navbar";
 import Footer from "@/components/2024/Footer";
 import VueEasyLightbox, { useEasyLightbox } from 'vue-easy-lightbox';

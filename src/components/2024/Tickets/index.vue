@@ -39,7 +39,7 @@
 
 </template>
 <script>
-import ticketsConfig from "@/config/tickets.json";
+import ticketsConfig from "@/config/2024/tickets.json";
 export default {
 	data() {
 		return {

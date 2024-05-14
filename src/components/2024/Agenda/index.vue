@@ -75,7 +75,7 @@
 	</section>
 </template>
 <script>
-import agendaConfig from "@/config/agenda.json";
+import agendaConfig from "@/config/2024/agenda.json";
 export default {
 	name: "Agenda",
 	data() {

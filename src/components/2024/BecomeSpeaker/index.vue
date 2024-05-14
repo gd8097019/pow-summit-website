@@ -19,7 +19,7 @@
 	</section>
 </template>
 <script>
-import { getButton } from "@/config/buttons.js";
+import { getButton } from "@/config/2024/buttons.js";
 export default {
 	data() {
 		return {

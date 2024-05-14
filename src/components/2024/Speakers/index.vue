@@ -57,7 +57,7 @@
 	</section>
 </template>
 <script>
-import speakersConfig from "@/config/speakers.json";
+import speakersConfig from "@/config/2024/speakers.json";
 
 export default {
 	data() {
