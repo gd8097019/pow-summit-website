@@ -1,12 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 import HomeView_2023 from "@/views/2023/HomeView";
-import HomeView from "@/views/HomeView";
+import HomeView_2024 from "@/views/2024/HomeView";
+
 import CookiePolicy from "@/views/CookiePolicy.vue";
 import PrivacyPolicy from "@/views/PrivacyPolicy.vue";
-import Videos_2023 from "@/views/Videos.vue";
-import Videos from "@/views/Videos.vue";
-import Photos_2023 from "@/views/Photos.vue";
-import Photos from "@/views/Photos.vue";
+
+import Videos_2023 from "@/views/2023/Videos.vue";
+import Videos_2024 from "@/views/2024/Videos.vue";
+import Photos_2023 from "@/views/2023/Photos.vue";
+import Photos_2024 from "@/views/2024/Photos.vue";
 
 const routes = [
 	{
@@ -22,7 +25,7 @@ const routes = [
 	{
 		path: "/2024",
 		name: "2024",
-		component: HomeView,
+		component: HomeView_2024,
 	},
 	{
 		path: "/cookie-policy",
@@ -37,12 +40,12 @@ const routes = [
 	{
 		path: "/2024/photos",
 		name: "2024photos",
-		component: Photos,
+		component: Photos_2024,
 	},
 	{
 		path: "/2024/videos",
 		name: "2024videos",
-		component: Videos,
+		component: Videos_2024,
 	},
 	{
 		path: "/photos",

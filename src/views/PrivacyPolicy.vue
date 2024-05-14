@@ -26,11 +26,6 @@
 						</li>
 					</ul>
 				</div>
-				<a
-					href="https://powsummit2024.eventbrite.ca/"
-					class="getTicketsBtn order-lg-3 order-2"
-					>GET TICKETS</a
-				>
 			</div>
 		</nav>
 	</section>
@@ -52,7 +47,7 @@
 					<p>
 						This policy describes the types of information we may collect from
 						you or that you may provide when you visit our website
-						etccooperative.org (our "Website") and our practices for collecting,
+						powsummit.com (our "Website") and our practices for collecting,
 						using, maintaining, protecting, and disclosing that information.
 					</p>
 
