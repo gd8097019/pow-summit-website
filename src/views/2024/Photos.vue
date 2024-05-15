@@ -12,28 +12,9 @@
                 </div>
             </div>
         </div>
-        <div class="galleryHeroContainer">
-            <h1>Proof of Work 2023 Conference Photos - Prague</h1>
-        </div>
 	</section>
 
     <!-- hero section with navbar ends here -->
-    <section class="gallerySection">
-        <div class="galleryContainer">
-            <div class="row">
-                <template v-for="(item, i) in photos.data" :key="i">
-                    <h2>{{ item.title }}</h2>
-                    <template v-for="(imageName, j) in item.images" :key="j">
-                        <div class="p-2 galleryImg" :class="getImageClass(j)">
-                            <img v-lazy="require(`@/assets/images/photos/2023/${imageName}`)" @click="() => showImg(i, j)" alt="gallery-img" />
-                        </div>
-                    </template>
-                </template>
-            </div>
-        </div>
-    </section>
-
-    <vue-easy-lightbox :visible="visibleRef" :imgs="imagesArr" :index="indexRef" @hide="onHide" :moveDisabled="true" :rotateDisabled="true"></vue-easy-lightbox>
 
 	<!-- location section starts here -->
 	<Footer />

@@ -12,31 +12,8 @@
                 </div>
             </div>
         </div>
-        <div class="galleryHeroContainer">
-            <h1>Proof of Work 2023 Conference VIDEOS - Prague</h1>
-        </div>
 	</section>
 	<!-- hero section with navbar ends here -->
-
-    <section class="videoSection">
-        <div class="videoContainer">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 p-2" v-for="(item, index) in videos" :key="index">
-                    <div class="videoCard" @click="openLightboxOnSlide(index + 1)">
-                        <img
-                            :src="item?.snippet?.thumbnails?.medium?.url"
-                            :alt="item?.snippet?.title" />
-                        <div class="play"></div>
-                        <div class="videoCardContent">
-                            <h4>{{ item?.snippet?.title }}</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <FsLightbox :toggler="toggler" :slide="slide" :sources="sources" />
-    </section>
 
 	<!-- location section starts here -->
 	<Footer />

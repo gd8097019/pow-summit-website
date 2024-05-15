@@ -789,7 +789,14 @@
 	font-weight: 700;
 	font-size: 96px;
 	color: #ffffff;
+}
+
+.ticketCard h3 {
 	margin-bottom: 30px;
+}
+
+.ticketCard.generalPass h3 {
+	color: #fff;
 }
 
 .ticketCard p {
