@@ -1,6 +1,33 @@
 {
 	"data": [
 		{
+			"image": "/img/speakers/jameson-lopp.jpg",
+			"name": "JAMESON LOPP",
+			"title": "Professional Cypherpunk, www.lopp.net",
+			"social": {
+				"twitter": "https://twitter.com/lopp",
+				"website": "https://www.lopp.net"
+			}
+		},
+		{
+			"image": "/img/speakers/2024/charlie-lee.png",
+			"name": "CHARLIE LEE",
+			"title": "Founder, Litecoin",
+			"social": {
+				"twitter": "https://twitter.com/SatoshiLite",
+				"linkedin": "https://www.linkedin.com/in/chocobo/"
+			}
+		},
+		{
+			"image": "/img/speakers/2024/daniel-batten.png",
+			"name": "DANIEL BATTEN",
+			"title": "Growth Capital Investor",
+			"social": {
+				"twitter": "https://x.com/DSBatten",
+				"linkedin": "https://www.linkedin.com/in/danielsbatten/"
+			}
+		},
+		{
 			"image": "/img/speakers/phil-zimmermann.jpg",
 			"name": "PHIL ZIMMERMANN",
 			"title": "Creator, Pretty Good Privacy (PGP)",
@@ -10,22 +37,21 @@
 			}
 		},
 		{
-			"image": "/img/speakers/jameson-lopp.jpg",
-			"name": "JAMESON LOPP",
-			"title": "Professional Cypherpunk, www.lopp.net",
+			"image": "/img/speakers/2024/dennis-porter.jpg",
+			"name": "DENNIS PORTER",
+			"title": "CEO and Co-Founder, Satoshi Action Fund",
 			"social": {
-				"twitter": "https://twitter.com/lopp",
-				"website": "https://www.lopp.net"
+				"twitter": "https://twitter.com/Dennis_Porter_",
+				"linkedin": "https://www.linkedin.com/in/dennis-porter-396335220/"
 			}
-		
 		},
 		{
-			"image": "/img/speakers/charlie-lee-2024.png",
-			"name": "CHARLIE LEE",
-			"title": "Founder, Litecoin",
+			"image": "/img/speakers/2024/tor-ekeland.png",
+			"name": "TOR EKELAND",
+			"title": "Trial & Appellate Lawyer",
 			"social": {
-				"twitter": "https://twitter.com/SatoshiLite",
-				"linkedin": "https://www.linkedin.com/in/chocobo/"
+				"twitter": "https://x.com/torekelandpllc",
+				"linkedin": "https://www.linkedin.com/in/tor-ekeland-6bb36024/"
 			}
 		},
 		{
