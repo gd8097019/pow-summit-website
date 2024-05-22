@@ -25,19 +25,19 @@
 							<router-link class="nav-link" active-class="active" to="/">Home</router-link>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#ourSpeakersSection">Speakers</a>
+							<a class="nav-link" href="/2023/#ourSpeakersSection">Speakers</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#agenda">Agenda</a>
+							<a class="nav-link" href="/2023/#agenda">Agenda</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#getTicketSection">Tickets</a>
+							<a class="nav-link" href="/2023/#getTicketSection">Tickets</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#activeSponsorsSection">Sponsors</a>
+							<a class="nav-link" href="/2023/#activeSponsorsSection">Sponsors</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/#summitVenueSection">Venue</a>
+							<a class="nav-link" href="/2023/#summitVenueSection">Venue</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a
@@ -54,7 +54,7 @@
 									<router-link
 										class="dropdown-item"
 										aria-current="page"
-										to="/photos"
+										to="/2023/photos"
 									>
 										Photos
 									</router-link>
@@ -63,7 +63,7 @@
 									<router-link
 										class="dropdown-item"
 										aria-current="page"
-										to="/videos"
+										to="/2023/videos"
 									>
 										Videos
 									</router-link>
