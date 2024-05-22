@@ -15,7 +15,7 @@ const routes = [
 	{
 		path: "/",
 		name: "home",
-		component: HomeView_2023,
+		component: HomeView_2024,
 	},
 	{
 		path: "/2023",
@@ -48,14 +48,24 @@ const routes = [
 		component: Videos_2024,
 	},
 	{
+		path: "/2023/photos",
+		name: "2023photos",
+		component: Photos_2023,
+	},
+	{
+		path: "/2023/videos",
+		name: "2023videos",
+		component: Videos_2023,
+	},
+	{
 		path: "/photos",
 		name: "photos",
-		component: Photos_2023,
+		component: Photos_2024,
 	},
 	{
 		path: "/videos",
 		name: "videos",
-		component: Videos_2023,
+		component: Videos_2024,
 	},
 ];
 
