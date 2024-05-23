@@ -22,7 +22,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12 px-md-3">
 				<div class="heroCard">
 					<div class="heroCardImg">
-						<img src="@/assets/images/heroImg1.png" alt="" />
+						<img src="@/assets/images/heroImg1-2023.png" alt="" />
 					</div>
 					<div class="heroCardContent">
 						<h3>WORLD CLASS <span>SPEAKERS</span></h3>
@@ -35,7 +35,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12 px-md-3">
 				<div class="heroCard">
 					<div class="heroCardImg">
-						<img src="@/assets/images/heroImg2.png" alt="" />
+						<img src="@/assets/images/heroImg2-2023.png" alt="" />
 					</div>
 					<div class="heroCardContent">
 						<h3>NETWORKING <span>OPPORTUNITIES</span></h3>
@@ -48,7 +48,7 @@ around PoW and focused on the fundamentals of this revolutionary freedom technol
 			<div class="col-lg-4 col-md-4 col-sm-6 col-12 px-md-3">
 				<div class="heroCard">
 					<div class="heroCardImg">
-						<img src="@/assets/images/heroImg3.png" alt="" />
+						<img src="@/assets/images/heroImg3-2023.png" alt="" />
 					</div>
 					<div class="heroCardContent">
 						<h3>HANDS-ON <span>WORKSHOPS</span></h3>

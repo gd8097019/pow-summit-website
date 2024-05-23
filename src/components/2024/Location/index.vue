@@ -6,7 +6,7 @@
 					<h1>SUMMIT VENUE</h1>
 					<p>
 						The main venue for the conference is SPARK Europe, where the full
-						conference days will take place on the weekend of September 28th and 29th, 2024.
+						conference days will take place on the weekend of September 28th and 29th, 2024. The Summit begins with the opening night party scheduled for the 27th of September.
 					</p>
 					<p>
 						The address is Junghofstraße 16, 60311 Frankfurt am Main, Germany.
