@@ -27,6 +27,16 @@
 				"linkedin": "https://www.linkedin.com/in/danielsbatten/"
 			}
 		},
+		
+		{
+			"image": "/img/speakers/SergioDemian.jpg",
+			"name": "SERGIO DEMIAN LERNER",
+			"title": "Chief of Innovation, RootstockLabs",
+			"social": {
+				"linkedin": "https://www.linkedin.com/in/selerner/",
+				"twitter": "https://x.com/SDLerner"
+			}
+		},
 		{
 			"image": "/img/speakers/phil-zimmermann.jpg",
 			"name": "PHIL ZIMMERMANN",
@@ -91,7 +101,7 @@
 			}
 		},
 		{
-			"image": "/img/speakers/michael-parenti.jpg",
+			"image": "/img/speakers/michaelp.jpg",
 			"name": "MICHAEL PARENTI",
 			"title": "Cryptorealist & Ecosystem Integrator, Parallelní Polis",
 			"social": {

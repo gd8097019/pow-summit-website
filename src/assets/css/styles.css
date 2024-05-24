@@ -4,6 +4,9 @@
 
 .proofHeroSecion {
 	background: #000000;
+	background-image: url(@/assets/images/website-bg-image.jpg) !important;
+	  background-size: cover;
+
 }
 
 /* navbar starts here */
@@ -91,8 +94,11 @@
 }
 
 .proofOfWorkContainer img {
-	width: 100%;
+	width: 75%;
 	height: auto;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .proofHeroCards {
@@ -115,8 +121,8 @@
 .proofHeroCards .proofHeroHead p {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 25px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 20px;
 	letter-spacing: 0.05em;
 	color: #ffffff;
 	margin: 0;
@@ -174,6 +180,16 @@
 	text-align: center;
 	color: #e6e6e6;
 	margin: 0;
+}
+
+.heroCard .heroCardContent h4 {
+	font-style: normal;
+	font-weight: 550;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #ffffff;
 }
 
 /* hero section ends here */
@@ -826,9 +842,9 @@
 
 .buyWithCyrpto {
 	width: auto;
-	margin-top: 50px;
+	margin: 0px 0px 0px 0px;
 	height: 56px;
-	border: 1px solid #ffffff;
+	border: 0px solid #ffffff;
 	background: transparent;
 	font-style: normal;
 	font-weight: 800;
@@ -838,11 +854,11 @@
 }
 
 .buyWithCyrpto button {
-	padding: 0px 40px 0px 40px;
+	padding: 0px 0px 0px 0px;
 	width: 100%;
 	height: 56px;
 	border: 1px solid #ffffff;
-	background: transparent;
+	background: #0d6efd;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 24px;
