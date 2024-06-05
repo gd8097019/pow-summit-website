@@ -74,6 +74,15 @@
 			}
 		},
 		{
+			"image": "/img/speakers/2024/Patrick-Lodder.jpg",
+			"name": "PATRICK LODDER",
+			"title": "Dogecoin Developer",
+			"social": {
+				"twitter": "https://twitter.com/patricklodder",
+				"linkedin": "https://www.linkedin.com/in/pplodder/"
+			}
+		},
+		{
 			"image": "/img/speakers/vlad-costea.jpg",
 			"name": "VLAD COSTEA",
 			"title": "Founder, Bitcoin Takeover Podcast",
