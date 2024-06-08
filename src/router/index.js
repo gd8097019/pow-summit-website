@@ -10,6 +10,7 @@ import Videos_2023 from "@/views/2023/Videos.vue";
 import Videos_2024 from "@/views/2024/Videos.vue";
 import Photos_2023 from "@/views/2023/Photos.vue";
 import Photos_2024 from "@/views/2024/Photos.vue";
+import PostView from "@/views/PostView.vue";
 
 const routes = [
 	{
@@ -66,6 +67,11 @@ const routes = [
 		path: "/videos",
 		name: "videos",
 		component: Videos_2024,
+	},
+	{
+		path: "/posts/:alias",
+		name: "posts",
+		component: PostView,
 	},
 ];
 
