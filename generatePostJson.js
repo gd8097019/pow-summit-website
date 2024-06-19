@@ -151,12 +151,7 @@ fs.readdirSync(folder)
         }
     });
 
-	// fs.writeFileSync(
-	// 	`./src/contents/posts.home.${lang}.json`,
-	// 	JSON.stringify(postsJson.slice(0, 6), null, 2)
-	// );
-
-	// fs.writeFileSync(
-	// 	`./src/contents/posts.${lang}.json`,
-	// 	JSON.stringify(postsJson, null, 2)
-	// );
+	fs.writeFileSync(
+		`./src/contents/posts.json`,
+		JSON.stringify(postsJson, null, 2)
+	);
