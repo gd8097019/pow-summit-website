@@ -363,6 +363,12 @@
 /* our speakers section starts here */
 .ourSpeakersSection {
 	background: #0085fe;
+	background-image: url(@/assets/images/pow-sprocket-w-trans.png) !important;
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	background-size: 50%;
+  background-position: -500px,0px,0px,0px; 
+
 }
 
 .ourSpeakersContainer {
@@ -752,6 +758,11 @@
 /* get tickets section starts here */
 .getTicketSection {
 	background: #00d55a;
+	background-image: url(@/assets/images/pow-sprocket-w-trans.png) !important;
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	background-size: 50%;
+  background-position: -500px,0px,0px,0px; 
 }
 
 .getTicketContainer {
@@ -950,6 +961,11 @@
 /* summit venue section starts here */
 .summitVenueSection {
 	background: #00d55a;
+	background-image: url(@/assets/images/pow-sprocket-w-trans.png) !important;
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	background-size: 50%;
+  background-position: -500px,0px,0px,0px; 
 }
 
 .summitVenueContainer {
@@ -961,7 +977,7 @@
 	font-weight: 700;
 	font-size: 60px;
 	letter-spacing: 0.05em;
-	color: #ffffff;
+	color: #000;
 	margin-bottom: 10px;
 }
 
@@ -972,12 +988,12 @@
 	font-weight: 400;
 	font-size: 25px;
 	line-height: 32px;
-	color: #ffffff;
+	color: #000;
 	margin: 0 auto 30px;
 }
 
 .summitVenueContainer p a {
-	color: #000000;
+	color: #FC6310;
 	text-decoration: none;
 	font-weight: 500;
 }
