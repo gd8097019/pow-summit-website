@@ -2223,6 +2223,9 @@
 }
 
 /* News List starts here */
+.removeUnderline {
+	text-decoration: none;
+}
 
 .newsListSection .swiper {
 	width: 100%;

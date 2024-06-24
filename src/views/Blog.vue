@@ -245,7 +245,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="newsListPagination">
+					<div class="newsListPagination" v-if="currentPosts.length > 12">
 						<nav aria-label="">
 							<ul class="pagination">
 								<li class="page-item" :class="{ active: currentPage === 0 }">
