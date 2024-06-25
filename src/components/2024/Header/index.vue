@@ -11,6 +11,7 @@
 	<div class="proofMainContainer proofHeroCards">
 		<div class="proofHeroHead">
 			<h2>THE “BITCOIN RENAISSANCE”</h2>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/shcr-qyqUF8?si=wz2XuxHy2jSzGazc?fs=0&modestbranding=1&playsinline=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			<p>
 The broad set of use cases becoming available on Bitcoin's base layer and a stunning array of Layer Two projects are an exhilarating validation of POW. Join us in exploring the cypherpunk fundamentals and value propositions of the major POW chains in four thematic streams:
 			</p>
