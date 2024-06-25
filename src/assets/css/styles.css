@@ -7,6 +7,11 @@
 	background-image: url(@/assets/images/website-bg-image.jpg) !important;
 	  background-size: cover;
 
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 }
 
 /* navbar starts here */
