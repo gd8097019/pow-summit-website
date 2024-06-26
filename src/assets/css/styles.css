@@ -459,7 +459,7 @@
 		line-height: 18px;
 	}
 	.swiper-wrapper {
-		height: 520px;
+		min-height: 520px;
 	}
 	.swiper-slide {
 		height: calc((100% - 30px) / 2) !important;
