@@ -40,7 +40,7 @@ export default {
 		Tickets,
 		Location,
 		BecomeSponsor,
-		/* Sponsors, */
+		Sponsors,
 		/* MediaPartners, */
 		Footer,
 	},
