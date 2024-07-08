@@ -2,28 +2,7 @@
 	<section class="activeSponsorsSection" id="activeSponsorsSection">
 		<h1>Sponsors</h1>
 		<div class="activeSponsorsContainer">
-			<div class="diamond-plus">
-				<h3>Title Sponsor</h3>
-				<div>
-					
 			
-					
-				</div>
-			</div>
-
-			<div class="platinum">
-				<h3>Platinum</h3>
-				<div>
-					
-				</div>
-			</div>
-
-			<div class="gold">
-				<h3>Gold</h3>
-				<div>
-					
-				</div>
-			</div>
 
 			<div class="silver">
 				<h3>Silver</h3>
