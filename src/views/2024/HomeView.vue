@@ -41,7 +41,7 @@ export default {
 		Location,
 		BecomeSponsor,
 		Sponsors,
-		/* MediaPartners, */
+		MediaPartners,
 		Footer,
 	},
 };
