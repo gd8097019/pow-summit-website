@@ -10,6 +10,8 @@ import Videos_2023 from "@/views/2023/Videos.vue";
 import Videos_2024 from "@/views/2024/Videos.vue";
 import Photos_2023 from "@/views/2023/Photos.vue";
 import Photos_2024 from "@/views/2024/Photos.vue";
+import PostView from "@/views/PostView.vue";
+import Blog from "@/views/Blog.vue";
 
 const routes = [
 	{
@@ -67,11 +69,24 @@ const routes = [
 		name: "videos",
 		component: Videos_2024,
 	},
+	{
+		path: "/blog",
+		name: "blog",
+		component: Blog,
+	},
+	{
+		path: "/posts/:alias",
+		name: "posts",
+		component: PostView,
+	},
 ];
 
 const router = createRouter({
 	history: createWebHistory(process.env.BASE_URL),
 	routes,
+	scrollBehavior() {
+		window.scrollTo({ top: 0, behavior: "instant" });
+	},
 });
 
 export default router;

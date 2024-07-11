@@ -1,7 +1,9 @@
+public/img/posts/featuredImg/*
 .DS_Store
 node_modules
 /dist
 package-lock.json
+src/contents/posts.json
 
 
 # local env files
