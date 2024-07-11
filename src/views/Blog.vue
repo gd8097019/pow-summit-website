@@ -23,7 +23,7 @@
 											<div class="row">
 												<div class="col-12" v-if="currentPosts[0]">
 													<router-link
-														:to="`/posts/${currentPosts[0]}`"
+														:to="`/posts/${currentPosts[0].alias}`"
 														class="removeUnderline"
 													>
 														<div class="newsCard newsCardLg">
