@@ -2432,3 +2432,7 @@
 .newsListPagination .page-item .page-link {
 	box-shadow: none !important;
 }
+
+.ml-embedded {
+	background: #000;
+}
